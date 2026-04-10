@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 const kbsBaseURL = "https://kbbuddywts.kbsec.com.vn/sas/kbsv-stock-data-store/stock"

@@ -1,4 +1,4 @@
-module github.com/lotusmarket/donate-bot
+module github.com/ducnhd/lotusmarket/bot
 
 go 1.21
 

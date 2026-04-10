@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 func StockWithFallback(ctx context.Context, ticker string) (*types.StockData, error) {

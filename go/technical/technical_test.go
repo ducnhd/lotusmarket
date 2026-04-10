@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 func TestMA(t *testing.T) {

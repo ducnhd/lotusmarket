@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 const vpsBaseURL = "https://bgapidatafeed.vps.com.vn/getliststockdata"

@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 func makeHistory(n int, basePrice float64) []types.StockData {

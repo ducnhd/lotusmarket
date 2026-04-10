@@ -3,7 +3,7 @@ package market
 import (
 	"testing"
 
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 func TestScoreBreadth(t *testing.T) {

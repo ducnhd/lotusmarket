@@ -3,7 +3,7 @@ package signals
 import (
 	"sort"
 
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 type DomesticFlow struct {

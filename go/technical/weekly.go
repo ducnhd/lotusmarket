@@ -3,7 +3,7 @@ package technical
 import (
 	"time"
 
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 func AggregateWeekly(daily []types.StockData) []types.StockData {

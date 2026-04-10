@@ -8,7 +8,7 @@ Real-time quotes, historical OHLCV, technical analysis, sentiment, money flow si
 
 **Go:**
 ```bash
-go get github.com/lotusmarket/lotusmarket-go
+go get github.com/ducnhd/lotusmarket/go
 ```
 
 **Python:** (coming soon)
@@ -25,9 +25,9 @@ import (
     "context"
     "fmt"
 
-    "github.com/lotusmarket/lotusmarket-go/fetchers"
-    "github.com/lotusmarket/lotusmarket-go/technical"
-    "github.com/lotusmarket/lotusmarket-go/sentiment"
+    "github.com/ducnhd/lotusmarket/go/fetchers"
+    "github.com/ducnhd/lotusmarket/go/technical"
+    "github.com/ducnhd/lotusmarket/go/sentiment"
 )
 
 func main() {
@@ -79,7 +79,7 @@ func main() {
 
 If you find this useful, consider supporting the project:
 
-- PayPal: (coming soon)
+- PayPal: [paypal.me/ducnhd](https://www.paypal.com/paypalme/ducnhd)
 - Telegram Stars: `@lotusmarket_bot /donate`
 
 ## License

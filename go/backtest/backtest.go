@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/lotusmarket/lotusmarket-go/technical"
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/technical"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 type Config struct {

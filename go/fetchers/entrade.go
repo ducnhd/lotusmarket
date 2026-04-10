@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 const entradeBaseURL = "https://services.entrade.com.vn/chart-api/v2/ohlcs/stock"

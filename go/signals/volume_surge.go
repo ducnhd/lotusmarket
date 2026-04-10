@@ -1,6 +1,6 @@
 package signals
 
-import "github.com/lotusmarket/lotusmarket-go/types"
+import "github.com/ducnhd/lotusmarket/go/types"
 
 type VolumeSurge struct {
 	Ticker      string  `json:"ticker"`

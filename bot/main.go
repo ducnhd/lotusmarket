@@ -15,7 +15,7 @@ func main() {
 	}
 	paypalLink := os.Getenv("PAYPAL_LINK")
 	if paypalLink == "" {
-		paypalLink = "https://paypal.me/lotusmarket"
+		paypalLink = "https://www.paypal.com/paypalme/ducnhd"
 	}
 
 	bot, err := tgbotapi.NewBotAPI(token)

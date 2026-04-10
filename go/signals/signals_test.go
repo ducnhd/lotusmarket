@@ -3,7 +3,7 @@ package signals
 import (
 	"testing"
 
-	"github.com/lotusmarket/lotusmarket-go/types"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 func TestClassifyVolumeSurge_NoSurge(t *testing.T) {

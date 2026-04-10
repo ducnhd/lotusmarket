@@ -1,3 +1,3 @@
-module github.com/lotusmarket/lotusmarket-go
+module github.com/ducnhd/lotusmarket/go
 
 go 1.25.0
