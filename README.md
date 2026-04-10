@@ -96,6 +96,21 @@ func main() {
 
     // 11. With fallback (VPS -> Entrade)
     stock2, _ := fetchers.StockWithFallback(ctx, "VNM")
+
+    // 12. AI analysis (requires CLAUDE_API_KEY)
+    import "github.com/ducnhd/lotusmarket/go/ai"
+    aiClient, err := ai.New(ai.Config{APIKey: os.Getenv("CLAUDE_API_KEY")})
+    if err != nil {
+        // → ErrNoAPIKey with setup instructions
+    }
+    // Trend analysis with pre-computed indicators
+    analysis, _ := aiClient.AnalyzeTrend(ctx, "ACB", history)
+    fmt.Println(analysis.Text) // Vietnamese analysis
+
+    // Q&A
+    answer, _ := aiClient.AskQuestion(ctx, "ACB có nên mua không?")
+    fmt.Println(answer.Text)
+
     _ = stock2
     _ = rsi
     _ = ma20
@@ -214,6 +229,28 @@ from lotusmarket.backtest import run, BacktestConfig
 prices = pd.Series([20000 + i * 50 for i in range(200)], dtype=float)
 bt = run(BacktestConfig(strategy="rsi"), prices)
 print(f"Return: {bt.total_return:.1f}%, Max DD: {bt.max_drawdown:.1f}%, Trades: {bt.trade_count}")
+
+# === 15. AI analysis (requires CLAUDE_API_KEY) ===
+from lotusmarket.ai import AIClient, AIConfig
+
+# Option 1: from env var
+# export CLAUDE_API_KEY=sk-ant-...
+# client = AIClient()
+
+# Option 2: explicit key
+client = AIClient(AIConfig(api_key="sk-ant-..."))
+
+# Trend analysis (pre-computes RSI/MA/momentum before sending to Claude)
+analysis = client.analyze_trend("ACB", closes)
+print(analysis.text)  # Vietnamese analysis
+print(f"Tokens: {analysis.tokens_in} in, {analysis.tokens_out} out")
+
+# Q&A
+answer = client.ask_question("ACB có nên mua không?")
+print(answer.text)
+
+# Custom model (default: sonnet, can use opus for complex analysis)
+client_opus = AIClient(AIConfig(api_key="sk-ant-...", model="claude-opus-4-6", max_tokens=8192))
 ```
 
 ## Modules
@@ -230,6 +267,15 @@ print(f"Return: {bt.total_return:.1f}%, Max DD: {bt.max_drawdown:.1f}%, Trades: 
 | **nlu** | `nlu` | `lotusmarket.nlu` | Vietnamese intent classification (5 intents), ticker extraction, timeframe detection |
 | **backtest** | `backtest` | `lotusmarket.backtest` | Strategy backtesting — RSI, MA cross, combined. Win rate, max drawdown, buy & hold comparison |
 | **types** | `types` | `lotusmarket.types` | StockData, KBSQuote, VN30 list, sector mappings, trading fee constants |
+
+### AI analysis (requires CLAUDE_API_KEY)
+
+| Module | Go import | Python import | Description |
+|--------|-----------|---------------|-------------|
+| **ai** | `ai` | `lotusmarket.ai` | Claude API wrapper — trend analysis (pre-computes indicators), Q&A, custom prompts. Default model: sonnet. Configurable model + max_tokens. |
+
+> **Go:** `go get github.com/ducnhd/lotusmarket/go/ai` (adds `anthropic-sdk-go` dependency)
+> **Python:** `pip install lotusmarket[ai]` (adds `anthropic` dependency)
 
 ### Data fetchers (network calls, no API key needed)
 
