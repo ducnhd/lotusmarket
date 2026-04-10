@@ -50,7 +50,7 @@ func parseEntradeResponse(data []byte, ticker string) ([]types.StockData, error)
 	}
 	n := len(resp.T)
 	prices := make([]types.StockData, 0, n)
-	for i := 0; i < n; i++ {
+	for i := range n {
 		t := time.Unix(resp.T[i], 0)
 		sd := types.StockData{
 			Ticker: ticker,

@@ -6,14 +6,14 @@ import (
 	"strings"
 )
 
-func getString(m map[string]interface{}, key string) string {
+func getString(m map[string]any, key string) string {
 	if v, ok := m[key]; ok && v != nil {
 		return fmt.Sprintf("%v", v)
 	}
 	return ""
 }
 
-func getFloat(m map[string]interface{}, key string) float64 {
+func getFloat(m map[string]any, key string) float64 {
 	if v, ok := m[key]; ok && v != nil {
 		switch n := v.(type) {
 		case float64:
@@ -26,7 +26,7 @@ func getFloat(m map[string]interface{}, key string) float64 {
 	return 0
 }
 
-func getInt(m map[string]interface{}, key string) int64 { return int64(getFloat(m, key)) }
+func getInt(m map[string]any, key string) int64 { return int64(getFloat(m, key)) }
 
 func parseFloatStr(s string) float64 { f, _ := strconv.ParseFloat(s, 64); return f }
 

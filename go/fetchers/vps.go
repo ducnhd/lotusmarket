@@ -29,7 +29,7 @@ func VPSMultiple(ctx context.Context, tickers []string) ([]types.StockData, erro
 	url := vpsBaseURL + "/" + strings.Join(tickers, ",")
 	client := &http.Client{Timeout: 15 * time.Second}
 	var lastErr error
-	for attempt := 0; attempt < 3; attempt++ {
+	for attempt := range 3 {
 		if attempt > 0 {
 			time.Sleep(time.Duration(attempt) * time.Second)
 		}
@@ -54,7 +54,7 @@ func VPSMultiple(ctx context.Context, tickers []string) ([]types.StockData, erro
 }
 
 func parseVPSResponse(data []byte) ([]types.StockData, error) {
-	var raw []map[string]interface{}
+	var raw []map[string]any
 	if err := json.Unmarshal(data, &raw); err != nil {
 		return nil, err
 	}
