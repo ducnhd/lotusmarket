@@ -28,7 +28,8 @@ Issues = "https://github.com/ducnhd/lotusmarket/issues"
 
 [project.optional-dependencies]
 fetchers = ["httpx>=0.24"]
-all = ["httpx>=0.24"]
+ai = ["anthropic>=0.40"]
+all = ["httpx>=0.24", "anthropic>=0.40"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
