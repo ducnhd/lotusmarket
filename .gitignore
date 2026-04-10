@@ -1,7 +1,29 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
 *.egg-info/
 dist/
 build/
 *.so
+.pytest_cache/
+*.egg
+
+# Go
 donate-bot
+*.exe
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+CLAUDE.md
