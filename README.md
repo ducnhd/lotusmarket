@@ -84,11 +84,39 @@ func main() {
     flow := signals.ComputeDomesticFlow(stocks)
     fmt.Printf("Domestic: %s (buy pressure: %.1f%%)\n", flow.Signal, flow.BuyPressure)
 
-    // 9. Sector flow ranking
+    // 9. Sector flow ranking (now includes avg_change_pct, total_volume_vnd, advances/total)
     sectors := market.RankSectorsByFlow(stocks)
     for _, s := range sectors {
-        fmt.Printf("#%d %s: %s (%.0f)\n", s.Rank, s.Sector, s.Signal, s.Score)
+        fmt.Printf("#%d %s: %+.2f%% · KL %.0f tỷ · %d/%d tăng\n",
+            s.Rank, s.Sector, s.AvgChangePct, s.TotalVolumeVND/1e9,
+            s.AdvancesCount, s.TotalCount)
     }
+
+    // 9b. Price driver attribution — why did this stock move today?
+    attr := market.AttributeDrivers(market.DriverFeatures{
+        PriceChangePct:   2.5,
+        ForeignNetVND:    15e9,
+        MarketDeltaPct:   0.5,
+        SectorDeltaPct:   1.2,
+        NewsCount:        3,
+        NewsSentimentAvg: 0.6,
+        RSI:              58,
+        MASignal:         "BUY",
+        VolumeRatio:      1.8,
+    })
+    fmt.Printf("Dominant driver: %s (%.1f%%)\n", attr.Dominant,
+        map[string]float64{"NEWS": attr.NewsPct, "FOREIGN": attr.ForeignPct,
+            "SECTOR": attr.SectorPct, "MARKET": attr.MarketPct,
+            "TECHNICAL": attr.TechnicalPct, "VOLUME": attr.VolumePct}[attr.Dominant])
+
+    // 9c. News clustering — gom tin cùng chủ đề từ nhiều nguồn
+    titles := []string{
+        "VN-Index tăng 1% phiên cuối tuần",
+        "VNIndex đóng cửa tăng 1% phiên cuối",
+        "Giá dầu WTI vượt 85 USD",
+    }
+    groups := sentiment.ClusterTitles(titles, 0.3)
+    // groups = [[0, 1], [2]] — first two grouped as same story
 
     // 10. Fundamentals
     fund, _ := fetchers.KBS(ctx, "ACB")
@@ -197,7 +225,31 @@ sector_df = pd.DataFrame({
     "foreign_net_vol": [500, -200, 300, -100],
 })
 sectors = lm.market.sector_flow(sector_df)
-print(sectors[["sector", "rank", "signal", "net_foreign"]])
+# New columns: avg_change_pct, total_volume_vnd, advances_count, total_count
+print(sectors[["sector", "rank", "signal", "avg_change_pct", "total_volume_vnd"]])
+
+# === 8b. Price driver attribution ===
+attr = lm.market.attribute_drivers(lm.market.DriverFeatures(
+    price_change_pct=2.5,
+    foreign_net_vnd=15e9,
+    market_delta_pct=0.5,
+    sector_delta_pct=1.2,
+    news_count=3,
+    news_sentiment_avg=0.6,
+    rsi=58,
+    ma_signal="BUY",
+    volume_ratio=1.8,
+))
+print(f"Dominant: {attr.dominant} · News {attr.news_pct}% · Foreign {attr.foreign_pct}%")
+
+# === 8c. News clustering — gom tin cùng chủ đề ===
+titles = [
+    "VN-Index tăng 1% phiên cuối tuần",
+    "VNIndex đóng cửa tăng 1% phiên cuối",
+    "Giá dầu WTI vượt 85 USD",
+]
+groups = lm.sentiment.cluster_titles(titles, threshold=0.3)
+# groups = [[0, 1], [2]] — first two grouped as same story
 
 # === 9. Market pulse scoring ===
 score_val, signal_str = lm.market.pulse_score(

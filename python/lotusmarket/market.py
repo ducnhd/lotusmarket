@@ -102,7 +102,8 @@ def score_fed_trend(current: float, previous: float) -> int:
 def sector_flow(df: pd.DataFrame) -> pd.DataFrame:
     """Rank sectors by composite flow score.
     Input: DataFrame with ticker, close, volume, change_percent, foreign_net_vol columns.
-    Returns: DataFrame with sector, rank, signal, net_foreign, breadth, score columns.
+    Returns: DataFrame with sector, rank, signal, net_foreign, avg_change_pct,
+    total_volume_vnd, advances_count, total_count, breadth, score columns.
     """
     if df.empty:
         return pd.DataFrame()
@@ -112,6 +113,7 @@ def sector_flow(df: pd.DataFrame) -> pd.DataFrame:
     if df2.empty:
         return pd.DataFrame()
     df2["flow_value"] = df2["foreign_net_vol"] * df2["close"]
+    df2["trade_value"] = df2["volume"] * df2["close"]
     grouped = (
         df2.groupby("sector")
         .agg(
@@ -119,6 +121,8 @@ def sector_flow(df: pd.DataFrame) -> pd.DataFrame:
             advances=("change_percent", lambda x: (x > 0).sum()),
             total=("ticker", "count"),
             total_volume=("volume", "sum"),
+            total_volume_vnd=("trade_value", "sum"),
+            avg_change_pct=("change_percent", "mean"),
         )
         .reset_index()
     )
@@ -152,5 +156,151 @@ def sector_flow(df: pd.DataFrame) -> pd.DataFrame:
         lambda r: f"{int(r['advances'])}/{int(r['total'])} tăng", axis=1
     )
     return grouped[
-        ["sector", "rank", "signal", "total_flow", "breadth", "score"]
-    ].rename(columns={"total_flow": "net_foreign"})
+        [
+            "sector",
+            "rank",
+            "signal",
+            "total_flow",
+            "avg_change_pct",
+            "total_volume_vnd",
+            "advances",
+            "total",
+            "breadth",
+            "score",
+        ]
+    ].rename(
+        columns={
+            "total_flow": "net_foreign",
+            "advances": "advances_count",
+            "total": "total_count",
+        }
+    )
+
+
+# ============================================================
+# Price Driver Attribution
+# ============================================================
+
+
+@dataclass
+class DriverFeatures:
+    """Raw daily features for one ticker — input to attribute_drivers()."""
+
+    price_change_pct: float = 0.0
+    foreign_net_vnd: float = 0.0
+    market_delta_pct: float = 0.0
+    sector_delta_pct: float = 0.0
+    news_count: int = 0
+    news_sentiment_avg: float = 0.0  # [-1, 1]
+    rsi: float = 0.0
+    ma_signal: str = ""  # "BUY" | "SELL" | "HOLD" | ""
+    volume_ratio: float = 0.0  # today / MA20
+
+
+@dataclass
+class Attribution:
+    """% contribution per driver. Sum + residual_pct = 100."""
+
+    news_pct: float = 0.0
+    foreign_pct: float = 0.0
+    sector_pct: float = 0.0
+    market_pct: float = 0.0
+    technical_pct: float = 0.0
+    volume_pct: float = 0.0
+    residual_pct: float = 0.0
+    dominant: str = "UNKNOWN"
+
+
+def attribute_drivers(f: DriverFeatures) -> Attribution:
+    """Decompose a stock's daily move into driver contributions.
+
+    Algorithm (fully deterministic, zero external calls):
+      1. Map each raw feature into a signed "impact" number.
+      2. Aligned drivers (sign matches today's move) get full weight;
+         misaligned get 30% credit (conflicting signal).
+      3. Normalise to sum = 100%. Dominant driver = argmax(aligned weight).
+      4. Residual = 100 - sum (unexplained portion).
+    """
+    import math
+
+    move = f.price_change_pct
+    if abs(move) < 0.05:
+        return Attribution(dominant="UNKNOWN")
+
+    def _clamp(v: float, limit: float) -> float:
+        return max(-limit, min(limit, v))
+
+    def _tech(rsi: float, ma: str) -> float:
+        s = 2.0 if ma == "BUY" else (-2.0 if ma == "SELL" else 0.0)
+        if rsi > 70:
+            s -= 1
+        elif 0 < rsi < 30:
+            s += 1
+        return s
+
+    def _volume(ratio: float, mv: float) -> float:
+        if ratio < 1.2:
+            return 0.0
+        impact = math.log(ratio) * 2
+        return -impact if mv < 0 else impact
+
+    signs = {
+        "FOREIGN": _clamp(f.foreign_net_vnd / 10_000_000_000, 5),
+        "MARKET": f.market_delta_pct,
+        "SECTOR": f.sector_delta_pct - f.market_delta_pct,  # alpha
+        "NEWS": f.news_sentiment_avg * math.log1p(f.news_count) * 3,
+        "TECHNICAL": _tech(f.rsi, f.ma_signal),
+        "VOLUME": _volume(f.volume_ratio, move),
+    }
+
+    move_sign = 1 if move > 0 else -1
+
+    weights: dict = {}
+    total = 0.0
+    for k, v in signs.items():
+        w = abs(v)
+        if w == 0:
+            continue
+        vs = 1 if v > 0 else (-1 if v < 0 else 0)
+        if vs != move_sign:
+            w *= 0.3
+        weights[k] = w
+        total += w
+
+    if total < 0.01:
+        return Attribution(dominant="UNKNOWN")
+
+    def _r1(v: float) -> float:
+        return round(v * 10) / 10
+
+    attr = Attribution(
+        foreign_pct=_r1(weights.get("FOREIGN", 0) / total * 100),
+        market_pct=_r1(weights.get("MARKET", 0) / total * 100),
+        sector_pct=_r1(weights.get("SECTOR", 0) / total * 100),
+        news_pct=_r1(weights.get("NEWS", 0) / total * 100),
+        technical_pct=_r1(weights.get("TECHNICAL", 0) / total * 100),
+        volume_pct=_r1(weights.get("VOLUME", 0) / total * 100),
+    )
+    attr.residual_pct = _r1(
+        max(
+            0,
+            100
+            - attr.news_pct
+            - attr.foreign_pct
+            - attr.sector_pct
+            - attr.market_pct
+            - attr.technical_pct
+            - attr.volume_pct,
+        )
+    )
+
+    best, best_w = "UNKNOWN", 0.0
+    for k, w in weights.items():
+        v = signs[k]
+        vs = 1 if v > 0 else (-1 if v < 0 else 0)
+        if vs != move_sign:
+            continue
+        if w > best_w:
+            best_w, best = w, k
+    attr.dominant = best
+    return attr

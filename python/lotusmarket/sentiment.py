@@ -98,3 +98,79 @@ def analyze(text: str) -> SentimentResult:
     else:
         label = "NEUTRAL"
     return SentimentResult(label=label, score=s)
+
+
+# ============================================================
+# Vietnamese news title clustering (Jaccard similarity)
+# ============================================================
+
+_VI_STOPWORDS = {
+    "đang", "được", "này", "đó", "các", "những", "một", "hai",
+    "khi", "nếu", "nhưng", "hơn", "như", "cùng", "vẫn",
+    "sau", "trước", "trong", "ngoài", "trên", "dưới", "giữa",
+    "bởi", "đến", "theo", "với", "không", "chưa", "đã", "sẽ",
+    "có", "phải", "nên", "cần", "đây", "tại", "lại", "lên",
+    "xuống", "ra", "vào", "thêm", "bớt", "hôm", "nay", "mai",
+    "qua", "năm", "tháng", "tuần",
+}
+
+
+def tokenize_vi_title(title: str) -> set:
+    """Produce a set of significant tokens from a Vietnamese title.
+
+    Lowercased, split on non-letter/digit, stopwords and tokens ≤2 chars dropped.
+    """
+    title = title.lower().strip()
+    # Replace non-alphanumeric with space (Unicode-aware via isalpha/isdigit)
+    cleaned = []
+    for ch in title:
+        if ch.isalpha() or ch.isdigit():
+            cleaned.append(ch)
+        else:
+            cleaned.append(" ")
+    tokens = "".join(cleaned).split()
+    return {t for t in tokens if len(t) > 2 and t not in _VI_STOPWORDS}
+
+
+def jaccard(a: set, b: set) -> float:
+    """Jaccard similarity: |A∩B| / |A∪B|. Returns 0 for empty sets."""
+    if not a or not b:
+        return 0.0
+    inter = len(a & b)
+    union = len(a) + len(b) - inter
+    return inter / union if union else 0.0
+
+
+def cluster_titles(titles: list, threshold: float = 0.3) -> list:
+    """Group title indices by Jaccard similarity.
+
+    Titles with Jaccard ≥ threshold share a cluster. Greedy: first unclaimed
+    title seeds a group, then consumes every later title above threshold.
+
+    Returns list of index lists, e.g. [[0, 1], [2]] — cluster membership preserved
+    in original order.
+
+    threshold=0.3 is a sensible default (share ≥30% of significant tokens).
+    """
+    if not titles:
+        return []
+    token_sets = [tokenize_vi_title(t) for t in titles]
+
+    cluster_of = [-1] * len(titles)
+    num = 0
+    for i in range(len(titles)):
+        if cluster_of[i] != -1:
+            continue
+        cluster_of[i] = num
+        num += 1
+        for j in range(i + 1, len(titles)):
+            if cluster_of[j] != -1:
+                continue
+            if jaccard(token_sets[i], token_sets[j]) >= threshold:
+                cluster_of[j] = cluster_of[i]
+
+    buckets: dict = {}
+    for idx, c in enumerate(cluster_of):
+        buckets.setdefault(c, []).append(idx)
+    # Preserve cluster creation order (0, 1, 2, ...)
+    return [buckets[c] for c in range(num) if c in buckets]

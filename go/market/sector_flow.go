@@ -9,13 +9,17 @@ import (
 )
 
 type SectorFlow struct {
-	Sector     string      `json:"sector"`
-	Rank       int         `json:"rank"`
-	Signal     string      `json:"signal"`
-	NetForeign float64     `json:"net_foreign"`
-	Breadth    string      `json:"breadth"`
-	TopStocks  []StockFlow `json:"top_stocks"`
-	Score      float64     `json:"-"`
+	Sector         string      `json:"sector"`
+	Rank           int         `json:"rank"`
+	Signal         string      `json:"signal"`           // "inflow"/"neutral"/"outflow"
+	NetForeign     float64     `json:"net_foreign"`      // foreign net VND (buy - sell)
+	AvgChangePct   float64     `json:"avg_change_pct"`   // average % change of stocks in sector
+	TotalVolumeVND float64     `json:"total_volume_vnd"` // sum(volume * close) — total traded value
+	AdvancesCount  int         `json:"advances_count"`   // number of stocks up
+	TotalCount     int         `json:"total_count"`      // total stocks in sector
+	Breadth        string      `json:"breadth"`          // "8/14 tăng"
+	TopStocks      []StockFlow `json:"top_stocks"`
+	Score          float64     `json:"-"`
 }
 
 type StockFlow struct {
@@ -29,6 +33,8 @@ func RankSectorsByFlow(stocks []types.StockData) []SectorFlow {
 		totalForeignValue float64
 		advances, total   int
 		totalVolume       int64
+		totalVolumeVND    float64
+		sumChangePct      float64
 		stockFlows        []StockFlow
 	}
 	accMap := make(map[string]*sectorAcc)
@@ -46,6 +52,8 @@ func RankSectorsByFlow(stocks []types.StockData) []SectorFlow {
 		acc.totalForeignValue += flowValue
 		acc.total++
 		acc.totalVolume += s.Volume
+		acc.totalVolumeVND += float64(s.Volume) * s.Close
+		acc.sumChangePct += s.ChangePercent
 		if s.ChangePercent > 0 {
 			acc.advances++
 		}
@@ -123,13 +131,21 @@ func RankSectorsByFlow(stocks []types.StockData) []SectorFlow {
 		default:
 			signal = "neutral"
 		}
+		avgChange := 0.0
+		if acc.total > 0 {
+			avgChange = acc.sumChangePct / float64(acc.total)
+		}
 		flows = append(flows, SectorFlow{
-			Sector:     sector,
-			Signal:     signal,
-			NetForeign: acc.totalForeignValue,
-			Breadth:    fmt.Sprintf("%d/%d tăng", acc.advances, acc.total),
-			TopStocks:  top,
-			Score:      score,
+			Sector:         sector,
+			Signal:         signal,
+			NetForeign:     acc.totalForeignValue,
+			AvgChangePct:   avgChange,
+			TotalVolumeVND: acc.totalVolumeVND,
+			AdvancesCount:  acc.advances,
+			TotalCount:     acc.total,
+			Breadth:        fmt.Sprintf("%d/%d tăng", acc.advances, acc.total),
+			TopStocks:      top,
+			Score:          score,
 		})
 	}
 	sort.Slice(flows, func(i, j int) bool { return flows[i].Score > flows[j].Score })
