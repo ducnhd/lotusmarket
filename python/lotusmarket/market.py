@@ -1,4 +1,4 @@
-"""Market pulse scoring, sector flow ranking, risk indicators."""
+"""Market pulse scoring, sector flow ranking, risk indicators, regime classification."""
 
 from dataclasses import dataclass, field
 from typing import List, Tuple
@@ -304,3 +304,183 @@ def attribute_drivers(f: DriverFeatures) -> Attribution:
             best_w, best = w, k
     attr.dominant = best
     return attr
+
+
+# ============================================================
+# Market Regime Classification
+# ============================================================
+
+REGIME_STABLE = "STABLE"
+REGIME_VOLATILE = "VOLATILE"
+REGIME_CRISIS = "CRISIS"
+REGIME_EUPHORIA = "EUPHORIA"
+
+CRISIS_PANIC = "CRISIS_PANIC"
+CRISIS_FUNDAMENTAL = "CRISIS_FUNDAMENTAL"
+
+_FUNDAMENTAL_KEYWORDS = [
+    "bắt giữ", "khởi tố", "truy tố", "lừa đảo", "rút ruột",
+    "bank run", "vỡ nợ", "phá sản", "hủy niêm yết",
+    "kiểm soát đặc biệt", "đình chỉ",
+]
+
+
+@dataclass
+class RegimeSignals:
+    vix: float = 0.0
+    vix_score: int = 0
+    vnindex_change: float = 0.0
+    vnindex_score: int = 0
+    foreign_flow: float = 0.0   # billions VND
+    flow_score: int = 0
+    news_tier: int = 0
+    news_score: int = 0
+    news_detail: str = ""
+    global_drop: float = 0.0
+    global_score: int = 0
+    composite_score: int = 0
+    direction: str = "mixed"    # "down" | "up" | "mixed"
+
+
+def score_regime_signals(
+    vix: float,
+    vnindex_change: float,
+    foreign_flow_billions: float,
+    news_tier: int,
+    news_detail: str,
+    global_max_drop_pct: float,
+) -> RegimeSignals:
+    """Convert raw inputs into a RegimeSignals struct with all scores computed.
+
+    Args:
+        vix: Current VIX level.
+        vnindex_change: VN-Index daily change percent (negative = down).
+        foreign_flow_billions: Net foreign flow in billions VND (negative = net sell).
+        news_tier: Highest active news tier (1 = arrest/circuit breaker, 2 = Fed/tariffs, 3+ = lower, 0 = none).
+        news_detail: First matching TIER 1/2 headline (used for crisis sub-type detection).
+        global_max_drop_pct: Most negative single-day drop among major global indices (<=0).
+
+    Returns:
+        RegimeSignals with composite_score and direction set.
+    """
+    s = RegimeSignals(
+        vix=vix,
+        vnindex_change=vnindex_change,
+        foreign_flow=foreign_flow_billions,
+        news_tier=news_tier,
+        news_detail=news_detail,
+        global_drop=global_max_drop_pct,
+    )
+
+    # VIX score
+    if vix >= 30:
+        s.vix_score = 80
+    elif vix >= 25:
+        s.vix_score = 50
+    elif vix >= 20:
+        s.vix_score = 25
+    else:
+        s.vix_score = 0
+
+    # VN-Index score (absolute change)
+    abs_change = abs(vnindex_change)
+    if abs_change >= 3.0:
+        s.vnindex_score = 80
+    elif abs_change >= 2.0:
+        s.vnindex_score = 50
+    elif abs_change >= 1.0:
+        s.vnindex_score = 25
+    else:
+        s.vnindex_score = 0
+
+    if vnindex_change < -1.0:
+        s.direction = "down"
+    elif vnindex_change > 1.0:
+        s.direction = "up"
+    else:
+        s.direction = "mixed"
+
+    # Foreign flow score
+    if foreign_flow_billions < -2000:
+        s.flow_score = 80
+    elif foreign_flow_billions < -1000:
+        s.flow_score = 50
+    elif foreign_flow_billions < -500:
+        s.flow_score = 25
+    else:
+        s.flow_score = 0
+
+    # News score
+    if news_tier == 1:
+        s.news_score = 100
+    elif news_tier == 2:
+        s.news_score = 50
+    else:
+        s.news_score = 0
+
+    # Global contagion score
+    if global_max_drop_pct <= -5.0:
+        s.global_score = 80
+    elif global_max_drop_pct <= -3.0:
+        s.global_score = 50
+    else:
+        s.global_score = 0
+
+    s.composite_score = max(s.vix_score, s.vnindex_score, s.flow_score, s.news_score, s.global_score)
+    return s
+
+
+def _classify_crisis_type(s: RegimeSignals) -> str:
+    news_lower = s.news_detail.lower()
+    for kw in _FUNDAMENTAL_KEYWORDS:
+        if kw in news_lower:
+            return CRISIS_FUNDAMENTAL
+    if s.global_score >= 80:
+        return CRISIS_PANIC
+    if s.flow_score >= 80 and s.news_score < 100:
+        return CRISIS_PANIC
+    return CRISIS_PANIC
+
+
+def classify_regime(s: RegimeSignals) -> Tuple[str, str]:
+    """Determine (regime, sub_type) from pre-computed RegimeSignals.
+
+    Returns:
+        (regime, sub_type) — sub_type is "" for non-crisis regimes.
+    """
+    if s.composite_score >= 80:
+        if s.direction == "up":
+            return REGIME_EUPHORIA, ""
+        return REGIME_CRISIS, _classify_crisis_type(s)
+    if s.composite_score >= 50:
+        return REGIME_VOLATILE, ""
+    return REGIME_STABLE, ""
+
+
+def identify_trigger(s: RegimeSignals) -> Tuple[str, str]:
+    """Return (source, detail) for the primary trigger of the regime."""
+    max_score = 0
+    source = "composite"
+    detail = ""
+
+    if s.news_score > max_score:
+        max_score = s.news_score
+        source = "news_tier1"
+        detail = s.news_detail
+    if s.vnindex_score > max_score:
+        max_score = s.vnindex_score
+        source = "vnindex_change"
+        detail = f"VN-Index thay đổi {s.vnindex_change:.1f}%"
+    if s.global_score > max_score:
+        max_score = s.global_score
+        source = "global_contagion"
+        detail = f"Global index giảm {s.global_drop:.1f}%"
+    if s.vix_score > max_score:
+        max_score = s.vix_score
+        source = "vix"
+        detail = f"VIX = {s.vix:.1f}"
+    if s.flow_score > max_score:
+        source = "foreign_flow"
+        detail = f"Foreign net flow: {s.foreign_flow:.0f}B VND"
+
+    return source, detail

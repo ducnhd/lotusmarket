@@ -54,6 +54,23 @@ type KBSQuote struct {
 	ForeignSellVol float64 `json:"ForeignSellVol"`
 }
 
+// InsiderTransaction is a single insider trading record from CafeF.
+type InsiderTransaction struct {
+	Ticker         string  `json:"ticker"`
+	InsiderName    string  `json:"insider_name"`
+	Position       string  `json:"position"`
+	RelatedParty   string  `json:"related_party"`
+	BuyRegistered  int     `json:"buy_registered"`
+	SellRegistered int     `json:"sell_registered"`
+	BuyResult      int     `json:"buy_result"`
+	SellResult     int     `json:"sell_result"`
+	StartDate      string  `json:"start_date"`      // YYYY-MM-DD
+	EndDate        string  `json:"end_date"`        // YYYY-MM-DD
+	CompletionDate string  `json:"completion_date"` // YYYY-MM-DD or ""
+	SharesAfter    int64   `json:"shares_after"`
+	OwnershipPct   float64 `json:"ownership_pct"`
+}
+
 const (
 	TradingCommissionRate = 0.0015
 	SellingTaxRate        = 0.001

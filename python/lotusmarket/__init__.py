@@ -2,7 +2,7 @@
 
 import os
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 
 if not os.environ.get("LOTUSMARKET_QUIET"):
     print(f"lotusmarket v{__version__} — Vietnamese Market Toolkit")

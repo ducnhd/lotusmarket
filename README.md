@@ -407,6 +407,15 @@ Combined with price direction:
 | Config | Option functions | Keyword arguments |
 | Dependencies | Zero (stdlib only for pure modules) | `pandas`, `numpy` (core), `httpx` (fetchers) |
 
+## Changelog
+
+### v0.4.0
+
+- **exposure** (`go/exposure`, `python/lotusmarket/exposure.py`) — per-ticker mapping of external drivers (commodity / FX / peer) with 2-year backtest-validated Pearson r correlations for HPG, 14 VN30 banks, SSI, FPT, MWG, VHM/VIC/VRE, GAS, PLX, MSN, SAB, VNM, DGC, GVR, VJC; `analyze()`, `format_for_prompt()`, `regime_change_flags()`, `bounce_signals()` via a `HistoryProvider` seam.
+- **market/regime** (`go/market/regime.go`, appended to `python/lotusmarket/market.py`) — pure deterministic regime classifier: `score_regime_signals()` / `classify_regime()` / `identify_trigger()` covering STABLE / VOLATILE / CRISIS (PANIC vs FUNDAMENTAL) / EUPHORIA from VIX, VN-Index change, foreign flow, news tier, and global contagion inputs.
+- **fetchers/cafef** (`go/fetchers/cafef.go`, `python/lotusmarket/fetchers/cafef.py`) — CafeF AJAX JSON insider-trading fetcher; parses `/Date(ms)/` timestamps in VN timezone (UTC+7), strips HTML name wrappers, applies 90-day cutoff; `InsiderTransaction` type added to `types`.
+- **earnings** (`go/earnings`, `python/lotusmarket/earnings.py`) — stateless Vietnamese headline parser: `extract_profit()`, `extract_revenue()`, `extract_annual_target()`, `detect_period()`, `extract_tickers()`, `bctc_deadlines(year)` returning 6 regulatory BCTC submission deadlines.
+
 ## Support
 
 If you find this useful, consider supporting the project:

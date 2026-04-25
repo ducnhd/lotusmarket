@@ -58,6 +58,25 @@ class KBSQuote:
     dividend_yield: float = 0.0
 
 
+@dataclass
+class InsiderTransaction:
+    """Single insider trading record from CafeF."""
+
+    ticker: str = ""
+    insider_name: str = ""
+    position: str = ""
+    related_party: str = ""
+    buy_registered: int = 0
+    sell_registered: int = 0
+    buy_result: int = 0
+    sell_result: int = 0
+    start_date: str = ""  # YYYY-MM-DD
+    end_date: str = ""  # YYYY-MM-DD
+    completion_date: str = ""  # YYYY-MM-DD or ""
+    shares_after: int = 0
+    ownership_pct: float = 0.0
+
+
 TRADING_COMMISSION_RATE = 0.0015
 SELLING_TAX_RATE = 0.001
 
