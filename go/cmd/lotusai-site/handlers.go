@@ -47,7 +47,12 @@ func (s *server) renderPage(w http.ResponseWriter, name string, data pageData) {
 	data.Year = time.Now().Year()
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	w.Header().Set("Cache-Control", "public, max-age=600") // 10 min — matches snap TTL
-	if err := s.tpl.ExecuteTemplate(w, name, data); err != nil {
+	tpl, ok := s.tpl[name]
+	if !ok {
+		http.Error(w, "template not found: "+name, http.StatusInternalServerError)
+		return
+	}
+	if err := tpl.ExecuteTemplate(w, "base", data); err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
 }

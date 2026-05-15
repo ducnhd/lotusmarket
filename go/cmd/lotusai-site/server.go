@@ -29,7 +29,7 @@ type serverConfig struct {
 
 type server struct {
 	cfg       serverConfig
-	tpl       *template.Template
+	tpl       map[string]*template.Template
 	cache     liveCache
 	startedAt time.Time
 }

@@ -6,7 +6,11 @@ import (
 	"strings"
 )
 
-func parseTemplates() *template.Template {
+// parseTemplates builds one *Template per page by cloning the base + adding
+// that page's body. Each page template defines a "body" block that the base
+// renders via {{template "body" .}}. Without cloning, parsing multiple body
+// blocks into the same template set would overwrite each other.
+func parseTemplates() map[string]*template.Template {
 	funcs := template.FuncMap{
 		"pct":      pct,
 		"pctSign":  pctSign,
@@ -15,17 +19,26 @@ func parseTemplates() *template.Template {
 		"comma":    commaFmt,
 		"divf":     func(a, b float64) float64 { return a / b },
 	}
-	t := template.New("base").Funcs(funcs)
-	template.Must(t.Parse(baseTpl))
-	template.Must(t.Parse(cssTpl))
-	template.Must(t.New("home").Parse(homeTpl))
-	template.Must(t.New("dashboard").Parse(dashboardTpl))
-	template.Must(t.New("blog-list").Parse(blogListTpl))
-	template.Must(t.New("blog-post").Parse(blogPostTpl))
-	template.Must(t.New("docs").Parse(docsTpl))
-	template.Must(t.New("about").Parse(aboutTpl))
-	template.Must(t.New("not-found").Parse(notFoundTpl))
-	return t
+	base := template.New("base").Funcs(funcs)
+	template.Must(base.Parse(baseTpl))
+	template.Must(base.Parse(cssTpl))
+
+	pages := map[string]string{
+		"home":      homeTpl,
+		"dashboard": dashboardTpl,
+		"blog-list": blogListTpl,
+		"blog-post": blogPostTpl,
+		"docs":      docsTpl,
+		"about":     aboutTpl,
+		"not-found": notFoundTpl,
+	}
+	out := map[string]*template.Template{}
+	for name, body := range pages {
+		clone := template.Must(base.Clone())
+		template.Must(clone.Parse(body))
+		out[name] = clone
+	}
+	return out
 }
 
 func pct(v float64) string { return fmt.Sprintf("%+.2f%%", v) }
