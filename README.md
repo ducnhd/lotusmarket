@@ -438,14 +438,18 @@ Browse the live archive: <https://ducnhd.github.io/lotusmarket/>
 
 ## Changelog
 
-### v0.5.0 (unreleased)
+### v0.5.0
 
-- **fetchers/yahoo** (`go/fetchers/yahoo.go`) — Yahoo Finance v8 chart API for global indices (S&P 500, Dow, Hang Seng, Nikkei, VIX, gold, oil, USD index) and historical OHLCV (split + dividend adjusted). Includes `GlobalIndexRegistry` for one-shot multi-symbol fetch.
-- **fetchers/vci** (`go/fetchers/vci.go`) — VCI (Vietcap) IQ-Insight API for VN corporate actions: cash dividends, bonus issues, ESOP, rights. Same backend as vnstock python lib.
-- **ratings** (`go/ratings`) — 6-dimensional star ratings (price strength, trend, RSI position, money flow, volatility, base range) with overall 0-100 gauge and verdict. Deterministic, no AI.
-- **historical** (`go/historical/cohort.go`) — generic cohort analysis: bucket (ticker, date, features, fwd_returns) rows by RSI / MA trend / MACD / Wyckoff / regime / joint, output markdown leaderboard. DB-agnostic.
-- **cmd/lmcli** (`go/cmd/lmcli`) — one-binary CLI: `pulse`, `quote`, `rate`, `screen`, `sectors`, `global`, `dividends`, `report`. Designed for cron / GitHub Actions automation.
+- **fetchers/yahoo** (Go) — Yahoo Finance v8 chart API for global indices (S&P 500, Dow, Hang Seng, Nikkei, VIX, gold, oil, USD index) and historical OHLCV (split + dividend adjusted). Includes `GlobalIndexRegistry` for one-shot multi-symbol fetch.
+- **fetchers/vci** (Go) — VCI (Vietcap) IQ-Insight API for VN corporate actions: cash dividends, bonus issues, ESOP, rights. Same backend as vnstock python lib.
+- **ratings** (Go + Python) — 6-dimensional star ratings (price strength, trend, RSI position, money flow, volatility, base range) with overall 0-100 gauge and verdict. Deterministic, no AI.
+- **historical** (Go + Python) — generic cohort analysis: bucket (ticker, date, features, fwd_returns) rows by RSI / MA trend / MACD / Wyckoff / regime / joint, output markdown leaderboard. DB-agnostic.
+- **cmd/lmcli** (Go) — one-binary CLI: `pulse`, `quote`, `rate`, `screen`, `sectors`, `global`, `dividends`, `report`. Designed for cron / GitHub Actions automation.
 - **CI** (`.github/workflows/daily-report.yml`) — daily report generator running on GitHub free tier. Commits to `docs/` for GitHub Pages serving.
+
+Python fetchers for Yahoo + VCI are deferred to a follow-up release; Go is the
+reference implementation for new fetchers since the CLI + daily report
+workflow are Go-based.
 
 ### v0.4.0
 
