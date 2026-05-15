@@ -76,7 +76,12 @@ jobs:
           #   - title isn't generic fallback "Ticker spotlight"
           BODY=$(awk '/^---$/{c++; next} c>=2' "$POSTPATH")
           LEN=$(printf "%s" "$BODY" | wc -c | tr -d ' ')
-          FAIL_PHRASES="không có data|data hạn chế|data trống|Không có dữ liệu|data discipline quan trọng hơn|Khi Không Có Dữ Liệu"
+          # Phrases that signal the fallback "empty data" path Claude took
+          # when the data builder returned nothing. "Data hạn chế" alone is
+          # acceptable — it's a legitimate disclaimer Claude uses on specific
+          # findings, not a full-blog fallback. We anchor on phrases that
+          # only appear when the WHOLE blog is the meta "no data" fallback.
+          FAIL_PHRASES="không có data, không có bài|data discipline quan trọng hơn bất kỳ|Khi Không Có Dữ Liệu|Live data không khả dụng tại thời điểm tạo bài"
           TITLE=$(grep -m1 '^title:' "$POSTPATH" | sed -E 's/^title: *"?([^"]*)"?$/\1/')
 
           PASS=true
