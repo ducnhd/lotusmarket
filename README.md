@@ -407,7 +407,45 @@ Combined with price direction:
 | Config | Option functions | Keyword arguments |
 | Dependencies | Zero (stdlib only for pure modules) | `pandas`, `numpy` (core), `httpx` (fetchers) |
 
+## CLI tool — `lmcli`
+
+A one-binary CLI for everything in the library. Useful for cron jobs,
+Telegram bots, or pipe-to-file workflows.
+
+```bash
+# Build
+cd go && go build -o /tmp/lmcli ./cmd/lmcli
+
+# Run
+lmcli pulse              # daily VN30 + flow markdown
+lmcli quote ACB          # real-time quote
+lmcli rate ACB           # 6-dim star ratings
+lmcli screen --rsi=30-50 # filter VN30 by RSI band
+lmcli sectors            # sector flow leaderboard
+lmcli global             # 14 international indices snapshot
+lmcli dividends VNM      # corporate action calendar
+lmcli report --out=today.md  # full daily report
+```
+
+## Automated daily reports (zero-cost)
+
+`.github/workflows/daily-report.yml` runs `lmcli report` every weekday at
+15:30 VN via GitHub Actions (free for public repos), commits the markdown
+to `docs/reports/YYYY-MM-DD.md`, and serves via GitHub Pages — no server,
+no API key, no operating cost.
+
+Browse the live archive: <https://ducnhd.github.io/lotusmarket/>
+
 ## Changelog
+
+### v0.5.0 (unreleased)
+
+- **fetchers/yahoo** (`go/fetchers/yahoo.go`) — Yahoo Finance v8 chart API for global indices (S&P 500, Dow, Hang Seng, Nikkei, VIX, gold, oil, USD index) and historical OHLCV (split + dividend adjusted). Includes `GlobalIndexRegistry` for one-shot multi-symbol fetch.
+- **fetchers/vci** (`go/fetchers/vci.go`) — VCI (Vietcap) IQ-Insight API for VN corporate actions: cash dividends, bonus issues, ESOP, rights. Same backend as vnstock python lib.
+- **ratings** (`go/ratings`) — 6-dimensional star ratings (price strength, trend, RSI position, money flow, volatility, base range) with overall 0-100 gauge and verdict. Deterministic, no AI.
+- **historical** (`go/historical/cohort.go`) — generic cohort analysis: bucket (ticker, date, features, fwd_returns) rows by RSI / MA trend / MACD / Wyckoff / regime / joint, output markdown leaderboard. DB-agnostic.
+- **cmd/lmcli** (`go/cmd/lmcli`) — one-binary CLI: `pulse`, `quote`, `rate`, `screen`, `sectors`, `global`, `dividends`, `report`. Designed for cron / GitHub Actions automation.
+- **CI** (`.github/workflows/daily-report.yml`) — daily report generator running on GitHub free tier. Commits to `docs/` for GitHub Pages serving.
 
 ### v0.4.0
 

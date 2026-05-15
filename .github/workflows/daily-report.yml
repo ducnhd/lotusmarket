@@ -1,0 +1,73 @@
+name: Daily Market Report
+
+# Runs every weekday after VN market close (15:30 VN = 08:30 UTC).
+# Generates a markdown report via lmcli and commits to /docs/ so GitHub Pages
+# can serve it for free. The /docs/latest.md is always overwritten; dated
+# copies accumulate at /docs/reports/YYYY-MM-DD.md.
+
+on:
+  schedule:
+    - cron: "30 8 * * 1-5"   # 15:30 VN, Mon-Fri
+  workflow_dispatch:           # manual trigger from Actions tab
+
+permissions:
+  contents: write              # to commit reports back
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.25"
+          cache-dependency-path: go/go.sum
+
+      - name: Build lmcli
+        working-directory: go
+        run: go build -o /tmp/lmcli ./cmd/lmcli
+
+      - name: Generate report
+        id: report
+        run: |
+          mkdir -p docs/reports
+          DATE=$(date -u +'%Y-%m-%d')
+          OUT="docs/reports/${DATE}.md"
+          /tmp/lmcli report --out="${OUT}"
+          cp "${OUT}" docs/latest.md
+          echo "date=${DATE}" >> "${GITHUB_OUTPUT}"
+          echo "path=${OUT}" >> "${GITHUB_OUTPUT}"
+          wc -l "${OUT}"
+
+      - name: Update index
+        run: |
+          cd docs
+          {
+            echo "# 🌸 lotusmarket — Daily Reports"
+            echo ""
+            echo "Auto-generated Vietnamese stock market reports — free, open-source, no API key required."
+            echo ""
+            echo "## Latest"
+            echo ""
+            echo "- [Latest report](latest.md)"
+            echo ""
+            echo "## Archive"
+            echo ""
+            ls -1r reports/*.md 2>/dev/null | head -30 | while read f; do
+              name=$(basename "$f" .md)
+              echo "- [${name}](reports/${name}.md)"
+            done
+          } > index.md
+
+      - name: Commit + push
+        run: |
+          git config user.name "lotusmarket-bot"
+          git config user.email "bot@lotusmarket.local"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(report): ${{ steps.report.outputs.date }} auto-generated"
+          git push
