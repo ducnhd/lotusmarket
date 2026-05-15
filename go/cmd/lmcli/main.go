@@ -65,6 +65,8 @@ func main() {
 		runGlobal(ctx)
 	case "dividends":
 		runDividends(ctx, args)
+	case "macro":
+		runMacro(ctx)
 	case "report":
 		runReport(ctx)
 	case "-h", "--help", "help":
@@ -87,6 +89,7 @@ Usage:
   lmcli sectors              Sector flow leaderboard
   lmcli global               Global indices snapshot
   lmcli dividends TICKER     Upcoming corporate actions
+  lmcli macro                US macro indicators (needs FRED_API_KEY env)
   lmcli report [--out=path]  Full daily report
 
 Examples:
@@ -291,6 +294,24 @@ func runDividends(ctx context.Context, args []string) {
 		}
 		fmt.Printf("| %s | %s | %s | %s | %s |\n",
 			e.ExDate, typ, rate, amt, e.PaymentDate)
+	}
+}
+
+func runMacro(ctx context.Context) {
+	apiKey := os.Getenv("FRED_API_KEY")
+	if apiKey == "" {
+		log.Fatal("FRED_API_KEY env var required (free at https://fred.stlouisfed.org/docs/api/api_key.html)")
+	}
+	snap := fetchers.FREDAllLatest(ctx, apiKey)
+	if len(snap) == 0 {
+		log.Fatal("no FRED data returned (check API key)")
+	}
+	fmt.Println("# US Macro indicators (FRED)")
+	fmt.Println()
+	fmt.Println("| Series | Tên VN | Giá trị | Ngày |")
+	fmt.Println("|---|---|---|---|")
+	for _, s := range snap {
+		fmt.Printf("| %s | %s | %.4g | %s |\n", s.SeriesID, s.NameVi, s.Value, s.Date)
 	}
 }
 
