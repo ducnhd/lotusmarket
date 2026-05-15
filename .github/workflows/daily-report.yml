@@ -72,28 +72,21 @@ jobs:
           git commit -m "chore(report): ${{ steps.report.outputs.date }} auto-generated"
           git push
 
-      # Optional: post a short summary to the public Telegram channel.
-      # Requires repository secrets TELEGRAM_BOT_TOKEN + TELEGRAM_CHANNEL
-      # (e.g. "@lotusmarket"). Step is skipped silently if either is missing.
+      # Optional: post a Telegram-friendly summary to the public channel.
+      # Uses `lmcli tg` (HTML-formatted compact summary) instead of the
+      # markdown report — Telegram doesn't render markdown tables.
+      # Step is skipped silently if either secret is missing.
       - name: Post summary to Telegram
         if: env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHANNEL != ''
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
-          REPO: ${{ github.repository }}
-          DATE: ${{ steps.report.outputs.date }}
         run: |
-          # Telegram caps single message at 4096 chars. Take the first 3500
-          # chars of the report (which is enough for pulse + global + sectors
-          # headers) and append a link to the full report on GitHub Pages.
-          BODY=$(head -c 3500 docs/latest.md)
-          PAGES_URL="https://${REPO%%/*}.github.io/${REPO##*/}/reports/${DATE}.html"
-          FOOTER=$'\n\n📊 [Full report]('"${PAGES_URL}"$')  ·  [GitHub](https://github.com/'"${REPO}"$')'
-          MESSAGE="${BODY}${FOOTER}"
+          MESSAGE=$(/tmp/lmcli tg)
           curl -fsS "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${TELEGRAM_CHANNEL}" \
             --data-urlencode "text=${MESSAGE}" \
-            -d parse_mode=Markdown \
+            -d parse_mode=HTML \
             -d disable_web_page_preview=true \
             > /dev/null
           echo "Posted to ${TELEGRAM_CHANNEL}"
