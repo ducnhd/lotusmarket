@@ -480,7 +480,7 @@ func runTelegram(ctx context.Context) {
 		sb.WriteString("\n\n")
 	}
 
-	sb.WriteString(`📄 <a href="https://ducnhd.github.io/lotusmarket/latest">Full report</a> · `)
+	sb.WriteString(`📄 <a href="https://ducnhd.github.io/lotusmarket/latest.html">Full report</a> · `)
 	sb.WriteString(`<a href="https://github.com/ducnhd/lotusmarket">GitHub</a>`)
 
 	fmt.Print(sb.String())

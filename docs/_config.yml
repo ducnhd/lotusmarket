@@ -1,0 +1,15 @@
+title: lotusmarket
+description: Vietnamese Stock Market Toolkit — daily reports auto-generated from open-source library
+theme: jekyll-theme-minimal
+github:
+  repository_url: https://github.com/ducnhd/lotusmarket
+show_downloads: false
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - reports
+exclude:
+  - "*.md.bak"
