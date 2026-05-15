@@ -69,6 +69,12 @@ func main() {
 		runMacro(ctx)
 	case "tg":
 		runTelegram(ctx)
+	case "html":
+		outPath := ""
+		if len(args) > 0 {
+			outPath = args[0]
+		}
+		runHTML(ctx, outPath)
 	case "report":
 		runReport(ctx)
 	case "-h", "--help", "help":
@@ -93,6 +99,7 @@ Usage:
   lmcli dividends TICKER     Upcoming corporate actions
   lmcli macro                US macro indicators (needs FRED_API_KEY env)
   lmcli tg                   Compact Telegram-friendly summary (HTML parse_mode)
+  lmcli html [out.html]      Self-contained styled landing page
   lmcli report [--out=path]  Full daily report
 
 Examples:
@@ -480,7 +487,8 @@ func runTelegram(ctx context.Context) {
 		sb.WriteString("\n\n")
 	}
 
-	sb.WriteString(`📄 <a href="https://ducnhd.github.io/lotusmarket/latest.html">Full report</a> · `)
+	sb.WriteString(`📄 <a href="https://ducnhd.github.io/lotusmarket/">Dashboard</a> · `)
+	sb.WriteString(`<a href="https://ducnhd.github.io/lotusmarket/latest.html">Full report</a> · `)
 	sb.WriteString(`<a href="https://github.com/ducnhd/lotusmarket">GitHub</a>`)
 
 	fmt.Print(sb.String())

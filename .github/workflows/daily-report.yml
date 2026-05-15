@@ -40,25 +40,36 @@ jobs:
           echo "path=${OUT}" >> "${GITHUB_OUTPUT}"
           wc -l "${OUT}"
 
-      - name: Update index
+      - name: Generate landing page (index.html)
         run: |
+          # Self-contained styled landing page that overrides Jekyll's
+          # auto-rendered index.md. Includes today's data + features +
+          # quick start + archive links.
+          /tmp/lmcli html docs/index.html
+
+      - name: Build archive list
+        run: |
+          # Tell Jekyll to skip auto-rendering index.md by removing it
+          # (we have index.html now). Keep an archive list rendered from
+          # reports/ so /reports/ has a nicer page.
+          rm -f docs/index.md
           cd docs
           {
-            echo "# 🌸 lotusmarket — Daily Reports"
+            echo "---"
+            echo "title: Archive"
+            echo "---"
             echo ""
-            echo "Auto-generated Vietnamese stock market reports — free, open-source, no API key required."
+            echo "# 🌸 lotusmarket — Daily Reports Archive"
             echo ""
-            echo "## Latest"
+            echo "Auto-generated reports for VN stock market. New report each weekday 15:30 VN."
             echo ""
-            echo "- [Latest report](latest.md)"
+            echo "[← Back to home](../)"
             echo ""
-            echo "## Archive"
-            echo ""
-            ls -1r reports/*.md 2>/dev/null | head -30 | while read f; do
+            ls -1r reports/*.md 2>/dev/null | head -90 | while read f; do
               name=$(basename "$f" .md)
-              echo "- [${name}](reports/${name}.md)"
+              echo "- [${name}](${name}.html)"
             done
-          } > index.md
+          } > reports/index.md
 
       - name: Commit + push
         run: |
