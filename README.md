@@ -1,13 +1,44 @@
-# lotusmarket
+<h1 align="center">🌸 lotusmarket</h1>
 
-Vietnamese Stock Market Toolkit for Go & Python.
+<p align="center">
+  <b>Vietnamese Stock Market Toolkit for Go &amp; Python</b><br>
+  Real-time quotes · technical analysis · sentiment · money flow · regime classifier · backtest harness<br>
+  <i>All public APIs · no API key required · MIT license · no hot picks</i>
+</p>
 
-Real-time quotes, historical OHLCV, technical analysis, sentiment, money flow signals, and more for HOSE/HNX stocks. All public APIs — no API key required.
+<p align="center">
+  <a href="https://github.com/ducnhd/lotusmarket/actions/workflows/go-test.yml"><img src="https://github.com/ducnhd/lotusmarket/actions/workflows/go-test.yml/badge.svg" alt="Go Tests"></a>
+  <a href="https://github.com/ducnhd/lotusmarket/actions/workflows/python-test.yml"><img src="https://github.com/ducnhd/lotusmarket/actions/workflows/python-test.yml/badge.svg" alt="Python Tests"></a>
+  <a href="https://github.com/ducnhd/lotusmarket/actions/workflows/daily-report.yml"><img src="https://github.com/ducnhd/lotusmarket/actions/workflows/daily-report.yml/badge.svg" alt="Daily Report"></a>
+  <a href="https://pypi.org/project/lotusmarket/"><img src="https://img.shields.io/pypi/v/lotusmarket?color=4c1" alt="PyPI"></a>
+  <a href="https://pypi.org/project/lotusmarket/"><img src="https://img.shields.io/pypi/dm/lotusmarket?label=pypi%20downloads&amp;color=4c1" alt="PyPI Downloads"></a>
+  <a href="https://github.com/ducnhd/lotusmarket/stargazers"><img src="https://img.shields.io/github/stars/ducnhd/lotusmarket?style=flat" alt="Stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+</p>
 
-[![Go Tests](https://github.com/ducnhd/lotusmarket/actions/workflows/go-test.yml/badge.svg)](https://github.com/ducnhd/lotusmarket/actions/workflows/go-test.yml)
-[![Python Tests](https://github.com/ducnhd/lotusmarket/actions/workflows/python-test.yml/badge.svg)](https://github.com/ducnhd/lotusmarket/actions/workflows/python-test.yml)
-[![PyPI](https://img.shields.io/pypi/v/lotusmarket)](https://pypi.org/project/lotusmarket/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<p align="center">
+  <a href="https://ducnhd.github.io/lotusmarket/"><b>📊 Live Dashboard</b></a> ·
+  <a href="https://t.me/vnlotusmarket"><b>💬 Telegram Channel</b></a> ·
+  <a href="https://pypi.org/project/lotusmarket/"><b>📦 PyPI</b></a> ·
+  <a href="docs/blog/16-nam-backtest-vn-stocks.md"><b>📝 Blog</b></a>
+</p>
+
+---
+
+## What is this?
+
+A **deterministic, open-source toolkit** for analyzing Vietnamese stocks. Built because the existing retail tools at VN are either (a) paid black-box "hot picks from teachers" or (b) developer libraries with no live data integration.
+
+**Key principles:**
+
+- 🆓 **All free** — public APIs (VPS · Entrade · KBS · Cafef · Yahoo · VCI · FRED), no paid feeds, no hot picks
+- 🔬 **Deterministic** — signals computed from raw price/volume, no AI guesses, no "vibe analysis"
+- 🇻🇳 **VN-native** — Vietnamese sentiment keywords, T+2 settlement, sector mappings, VN30/HNX30 universes
+- ⚡ **Production-ready** — used in [`vnstock-bot`](https://github.com/ducnhd) personal trading platform since 2025
+
+### See it live
+
+The library powers a [**zero-cost daily dashboard**](https://ducnhd.github.io/lotusmarket/) — auto-generated every weekday 15:30 VN by GitHub Actions, posted to [Telegram](https://t.me/vnlotusmarket). Try it before installing.
 
 ## Install
 

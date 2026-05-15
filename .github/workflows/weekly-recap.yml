@@ -1,0 +1,64 @@
+name: Weekly Recap
+
+# Sunday 09:00 VN = 02:00 UTC. Runs `lmcli weekly` and posts to Telegram —
+# 5-day VN30 winners/losers, sector flow, regime hint. Differentiated
+# content from the daily noise to keep channel engagement.
+
+on:
+  schedule:
+    - cron: "0 2 * * 0"   # Sunday 09:00 VN
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.25"
+          cache-dependency-path: go/go.sum
+
+      - name: Build lmcli
+        working-directory: go
+        run: go build -o /tmp/lmcli ./cmd/lmcli
+
+      - name: Generate weekly recap markdown
+        id: recap
+        run: |
+          mkdir -p docs/weekly
+          WEEK=$(date -u +'%G-W%V')
+          OUT="docs/weekly/${WEEK}.md"
+          /tmp/lmcli weekly > "${OUT}"
+          echo "week=${WEEK}" >> "${GITHUB_OUTPUT}"
+          wc -l "${OUT}"
+
+      - name: Commit
+        run: |
+          git config user.name "lotusmarket-bot"
+          git config user.email "bot@lotusmarket.local"
+          git add docs/weekly/
+          if git diff --cached --quiet; then
+            echo "No changes"; exit 0
+          fi
+          git commit -m "chore(weekly): ${{ steps.recap.outputs.week }} recap"
+          git push
+
+      - name: Post weekly recap to Telegram
+        if: env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHANNEL != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+        run: |
+          MESSAGE=$(/tmp/lmcli weekly --telegram)
+          curl -fsS "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHANNEL}" \
+            --data-urlencode "text=${MESSAGE}" \
+            -d parse_mode=HTML \
+            -d disable_web_page_preview=true \
+            > /dev/null
+          echo "Posted weekly recap to ${TELEGRAM_CHANNEL}"

@@ -75,6 +75,18 @@ func main() {
 			outPath = args[0]
 		}
 		runHTML(ctx, outPath)
+	case "feed":
+		dir := "docs"
+		if len(args) > 0 {
+			dir = args[0]
+		}
+		runFeed(ctx, dir)
+	case "weekly":
+		format := "markdown"
+		if len(args) > 0 && args[0] == "--telegram" {
+			format = "telegram"
+		}
+		runWeekly(ctx, format)
 	case "report":
 		runReport(ctx)
 	case "-h", "--help", "help":
@@ -100,6 +112,8 @@ Usage:
   lmcli macro                US macro indicators (needs FRED_API_KEY env)
   lmcli tg                   Compact Telegram-friendly summary (HTML parse_mode)
   lmcli html [out.html]      Self-contained styled landing page
+  lmcli feed [docsDir]       RSS feed + sitemap.xml + robots.txt
+  lmcli weekly [--telegram]  Weekly best-of recap (markdown / Telegram HTML)
   lmcli report [--out=path]  Full daily report
 
 Examples:

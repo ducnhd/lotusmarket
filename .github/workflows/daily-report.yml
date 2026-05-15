@@ -47,6 +47,10 @@ jobs:
           # quick start + archive links.
           /tmp/lmcli html docs/index.html
 
+      - name: Generate RSS feed + sitemap + robots
+        run: |
+          /tmp/lmcli feed docs
+
       - name: Build archive list
         run: |
           # Tell Jekyll to skip auto-rendering index.md by removing it
