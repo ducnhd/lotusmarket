@@ -21,7 +21,7 @@ type pageData struct {
 	PageType    string // "home" | "dashboard" | "blog-list" | "blog-post" | "docs" | "about"
 	BaseURL     string
 	Year        int
-	JSONLD      template.HTML
+	JSONLD      template.JS
 
 	// Live snapshot (home + dashboard)
 	Snap *liveSnapshot

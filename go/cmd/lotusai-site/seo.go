@@ -8,7 +8,7 @@ import (
 
 // jsonLDOrganization — schema.org WebSite + Organization, used on home page
 // to help Google understand the brand + provide site-name and search box.
-func jsonLDOrganization(baseURL string) template.HTML {
+func jsonLDOrganization(baseURL string) template.JS {
 	doc := map[string]any{
 		"@context": "https://schema.org",
 		"@graph": []any{
@@ -50,11 +50,11 @@ func jsonLDOrganization(baseURL string) template.HTML {
 		},
 	}
 	b, _ := json.Marshal(doc)
-	return template.HTML(b)
+	return template.JS(b)
 }
 
 // jsonLDArticle — schema.org BlogPosting for blog post pages.
-func jsonLDArticle(baseURL string, p *blogPost) template.HTML {
+func jsonLDArticle(baseURL string, p *blogPost) template.JS {
 	doc := map[string]any{
 		"@context":      "https://schema.org",
 		"@type":         "BlogPosting",
@@ -79,5 +79,5 @@ func jsonLDArticle(baseURL string, p *blogPost) template.HTML {
 		"inLanguage":       "vi-VN",
 	}
 	b, _ := json.Marshal(doc)
-	return template.HTML(b)
+	return template.JS(b)
 }
