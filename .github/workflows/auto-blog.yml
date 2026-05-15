@@ -113,6 +113,32 @@ jobs:
           git commit -m "blog: ${{ steps.gen.outputs.filename }} (auto-generated)"
           git push
 
+      - name: Wait for deploy (Pi sync + GH Pages) before broadcasting
+        if: steps.gate.outputs.broadcast == 'true'
+        env:
+          SLUG: ${{ steps.gen.outputs.slug }}
+        run: |
+          # Race fix: Telegram message would arrive before reader can open
+          # the blog if Pi sync (every 1min cron) and GH Pages (1-3min build)
+          # haven't caught up yet → 404. Poll both URLs until they return 200
+          # or timeout (up to ~4 min) before posting.
+          PI_URL="https://lotusai.servehttp.com/blog/${SLUG}"
+          PAGES_URL="https://ducnhd.github.io/lotusmarket/blog/${SLUG}.html"
+
+          wait_for() {
+            local url="$1"; local label="$2"
+            for i in $(seq 1 24); do
+              if curl -fsS -o /dev/null --max-time 5 "$url"; then
+                echo "${label} ready after $((i*10))s: $url"; return 0
+              fi
+              sleep 10
+            done
+            echo "::warning::${label} NOT ready after 240s — proceeding anyway: $url"
+            return 1
+          }
+          wait_for "$PI_URL" "Pi (lotusai.servehttp.com)"
+          wait_for "$PAGES_URL" "GitHub Pages"
+
       - name: Post link to Telegram
         if: env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHANNEL != '' && steps.gate.outputs.broadcast == 'true'
         env:
