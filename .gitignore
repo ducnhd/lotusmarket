@@ -31,6 +31,12 @@ CLAUDE.md
 # Build artifacts (Go binaries at root)
 /go/cmd/lmcli/lmcli
 /go/lmcli
+/go/lotusai-site
+/go/cmd/lotusai-site/lotusai-site
+
+# Local content workspace (blog md is the canonical source in /docs/blog/;
+# this dir holds copies the lotusai-site server reads at runtime)
+/go/cmd/lotusai-site/content/
 
 # Personal social media drafts (not for public repo)
 /docs/social/
