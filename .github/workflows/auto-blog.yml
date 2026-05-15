@@ -1,0 +1,103 @@
+name: Auto Blog
+
+# AI-generated blog post 3x/week. Topic rotates by weekday:
+#   Mon: weekly recap (5-day VN30 movers + sector + regime hint)
+#   Wed: educational cohort post (rotating focus)
+#   Fri: ticker spotlight (highest-rated VN30 with exposure context)
+#
+# Each post is data-grounded — real numbers pulled from VPS / Entrade /
+# YahooHistory via lmcli, then Claude does prose synthesis only.
+# Output: docs/blog/YYYY-MM-DD-slug.md, committed to repo.
+# Pi (lotusai-site) syncs via git pull cron.
+# Telegram channel gets a short link summary.
+
+on:
+  schedule:
+    - cron: "0 2 * * 1,3,5"   # 09:00 VN on Mon/Wed/Fri
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Force topic"
+        required: false
+        type: choice
+        default: auto
+        options: [auto, weekly, cohort, ticker]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "auto-blog"
+  cancel-in-progress: false
+
+jobs:
+  blog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.25"
+          cache-dependency-path: go/go.sum
+
+      - name: Build lmcli
+        working-directory: go
+        run: go build -o /tmp/lmcli ./cmd/lmcli
+
+      - name: Generate blog post
+        id: gen
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          TOPIC: ${{ inputs.topic }}
+        run: |
+          if [ -z "$CLAUDE_API_KEY" ]; then
+            echo "::error::CLAUDE_API_KEY secret not set"
+            exit 1
+          fi
+          TOPIC_ARG="${TOPIC:-auto}"
+          OUT=$(/tmp/lmcli autoblog --out docs/blog --topic "$TOPIC_ARG")
+          echo "path=${OUT}" >> "${GITHUB_OUTPUT}"
+          echo "filename=$(basename "$OUT")" >> "${GITHUB_OUTPUT}"
+          echo "slug=$(basename "$OUT" .md)" >> "${GITHUB_OUTPUT}"
+          echo "--- generated content (preview) ---"
+          head -30 "$OUT"
+          echo "..."
+          wc -l "$OUT"
+
+      - name: Commit + push
+        run: |
+          git config user.name "lotusmarket-bot"
+          git config user.email "bot@lotusmarket.local"
+          git add docs/blog/
+          if git diff --cached --quiet; then
+            echo "No new blog file"; exit 0
+          fi
+          git commit -m "blog: ${{ steps.gen.outputs.filename }} (auto-generated)"
+          git push
+
+      - name: Post link to Telegram
+        if: env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHANNEL != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          SLUG: ${{ steps.gen.outputs.slug }}
+          POSTPATH: ${{ steps.gen.outputs.path }}
+        run: |
+          # Extract title from frontmatter
+          TITLE=$(grep -m1 '^title:' "$POSTPATH" | sed -E 's/^title: *"?([^"]*)"?$/\1/')
+          # Extract TL;DR (first non-frontmatter, non-empty line that doesn't start with #)
+          TLDR=$(awk '
+            /^---$/ { f=!f; next }
+            f { next }
+            NF && !/^#/ && !/^[[:space:]]*$/ { print; exit }
+          ' "$POSTPATH" | head -c 400)
+          MESSAGE=$(printf "📝 <b>%s</b>\n\n%s\n\n📖 Đọc đầy đủ: https://lotusai.servehttp.com/blog/%s\n📊 Hoặc trên GitHub Pages: https://ducnhd.github.io/lotusmarket/blog/%s.html" \
+            "$TITLE" "$TLDR" "$SLUG" "$SLUG")
+          curl -fsS "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHANNEL}" \
+            --data-urlencode "text=${MESSAGE}" \
+            -d parse_mode=HTML \
+            -d disable_web_page_preview=true \
+            > /dev/null
+          echo "Posted blog link to ${TELEGRAM_CHANNEL}"

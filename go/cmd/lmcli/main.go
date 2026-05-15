@@ -87,6 +87,20 @@ func main() {
 			format = "telegram"
 		}
 		runWeekly(ctx, format)
+	case "autoblog":
+		outDir := "docs/blog"
+		topic := "auto"
+		for i := 0; i < len(args); i++ {
+			switch {
+			case args[i] == "--out" && i+1 < len(args):
+				outDir = args[i+1]
+				i++
+			case args[i] == "--topic" && i+1 < len(args):
+				topic = args[i+1]
+				i++
+			}
+		}
+		runAutoBlog(ctx, outDir, topic)
 	case "report":
 		runReport(ctx)
 	case "-h", "--help", "help":
@@ -114,6 +128,9 @@ Usage:
   lmcli html [out.html]      Self-contained styled landing page
   lmcli feed [docsDir]       RSS feed + sitemap.xml + robots.txt
   lmcli weekly [--telegram]  Weekly best-of recap (markdown / Telegram HTML)
+  lmcli autoblog [flags]     AI-generated blog post from real data (Mon/Wed/Fri rotation)
+                             Flags: --out docs/blog --topic auto|weekly|cohort|ticker
+                             Needs CLAUDE_API_KEY env
   lmcli report [--out=path]  Full daily report
 
 Examples:
