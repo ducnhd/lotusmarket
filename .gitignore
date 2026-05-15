@@ -31,3 +31,6 @@ CLAUDE.md
 # Build artifacts (Go binaries at root)
 /go/cmd/lmcli/lmcli
 /go/lmcli
+
+# Personal social media drafts (not for public repo)
+/docs/social/
