@@ -17,7 +17,7 @@ func jsonLDOrganization(baseURL string) template.JS {
 				"@id":         baseURL + "#org",
 				"name":        "Lotus AI / lotusmarket",
 				"url":         baseURL + "/",
-				"sameAs":      []string{"https://github.com/ducnhd/lotusmarket", "https://pypi.org/project/lotusmarket/", "https://t.me/vnlotusmarket"},
+				"sameAs":      []string{"https://github.com/ducnhd/lotusmarket", "https://ducnhd.github.io/lotusmarket/", "https://pypi.org/project/lotusmarket/", "https://t.me/vnlotusmarket"},
 				"description": "Vietnamese stock market open-source toolkit — free, deterministic, no hot picks.",
 				"logo": map[string]any{
 					"@type": "ImageObject",

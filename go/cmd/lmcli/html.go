@@ -198,7 +198,9 @@ func runHTML(ctx context.Context, outPath string) {
 <meta property="og:description" content="Free open-source Vietnamese stock market library + daily auto-generated reports. Real data, no hot picks.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ducnhd.github.io/lotusmarket/">
+<link rel="canonical" href="https://ducnhd.github.io/lotusmarket/">
 <title>lotusmarket — VN Stock Market Toolkit · Daily Reports</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://lotusai.servehttp.com/#org","name":"Lotus AI / lotusmarket","url":"https://lotusai.servehttp.com/","sameAs":["https://github.com/ducnhd/lotusmarket","https://pypi.org/project/lotusmarket/","https://t.me/vnlotusmarket","https://ducnhd.github.io/lotusmarket/"]},{"@type":"WebSite","url":"https://ducnhd.github.io/lotusmarket/","name":"lotusmarket daily reports","publisher":{"@id":"https://lotusai.servehttp.com/#org"},"inLanguage":"vi-VN"}]}</script>
 <style>` + htmlCSS + `</style>
 </head>
 <body>
@@ -213,9 +215,10 @@ func runHTML(ctx context.Context, outPath string) {
       <span class="badge">No hot picks</span>
     </div>
     <div class="cta">
-      <a class="primary" href="https://github.com/ducnhd/lotusmarket">⭐ Star on GitHub</a>
+      <a class="primary" href="https://lotusai.servehttp.com/">🌸 Main site</a>
+      <a href="https://github.com/ducnhd/lotusmarket">⭐ GitHub</a>
       <a href="https://pypi.org/project/lotusmarket/">📦 PyPI</a>
-      <a href="https://t.me/vnlotusmarket">💬 Telegram channel</a>
+      <a href="https://t.me/vnlotusmarket">💬 Telegram</a>
       <a href="latest.html">📄 Today's report</a>
     </div>
   </div>

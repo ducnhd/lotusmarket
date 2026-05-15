@@ -17,8 +17,9 @@
 </p>
 
 <p align="center">
-  <a href="https://ducnhd.github.io/lotusmarket/"><b>📊 Live Dashboard</b></a> ·
-  <a href="https://t.me/vnlotusmarket"><b>💬 Telegram Channel</b></a> ·
+  <a href="https://lotusai.servehttp.com/"><b>🌸 lotusai.servehttp.com</b></a> ·
+  <a href="https://ducnhd.github.io/lotusmarket/"><b>📊 Daily Dashboard</b></a> ·
+  <a href="https://t.me/vnlotusmarket"><b>💬 Telegram</b></a> ·
   <a href="https://pypi.org/project/lotusmarket/"><b>📦 PyPI</b></a> ·
   <a href="docs/blog/16-nam-backtest-vn-stocks.md"><b>📝 Blog</b></a>
 </p>
@@ -38,7 +39,11 @@ A **deterministic, open-source toolkit** for analyzing Vietnamese stocks. Built 
 
 ### See it live
 
-The library powers a [**zero-cost daily dashboard**](https://ducnhd.github.io/lotusmarket/) — auto-generated every weekday 15:30 VN by GitHub Actions, posted to [Telegram](https://t.me/vnlotusmarket). Try it before installing.
+- 🌸 **Main site**: <https://lotusai.servehttp.com/> — landing + live VN30 dashboard + blog (server-side rendered, SEO-friendly, hosted on Raspberry Pi)
+- 📊 **Daily reports archive**: <https://ducnhd.github.io/lotusmarket/> — auto-generated every weekday 15:30 VN by GitHub Actions, free GitHub Pages hosting
+- 💬 **Telegram channel**: <https://t.me/vnlotusmarket> — daily summaries posted by the bot
+
+All three are the same project — different distribution channels.
 
 ## Install
 
