@@ -49,10 +49,16 @@ func newServer(cfg serverConfig) *server {
 func (s *server) routes(mux *http.ServeMux) {
 	mux.HandleFunc("/", s.handleRoot)
 	mux.HandleFunc("/dashboard", s.handleDashboard)
+	mux.HandleFunc("/dashboard/", s.handleDashboard) // accept trailing slash too — avoids 404
+	// Register both /blog and /blog/ as the same handler so Google never sees
+	// a 301 redirect (GSC was flagging "Lỗi chuyển hướng" / Page with redirect
+	// because Go's http.ServeMux auto-redirects "/blog" → "/blog/").
+	mux.HandleFunc("/blog", s.handleBlog)
 	mux.HandleFunc("/blog/", s.handleBlog)
 	mux.HandleFunc("/docs", s.handleDocs)
 	mux.HandleFunc("/docs/", s.handleDocs)
 	mux.HandleFunc("/about", s.handleAbout)
+	mux.HandleFunc("/about/", s.handleAbout)
 	mux.HandleFunc("/sitemap.xml", s.handleSitemap)
 	mux.HandleFunc("/robots.txt", s.handleRobots)
 	mux.HandleFunc("/feed.xml", s.handleFeed)

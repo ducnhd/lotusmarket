@@ -99,8 +99,17 @@ func (s *server) handleDashboard(w http.ResponseWriter, r *http.Request) {
 
 func (s *server) handleBlog(w http.ResponseWriter, r *http.Request) {
 	posts := s.loadBlogPosts()
-	rest := strings.TrimPrefix(r.URL.Path, "/blog/")
-	rest = strings.TrimSuffix(rest, "/")
+	// Treat /blog and /blog/ identically — both render the list.
+	// Strip both forms so /blog/<slug> still resolves correctly.
+	path := r.URL.Path
+	var rest string
+	switch {
+	case path == "/blog", path == "/blog/":
+		rest = ""
+	default:
+		rest = strings.TrimPrefix(path, "/blog/")
+		rest = strings.TrimSuffix(rest, "/")
+	}
 
 	if rest == "" {
 		s.renderPage(w, "blog-list", pageData{
