@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 18 May 2026 05:23:18 +0000</lastBuildDate>
+<lastBuildDate>Mon, 18 May 2026 11:59:58 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
@@ -24,6 +24,38 @@
   <pubDate>Mon, 18 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Cổ tức 10% — sang trọng hay bẫy giảm giá? Phân tích data ex-date VN30</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Cổ Tức Cao Không Phải &#34;Free Money&#34; — Đây Là Lý Do
+
+Nhận 1,500 đồng cổ tức rồi nhìn giá cổ phiếu giảm đúng 1,500 đồng — vẫn có người gọi đó là &#34;thu nhập thụ động&#34;.
+
+---
+
+## Cái bẫy tâm lý có tên &#34;yield cao&#34;
+
+Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lên một vòng hype quen thuộc: *&#34;Cổ phiếu X chia cổ tức 15% mệnh giá, mua ngay!&#34;* Retail investor đổ vào, cảm giác như đang n…</description>
+</item>
+<item>
+  <title>📝 VPB hôm nay: mixed, RSI 56, Outperform — random spotlight</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># VPB 27,550 VND — Khi Dữ Liệu Nói &#34;Trung Lập&#34; Nhưng Kỹ Thuật Lại Chấm 75/100
+
+**Mua vì RSI đẹp hay vì thực sự có edge? Câu trả lời từ data cohort sẽ làm nhiều người bất ngờ.**
+
+---
+
+## Bức Tranh Kỹ Thuật: Đẹp Hơn Thực Tế?
+
+VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con số trông khá hấp dẫn: technical score **75/100**, signal **BUY**, RSI **55.5** — nằm trong vùng &#34;khỏe mạnh&#34; mà không b…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-15</title>
