@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 15 May 2026 10:59:04 +0000</lastBuildDate>
+<lastBuildDate>Mon, 18 May 2026 05:23:18 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
@@ -16,6 +16,14 @@
   <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
 
 &gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-05-18</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-18.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-18.html</guid>
+  <pubDate>Mon, 18 May 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-15</title>
@@ -42,6 +50,36 @@
 - **Wind…</description>
 </item>
 <item>
+  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Khi Phố Wall Xanh Mà Tokyo Đỏ: Đọc Gì Từ Phiên Hỗn Loạn 14-15/05?
+
+Thị trường toàn cầu đang gửi hai tín hiệu ngược chiều cùng lúc — và lịch sử cohort cho thấy VN-Index có một kịch bản rõ ràng hơn nhiều người nghĩ.
+
+---
+
+Có một điều kỳ lạ xảy ra trong 24 giờ qua: S&amp;P 500 tăng 0.77%, Dow Jones vượt 50,000 điểm, Nasdaq bật 0.88% — nhìn vào đó, một nhà đầu tư retail bình thường sẽ nghĩ &#34;ổn r…</description>
+</item>
+<item>
+  <title>📝 BCM hôm nay: mixed, RSI 50, Outperform — random spotlight</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># BCM ở vùng 54.000: Khi mọi tín hiệu đều... mâu thuẫn nhau
+
+**Nhìn vào BCM hôm nay, thứ thú vị không phải là tín hiệu mua hay bán — mà là cách mọi chỉ số đang kéo về hai hướng khác nhau, như thể cổ phiếu này chưa quyết định mình muốn đi đâu.**
+
+---
+
+## Câu chuyện của một cổ phiếu đang &#34;ngồi trên hàng rào&#34;
+
+54.000 VND. Đó là mức giá BCM đang giao dịch khi dữ liệu này được chạy qua hệ thố…</description>
+</item>
+<item>
   <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
@@ -56,26 +94,6 @@
 ## Câu chuyện bắt đầu từ một mỏ quặng ở Pilbara
 
 Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</description>
-</item>
-<item>
-  <title>📝 Ticker spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-ticker-spotlight.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-ticker-spotlight.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Khi Không Có Dữ Liệu — Data Discipline Quan Trọng Hơn Bất Kỳ Signal Nào
-
-**TL;DR:** Không có data, không có bài — đây là nguyên tắc cốt lõi của quant analysis trung thực.
-
----
-
-## Vấn Đề Thực Sự Ở Đây
-
-Bài viết này được trigger bởi một tình huống thực tế: **data trống**.
-
-Không có số liệu giá. Không có volume. Không có backtест result. Không có gì để phân tích.
-
-Và đây là điểm khác biệt quan t…</description>
 </item>
 <item>
   <title>📝 Tuần 20/2026: VN30 recap — sector dẫn dắt và pattern RSI</title>
