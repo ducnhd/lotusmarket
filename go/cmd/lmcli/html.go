@@ -197,8 +197,12 @@ func runHTML(ctx context.Context, outPath string) {
 <meta property="og:title" content="lotusmarket — VN stock toolkit + daily reports">
 <meta property="og:description" content="Free open-source Vietnamese stock market library + daily auto-generated reports. Real data, no hot picks.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://ducnhd.github.io/lotusmarket/">
-<link rel="canonical" href="https://ducnhd.github.io/lotusmarket/">
+<meta property="og:url" content="https://lotusai.servehttp.com/">
+<!-- Self-canonical to lotusai.servehttp.com — GH Pages home is duplicate
+     content with the main site (same generator). Consolidating signal
+     here. Per-blog-post + per-report pages on GH Pages have unique URLs
+     and stay independently indexable. -->
+<link rel="canonical" href="https://lotusai.servehttp.com/">
 <title>lotusmarket — VN Stock Market Toolkit · Daily Reports</title>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://lotusai.servehttp.com/#org","name":"Lotus AI / lotusmarket","url":"https://lotusai.servehttp.com/","sameAs":["https://github.com/ducnhd/lotusmarket","https://pypi.org/project/lotusmarket/","https://t.me/vnlotusmarket","https://ducnhd.github.io/lotusmarket/"]},{"@type":"WebSite","url":"https://ducnhd.github.io/lotusmarket/","name":"lotusmarket daily reports","publisher":{"@id":"https://lotusai.servehttp.com/#org"},"inLanguage":"vi-VN"}]}</script>
 <style>` + htmlCSS + `</style>
