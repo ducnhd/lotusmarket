@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 20 May 2026 03:00:38 +0000</lastBuildDate>
+<lastBuildDate>Wed, 20 May 2026 11:28:22 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
@@ -24,6 +24,20 @@
   <pubDate>Wed, 20 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 VHM hôm nay: mixed, RSI 61, Outperform — random spotlight</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-20-random-vhm.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-20-random-vhm.html</guid>
+  <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># VHM 157.000 VND — Khi Điểm Kỹ Thuật Cao Nhưng Edge Thực Sự Gần Bằng Zero
+
+**Signal BUY với technical score 75/100, nhưng cohort lịch sử không tìm được pattern mạnh nào — đây là bài học về sự khác biệt giữa &#34;trông đẹp&#34; và &#34;có xác suất thắng.&#34;**
+
+---
+
+Có một nghịch lý thú vị trong phân tích kỹ thuật: một cổ phiếu có thể đạt điểm cao trên mọi thước đo quen thuộc, nhưng khi đặt vào máy tìm k…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-19</title>
@@ -98,22 +112,6 @@ VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con s�
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 BCM hôm nay: mixed, RSI 50, Outperform — random spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># BCM ở vùng 54.000: Khi mọi tín hiệu đều... mâu thuẫn nhau
-
-**Nhìn vào BCM hôm nay, thứ thú vị không phải là tín hiệu mua hay bán — mà là cách mọi chỉ số đang kéo về hai hướng khác nhau, như thể cổ phiếu này chưa quyết định mình muốn đi đâu.**
-
----
-
-## Câu chuyện của một cổ phiếu đang &#34;ngồi trên hàng rào&#34;
-
-54.000 VND. Đó là mức giá BCM đang giao dịch khi dữ liệu này được chạy qua hệ thố…</description>
-</item>
-<item>
   <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
@@ -148,6 +146,22 @@ Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</descrip
 | Top tăng tuần | GAS +19.68%, PLX +12.23%, GVR +5.74% |
 | Top giảm tuần | VRE -5.29%, VHM -3.66%, MSN -3.37% |
 | Dòng tiền nội địa | Áp lực mua 34.7% (bán …</description>
+</item>
+<item>
+  <title>📝 BCM hôm nay: mixed, RSI 50, Outperform — random spotlight</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># BCM ở vùng 54.000: Khi mọi tín hiệu đều... mâu thuẫn nhau
+
+**Nhìn vào BCM hôm nay, thứ thú vị không phải là tín hiệu mua hay bán — mà là cách mọi chỉ số đang kéo về hai hướng khác nhau, như thể cổ phiếu này chưa quyết định mình muốn đi đâu.**
+
+---
+
+## Câu chuyện của một cổ phiếu đang &#34;ngồi trên hàng rào&#34;
+
+54.000 VND. Đó là mức giá BCM đang giao dịch khi dữ liệu này được chạy qua hệ thố…</description>
 </item>
 <item>
   <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
