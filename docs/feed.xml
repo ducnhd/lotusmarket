@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 20 May 2026 11:28:22 +0000</lastBuildDate>
+<lastBuildDate>Thu, 21 May 2026 03:00:49 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
@@ -16,6 +16,14 @@
   <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
 
 &gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-05-21</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-21.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-21.html</guid>
+  <pubDate>Thu, 21 May 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-20</title>
@@ -112,20 +120,18 @@ VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con s�
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
+  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</guid>
   <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
   <category>blog</category>
-  <description># HPG không phải cổ phiếu thép — đó là cổ phiếu quặng sắt Úc chạy bằng giá HRC Thượng Hải
+  <description># Khi Phố Wall Xanh Mà Tokyo Đỏ: Đọc Gì Từ Phiên Hỗn Loạn 14-15/05?
 
-Đa số nhà đầu tư retail nhìn chart HPG rồi phán &#34;thép đang lên, mua thôi&#34; — nhưng lúc HPG giảm 8% trong 30 ngày dù chart nhìn &#34;ổn&#34;, họ không hiểu tại sao. Câu trả lời không nằm trên sàn HoSE.
+Thị trường toàn cầu đang gửi hai tín hiệu ngược chiều cùng lúc — và lịch sử cohort cho thấy VN-Index có một kịch bản rõ ràng hơn nhiều người nghĩ.
 
 ---
 
-## Câu chuyện bắt đầu từ một mỏ quặng ở Pilbara
-
-Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</description>
+Có một điều kỳ lạ xảy ra trong 24 giờ qua: S&amp;P 500 tăng 0.77%, Dow Jones vượt 50,000 điểm, Nasdaq bật 0.88% — nhìn vào đó, một nhà đầu tư retail bình thường sẽ nghĩ &#34;ổn r…</description>
 </item>
 <item>
   <title>📝 Tuần 20/2026: VN30 recap — sector dẫn dắt và pattern RSI</title>
@@ -148,6 +154,22 @@ Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</descrip
 | Dòng tiền nội địa | Áp lực mua 34.7% (bán …</description>
 </item>
 <item>
+  <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># HPG không phải cổ phiếu thép — đó là cổ phiếu quặng sắt Úc chạy bằng giá HRC Thượng Hải
+
+Đa số nhà đầu tư retail nhìn chart HPG rồi phán &#34;thép đang lên, mua thôi&#34; — nhưng lúc HPG giảm 8% trong 30 ngày dù chart nhìn &#34;ổn&#34;, họ không hiểu tại sao. Câu trả lời không nằm trên sàn HoSE.
+
+---
+
+## Câu chuyện bắt đầu từ một mỏ quặng ở Pilbara
+
+Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</description>
+</item>
+<item>
   <title>📝 BCM hôm nay: mixed, RSI 50, Outperform — random spotlight</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</guid>
@@ -162,20 +184,6 @@ Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</descrip
 ## Câu chuyện của một cổ phiếu đang &#34;ngồi trên hàng rào&#34;
 
 54.000 VND. Đó là mức giá BCM đang giao dịch khi dữ liệu này được chạy qua hệ thố…</description>
-</item>
-<item>
-  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Khi Phố Wall Xanh Mà Tokyo Đỏ: Đọc Gì Từ Phiên Hỗn Loạn 14-15/05?
-
-Thị trường toàn cầu đang gửi hai tín hiệu ngược chiều cùng lúc — và lịch sử cohort cho thấy VN-Index có một kịch bản rõ ràng hơn nhiều người nghĩ.
-
----
-
-Có một điều kỳ lạ xảy ra trong 24 giờ qua: S&amp;P 500 tăng 0.77%, Dow Jones vượt 50,000 điểm, Nasdaq bật 0.88% — nhìn vào đó, một nhà đầu tư retail bình thường sẽ nghĩ &#34;ổn r…</description>
 </item>
 <item>
   <title>📝 16 năm backtest cổ phiếu Việt Nam — 5 điều ngược lại với hầu hết khuyên cũ</title>
