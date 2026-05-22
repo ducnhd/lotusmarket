@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 21 May 2026 11:47:26 +0000</lastBuildDate>
+<lastBuildDate>Fri, 22 May 2026 03:00:35 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-05-22</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-22.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-22.html</guid>
+  <pubDate>Fri, 22 May 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
@@ -24,6 +32,22 @@
   <pubDate>Thu, 21 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 1 chỉ báo vô dụng, 2 chỉ báo có meaning — joint factor matters</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-21-insight-joint-factor-analysis.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-21-insight-joint-factor-analysis.html</guid>
+  <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Tại Sao Bạn Vẫn Thua Dù &#34;Đọc Đúng&#34; Tín Hiệu?
+
+Một chỉ báo kỹ thuật đứng một mình không phải signal — đó là noise được đóng gói đẹp.
+
+---
+
+Hãy thử một thí nghiệm tư duy. Bạn mở chart, RSI chạm 72, tay đã chuẩn bị bấm bán. Người kia nhìn cùng mã đó, thấy MA50 đang nằm trên MA200, giá bứt phá khỏi vùng tích lũy 3 tuần — và họ mua. Sáu mươi ngày sau, ai đúng?
+
+Câu trả lời không nằm �…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-20</title>
@@ -80,22 +104,6 @@ Có một nghịch lý mà phần lớn nhà đầu tư retail VN không muốn 
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 Cổ tức 10% — sang trọng hay bẫy giảm giá? Phân tích data ex-date VN30</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</guid>
-  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Cổ Tức Cao Không Phải &#34;Free Money&#34; — Đây Là Lý Do
-
-Nhận 1,500 đồng cổ tức rồi nhìn giá cổ phiếu giảm đúng 1,500 đồng — vẫn có người gọi đó là &#34;thu nhập thụ động&#34;.
-
----
-
-## Cái bẫy tâm lý có tên &#34;yield cao&#34;
-
-Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lên một vòng hype quen thuộc: *&#34;Cổ phiếu X chia cổ tức 15% mệnh giá, mua ngay!&#34;* Retail investor đổ vào, cảm giác như đang n…</description>
-</item>
-<item>
   <title>📝 VPB hôm nay: mixed, RSI 56, Outperform — random spotlight</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</guid>
@@ -112,26 +120,28 @@ Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lê
 VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con số trông khá hấp dẫn: technical score **75/100**, signal **BUY**, RSI **55.5** — nằm trong vùng &#34;khỏe mạnh&#34; mà không b…</description>
 </item>
 <item>
+  <title>📝 Cổ tức 10% — sang trọng hay bẫy giảm giá? Phân tích data ex-date VN30</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Cổ Tức Cao Không Phải &#34;Free Money&#34; — Đây Là Lý Do
+
+Nhận 1,500 đồng cổ tức rồi nhìn giá cổ phiếu giảm đúng 1,500 đồng — vẫn có người gọi đó là &#34;thu nhập thụ động&#34;.
+
+---
+
+## Cái bẫy tâm lý có tên &#34;yield cao&#34;
+
+Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lên một vòng hype quen thuộc: *&#34;Cổ phiếu X chia cổ tức 15% mệnh giá, mua ngay!&#34;* Retail investor đổ vào, cảm giác như đang n…</description>
+</item>
+<item>
   <title>📊 Daily VN stock report — 2026-05-15</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-15.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-15.html</guid>
   <pubDate>Fri, 15 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Khi Phố Wall Xanh Mà Tokyo Đỏ: Đọc Gì Từ Phiên Hỗn Loạn 14-15/05?
-
-Thị trường toàn cầu đang gửi hai tín hiệu ngược chiều cùng lúc — và lịch sử cohort cho thấy VN-Index có một kịch bản rõ ràng hơn nhiều người nghĩ.
-
----
-
-Có một điều kỳ lạ xảy ra trong 24 giờ qua: S&amp;P 500 tăng 0.77%, Dow Jones vượt 50,000 điểm, Nasdaq bật 0.88% — nhìn vào đó, một nhà đầu tư retail bình thường sẽ nghĩ &#34;ổn r…</description>
 </item>
 <item>
   <title>📝 Tuần 20/2026: VN30 recap — sector dẫn dắt và pattern RSI</title>
@@ -184,6 +194,20 @@ Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</descrip
 ## Câu chuyện của một cổ phiếu đang &#34;ngồi trên hàng rào&#34;
 
 54.000 VND. Đó là mức giá BCM đang giao dịch khi dữ liệu này được chạy qua hệ thố…</description>
+</item>
+<item>
+  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Khi Phố Wall Xanh Mà Tokyo Đỏ: Đọc Gì Từ Phiên Hỗn Loạn 14-15/05?
+
+Thị trường toàn cầu đang gửi hai tín hiệu ngược chiều cùng lúc — và lịch sử cohort cho thấy VN-Index có một kịch bản rõ ràng hơn nhiều người nghĩ.
+
+---
+
+Có một điều kỳ lạ xảy ra trong 24 giờ qua: S&amp;P 500 tăng 0.77%, Dow Jones vượt 50,000 điểm, Nasdaq bật 0.88% — nhìn vào đó, một nhà đầu tư retail bình thường sẽ nghĩ &#34;ổn r…</description>
 </item>
 <item>
   <title>📝 16 năm backtest cổ phiếu Việt Nam — 5 điều ngược lại với hầu hết khuyên cũ</title>
