@@ -5,8 +5,32 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 22 May 2026 11:25:13 +0000</lastBuildDate>
+<lastBuildDate>Mon, 25 May 2026 03:01:06 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-05-25</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-25.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-25.html</guid>
+  <pubDate>Mon, 25 May 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 5 điều cohort 47K data point cho thấy ngược trực giác retail VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-24-insight-wyckoff-stage-upset.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-24-insight-wyckoff-stage-upset.html</guid>
+  <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># 9 Năm Dữ Liệu VN30+HNX30 Đã Phá Vỡ 5 Điều Retail Tin Tưởng Tuyệt Đối
+
+Hầu hết những gì cộng đồng retail VN gọi là &#34;kinh nghiệm&#34; thực ra là bias được lặp lại đủ lâu đến mức trở thành niềm tin — và backtest 45.493 dòng dữ liệu sạch trên cohort VN30+HNX30 qua 9 năm vừa cho thấy điều đó rõ hơn bao giờ hết.
+
+---
+
+## Khi &#34;đỉnh phân phối = bán&#34; hóa ra là lời khuyên tệ nhất
+
+Wyckoff là framework …</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-22</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-22.html</link>
@@ -120,22 +144,6 @@ Có một nghịch lý mà phần lớn nhà đầu tư retail VN không muốn 
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 VPB hôm nay: mixed, RSI 56, Outperform — random spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</guid>
-  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># VPB 27,550 VND — Khi Dữ Liệu Nói &#34;Trung Lập&#34; Nhưng Kỹ Thuật Lại Chấm 75/100
-
-**Mua vì RSI đẹp hay vì thực sự có edge? Câu trả lời từ data cohort sẽ làm nhiều người bất ngờ.**
-
----
-
-## Bức Tranh Kỹ Thuật: Đẹp Hơn Thực Tế?
-
-VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con số trông khá hấp dẫn: technical score **75/100**, signal **BUY**, RSI **55.5** — nằm trong vùng &#34;khỏe mạnh&#34; mà không b…</description>
-</item>
-<item>
   <title>📝 Cổ tức 10% — sang trọng hay bẫy giảm giá? Phân tích data ex-date VN30</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</guid>
@@ -152,12 +160,60 @@ Nhận 1,500 đồng cổ tức rồi nhìn giá cổ phiếu giảm đúng 1,50
 Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lên một vòng hype quen thuộc: *&#34;Cổ phiếu X chia cổ tức 15% mệnh giá, mua ngay!&#34;* Retail investor đổ vào, cảm giác như đang n…</description>
 </item>
 <item>
+  <title>📝 VPB hôm nay: mixed, RSI 56, Outperform — random spotlight</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># VPB 27,550 VND — Khi Dữ Liệu Nói &#34;Trung Lập&#34; Nhưng Kỹ Thuật Lại Chấm 75/100
+
+**Mua vì RSI đẹp hay vì thực sự có edge? Câu trả lời từ data cohort sẽ làm nhiều người bất ngờ.**
+
+---
+
+## Bức Tranh Kỹ Thuật: Đẹp Hơn Thực Tế?
+
+VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con số trông khá hấp dẫn: technical score **75/100**, signal **BUY**, RSI **55.5** — nằm trong vùng &#34;khỏe mạnh&#34; mà không b…</description>
+</item>
+<item>
   <title>📊 Daily VN stock report — 2026-05-15</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-15.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-15.html</guid>
   <pubDate>Fri, 15 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 BCM hôm nay: mixed, RSI 50, Outperform — random spotlight</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># BCM ở vùng 54.000: Khi mọi tín hiệu đều... mâu thuẫn nhau
+
+**Nhìn vào BCM hôm nay, thứ thú vị không phải là tín hiệu mua hay bán — mà là cách mọi chỉ số đang kéo về hai hướng khác nhau, như thể cổ phiếu này chưa quyết định mình muốn đi đâu.**
+
+---
+
+## Câu chuyện của một cổ phiếu đang &#34;ngồi trên hàng rào&#34;
+
+54.000 VND. Đó là mức giá BCM đang giao dịch khi dữ liệu này được chạy qua hệ thố…</description>
+</item>
+<item>
+  <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># HPG không phải cổ phiếu thép — đó là cổ phiếu quặng sắt Úc chạy bằng giá HRC Thượng Hải
+
+Đa số nhà đầu tư retail nhìn chart HPG rồi phán &#34;thép đang lên, mua thôi&#34; — nhưng lúc HPG giảm 8% trong 30 ngày dù chart nhìn &#34;ổn&#34;, họ không hiểu tại sao. Câu trả lời không nằm trên sàn HoSE.
+
+---
+
+## Câu chuyện bắt đầu từ một mỏ quặng ở Pilbara
+
+Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</description>
 </item>
 <item>
   <title>📝 Tuần 20/2026: VN30 recap — sector dẫn dắt và pattern RSI</title>
@@ -178,38 +234,6 @@ Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lê
 | Top tăng tuần | GAS +19.68%, PLX +12.23%, GVR +5.74% |
 | Top giảm tuần | VRE -5.29%, VHM -3.66%, MSN -3.37% |
 | Dòng tiền nội địa | Áp lực mua 34.7% (bán …</description>
-</item>
-<item>
-  <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># HPG không phải cổ phiếu thép — đó là cổ phiếu quặng sắt Úc chạy bằng giá HRC Thượng Hải
-
-Đa số nhà đầu tư retail nhìn chart HPG rồi phán &#34;thép đang lên, mua thôi&#34; — nhưng lúc HPG giảm 8% trong 30 ngày dù chart nhìn &#34;ổn&#34;, họ không hiểu tại sao. Câu trả lời không nằm trên sàn HoSE.
-
----
-
-## Câu chuyện bắt đầu từ một mỏ quặng ở Pilbara
-
-Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</description>
-</item>
-<item>
-  <title>📝 BCM hôm nay: mixed, RSI 50, Outperform — random spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># BCM ở vùng 54.000: Khi mọi tín hiệu đều... mâu thuẫn nhau
-
-**Nhìn vào BCM hôm nay, thứ thú vị không phải là tín hiệu mua hay bán — mà là cách mọi chỉ số đang kéo về hai hướng khác nhau, như thể cổ phiếu này chưa quyết định mình muốn đi đâu.**
-
----
-
-## Câu chuyện của một cổ phiếu đang &#34;ngồi trên hàng rào&#34;
-
-54.000 VND. Đó là mức giá BCM đang giao dịch khi dữ liệu này được chạy qua hệ thố…</description>
 </item>
 <item>
   <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
