@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 25 May 2026 12:04:58 +0000</lastBuildDate>
+<lastBuildDate>Tue, 26 May 2026 03:01:03 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-05-26</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-26.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-26.html</guid>
+  <pubDate>Tue, 26 May 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-25</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-25.html</link>
@@ -196,22 +204,6 @@ VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con s�
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># HPG không phải cổ phiếu thép — đó là cổ phiếu quặng sắt Úc chạy bằng giá HRC Thượng Hải
-
-Đa số nhà đầu tư retail nhìn chart HPG rồi phán &#34;thép đang lên, mua thôi&#34; — nhưng lúc HPG giảm 8% trong 30 ngày dù chart nhìn &#34;ổn&#34;, họ không hiểu tại sao. Câu trả lời không nằm trên sàn HoSE.
-
----
-
-## Câu chuyện bắt đầu từ một mỏ quặng ở Pilbara
-
-Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</description>
-</item>
-<item>
   <title>📝 Tuần 20/2026: VN30 recap — sector dẫn dắt và pattern RSI</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-weekly-recap-w20.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-weekly-recap-w20.html</guid>
@@ -230,6 +222,22 @@ Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</descrip
 | Top tăng tuần | GAS +19.68%, PLX +12.23%, GVR +5.74% |
 | Top giảm tuần | VRE -5.29%, VHM -3.66%, MSN -3.37% |
 | Dòng tiền nội địa | Áp lực mua 34.7% (bán …</description>
+</item>
+<item>
+  <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># HPG không phải cổ phiếu thép — đó là cổ phiếu quặng sắt Úc chạy bằng giá HRC Thượng Hải
+
+Đa số nhà đầu tư retail nhìn chart HPG rồi phán &#34;thép đang lên, mua thôi&#34; — nhưng lúc HPG giảm 8% trong 30 ngày dù chart nhìn &#34;ổn&#34;, họ không hiểu tại sao. Câu trả lời không nằm trên sàn HoSE.
+
+---
+
+## Câu chuyện bắt đầu từ một mỏ quặng ở Pilbara
+
+Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</description>
 </item>
 <item>
   <title>📝 BCM hôm nay: mixed, RSI 50, Outperform — random spotlight</title>
