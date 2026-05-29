@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 29 May 2026 03:00:47 +0000</lastBuildDate>
+<lastBuildDate>Fri, 29 May 2026 11:31:09 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-05-29</title>
@@ -14,6 +14,22 @@
   <pubDate>Fri, 29 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 29 tuổi, lương dev senior 60tr — nên full-time trade hay giữ job? Math nói gì</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-29-career-full-time-vs-part-time.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-29-career-full-time-vs-part-time.html</guid>
+  <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Quit Job Làm Trader Full-Time ở Tuổi 29: Con Số Nói Gì?
+
+Có 2.4 tỷ trong tay, lương 60 triệu một tháng, và vẫn đang cân nhắc nghỉ việc để &#34;chơi&#34; thị trường — đây không phải câu chuyện hiếm, nhưng kết cục thường rất dễ đoán nếu bạn chịu làm một phép tính đơn giản.
+
+---
+
+## Bức tranh thực sự đẹp — cho đến khi bạn mở Excel ra
+
+Hãy thử đặt mình vào vị trí này: 29 tuổi, senior developer, …</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-28</title>
@@ -238,22 +254,6 @@ Có một nghịch lý mà phần lớn nhà đầu tư retail VN không muốn 
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 Cổ tức 10% — sang trọng hay bẫy giảm giá? Phân tích data ex-date VN30</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</guid>
-  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Cổ Tức Cao Không Phải &#34;Free Money&#34; — Đây Là Lý Do
-
-Nhận 1,500 đồng cổ tức rồi nhìn giá cổ phiếu giảm đúng 1,500 đồng — vẫn có người gọi đó là &#34;thu nhập thụ động&#34;.
-
----
-
-## Cái bẫy tâm lý có tên &#34;yield cao&#34;
-
-Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lên một vòng hype quen thuộc: *&#34;Cổ phiếu X chia cổ tức 15% mệnh giá, mua ngay!&#34;* Retail investor đổ vào, cảm giác như đang n…</description>
-</item>
-<item>
   <title>📝 VPB hôm nay: mixed, RSI 56, Outperform — random spotlight</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</guid>
@@ -270,12 +270,74 @@ Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lê
 VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con số trông khá hấp dẫn: technical score **75/100**, signal **BUY**, RSI **55.5** — nằm trong vùng &#34;khỏe mạnh&#34; mà không b…</description>
 </item>
 <item>
+  <title>📝 Cổ tức 10% — sang trọng hay bẫy giảm giá? Phân tích data ex-date VN30</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Cổ Tức Cao Không Phải &#34;Free Money&#34; — Đây Là Lý Do
+
+Nhận 1,500 đồng cổ tức rồi nhìn giá cổ phiếu giảm đúng 1,500 đồng — vẫn có người gọi đó là &#34;thu nhập thụ động&#34;.
+
+---
+
+## Cái bẫy tâm lý có tên &#34;yield cao&#34;
+
+Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lên một vòng hype quen thuộc: *&#34;Cổ phiếu X chia cổ tức 15% mệnh giá, mua ngay!&#34;* Retail investor đổ vào, cảm giác như đang n…</description>
+</item>
+<item>
   <title>📊 Daily VN stock report — 2026-05-15</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-15.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-15.html</guid>
   <pubDate>Fri, 15 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Khi Phố Wall Xanh Mà Tokyo Đỏ: Đọc Gì Từ Phiên Hỗn Loạn 14-15/05?
+
+Thị trường toàn cầu đang gửi hai tín hiệu ngược chiều cùng lúc — và lịch sử cohort cho thấy VN-Index có một kịch bản rõ ràng hơn nhiều người nghĩ.
+
+---
+
+Có một điều kỳ lạ xảy ra trong 24 giờ qua: S&amp;P 500 tăng 0.77%, Dow Jones vượt 50,000 điểm, Nasdaq bật 0.88% — nhìn vào đó, một nhà đầu tư retail bình thường sẽ nghĩ &#34;ổn r…</description>
+</item>
+<item>
+  <title>📝 16 năm backtest cổ phiếu Việt Nam — 5 điều ngược lại với hầu hết khuyên cũ</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/16-nam-backtest-vn-stocks.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/16-nam-backtest-vn-stocks.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># 16 năm backtest cổ phiếu Việt Nam — 5 điều ngược lại với hầu hết khuyên cũ
+
+&gt; TL;DR — Mình chạy backtest deterministic trên ~47,000 data points của 30 mã VN30 + HNX30 từ 2010 đến 2026. Đây là 5 finding ngược với hầu hết khuyên đang lan truyền trên các group đầu tư Việt Nam. Tất cả code + data + reproducible setup đều open source tại [lotusmarket](https://github.com/ducnhd/lotusmarket).
+
+---
+
+## Setup ngắn gọn
+
+- **Wind…</description>
+</item>
+<item>
+  <title>📝 BCM hôm nay: mixed, RSI 50, Outperform — random spotlight</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</guid>
+  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># BCM ở vùng 54.000: Khi mọi tín hiệu đều... mâu thuẫn nhau
+
+**Nhìn vào BCM hôm nay, thứ thú vị không phải là tín hiệu mua hay bán — mà là cách mọi chỉ số đang kéo về hai hướng khác nhau, như thể cổ phiếu này chưa quyết định mình muốn đi đâu.**
+
+---
+
+## Câu chuyện của một cổ phiếu đang &#34;ngồi trên hàng rào&#34;
+
+54.000 VND. Đó là mức giá BCM đang giao dịch khi dữ liệu này được chạy qua hệ thố…</description>
 </item>
 <item>
   <title>📝 Tuần 20/2026: VN30 recap — sector dẫn dắt và pattern RSI</title>
@@ -298,22 +360,6 @@ VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con s�
 | Dòng tiền nội địa | Áp lực mua 34.7% (bán …</description>
 </item>
 <item>
-  <title>📝 16 năm backtest cổ phiếu Việt Nam — 5 điều ngược lại với hầu hết khuyên cũ</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/16-nam-backtest-vn-stocks.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/16-nam-backtest-vn-stocks.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># 16 năm backtest cổ phiếu Việt Nam — 5 điều ngược lại với hầu hết khuyên cũ
-
-&gt; TL;DR — Mình chạy backtest deterministic trên ~47,000 data points của 30 mã VN30 + HNX30 từ 2010 đến 2026. Đây là 5 finding ngược với hầu hết khuyên đang lan truyền trên các group đầu tư Việt Nam. Tất cả code + data + reproducible setup đều open source tại [lotusmarket](https://github.com/ducnhd/lotusmarket).
-
----
-
-## Setup ngắn gọn
-
-- **Wind…</description>
-</item>
-<item>
   <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
@@ -328,36 +374,6 @@ VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con s�
 ## Câu chuyện bắt đầu từ một mỏ quặng ở Pilbara
 
 Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</description>
-</item>
-<item>
-  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Khi Phố Wall Xanh Mà Tokyo Đỏ: Đọc Gì Từ Phiên Hỗn Loạn 14-15/05?
-
-Thị trường toàn cầu đang gửi hai tín hiệu ngược chiều cùng lúc — và lịch sử cohort cho thấy VN-Index có một kịch bản rõ ràng hơn nhiều người nghĩ.
-
----
-
-Có một điều kỳ lạ xảy ra trong 24 giờ qua: S&amp;P 500 tăng 0.77%, Dow Jones vượt 50,000 điểm, Nasdaq bật 0.88% — nhìn vào đó, một nhà đầu tư retail bình thường sẽ nghĩ &#34;ổn r…</description>
-</item>
-<item>
-  <title>📝 BCM hôm nay: mixed, RSI 50, Outperform — random spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># BCM ở vùng 54.000: Khi mọi tín hiệu đều... mâu thuẫn nhau
-
-**Nhìn vào BCM hôm nay, thứ thú vị không phải là tín hiệu mua hay bán — mà là cách mọi chỉ số đang kéo về hai hướng khác nhau, như thể cổ phiếu này chưa quyết định mình muốn đi đâu.**
-
----
-
-## Câu chuyện của một cổ phiếu đang &#34;ngồi trên hàng rào&#34;
-
-54.000 VND. Đó là mức giá BCM đang giao dịch khi dữ liệu này được chạy qua hệ thố…</description>
 </item>
 </channel>
 </rss>
