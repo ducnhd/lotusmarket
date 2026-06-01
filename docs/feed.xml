@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 01 Jun 2026 03:00:48 +0000</lastBuildDate>
+<lastBuildDate>Mon, 01 Jun 2026 11:30:55 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-06-01</title>
@@ -14,6 +14,18 @@
   <pubDate>Mon, 01 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 TCB hôm nay: mixed, RSI 52, Outperform — random spotlight</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-01-random-tcb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-01-random-tcb.html</guid>
+  <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># TCB 32,750 VND — Khi &#34;Không Có Gì Để Nói&#34; Chính Là Điều Đáng Nói Nhất
+
+**Tóm gọn:** TCB đang đứng giữa vùng trung lập hoàn toàn — không có tín hiệu mạnh để mua hay tránh, nhưng cấu trúc nội tại của cổ phiếu này ẩn chứa một chi tiết đáng chú ý hơn mức &#34;HOLD&#34; thông thường.
+
+Có một loại cổ phiếu mà community hay bỏ qua vì nó không đủ &#34;sexy&#34; để tweet về — và đó thường là nơi dữ liệu…</description>
 </item>
 <item>
   <title>📝 Bao nhiêu tiền đủ để full-time trader ở VN? Monte Carlo nói thật</title>
@@ -174,6 +186,16 @@ Wyckoff là framework …</description>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
+  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
+  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
+
+&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
+</item>
+<item>
   <title>📝 1 chỉ báo vô dụng, 2 chỉ báo có meaning — joint factor matters</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</guid>
@@ -188,16 +210,6 @@ Kết hợp đúng hai chỉ báo orthogonal tạo ra edge gần 5% trong 60 ng�
 Có một câu hỏi mình hay gặp trong các group cổ phiếu VN: *&#34;RSI đã 72 rồi, bán chưa?&#34;* Câu trả lời ngắn là: sai câu hỏi. Câu hỏi đúng là: *&#34;RSI 72 trong bối cảnh nào?&#34;*
 
 ## Chỉ Báo Đơn Lẻ Là �…</description>
-</item>
-<item>
-  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
-  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
-
-&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-21</title>
@@ -318,22 +330,6 @@ VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con s�
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># HPG không phải cổ phiếu thép — đó là cổ phiếu quặng sắt Úc chạy bằng giá HRC Thượng Hải
-
-Đa số nhà đầu tư retail nhìn chart HPG rồi phán &#34;thép đang lên, mua thôi&#34; — nhưng lúc HPG giảm 8% trong 30 ngày dù chart nhìn &#34;ổn&#34;, họ không hiểu tại sao. Câu trả lời không nằm trên sàn HoSE.
-
----
-
-## Câu chuyện bắt đầu từ một mỏ quặng ở Pilbara
-
-Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</description>
-</item>
-<item>
   <title>📝 16 năm backtest cổ phiếu Việt Nam — 5 điều ngược lại với hầu hết khuyên cũ</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/16-nam-backtest-vn-stocks.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/16-nam-backtest-vn-stocks.html</guid>
@@ -364,20 +360,24 @@ Thị trường toàn cầu đang gửi hai tín hiệu ngược chiều cùng l
 Có một điều kỳ lạ xảy ra trong 24 giờ qua: S&amp;P 500 tăng 0.77%, Dow Jones vượt 50,000 điểm, Nasdaq bật 0.88% — nhìn vào đó, một nhà đầu tư retail bình thường sẽ nghĩ &#34;ổn r…</description>
 </item>
 <item>
-  <title>📝 BCM hôm nay: mixed, RSI 50, Outperform — random spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</guid>
+  <title>📝 Tuần 20/2026: VN30 recap — sector dẫn dắt và pattern RSI</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-weekly-recap-w20.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-weekly-recap-w20.html</guid>
   <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
   <category>blog</category>
-  <description># BCM ở vùng 54.000: Khi mọi tín hiệu đều... mâu thuẫn nhau
+  <description># Weekly Recap VN30 — Tuần 20/2026 (15/05/2026)
 
-**Nhìn vào BCM hôm nay, thứ thú vị không phải là tín hiệu mua hay bán — mà là cách mọi chỉ số đang kéo về hai hướng khác nhau, như thể cổ phiếu này chưa quyết định mình muốn đi đâu.**
+**TL;DR:** Tuần 20 ghi nhận sự phân hóa mạnh trong VN30 khi GAS bứt phá gần 20% trong khi dòng tiền nội địa kết thúc tuần ở trạng thái bán ròng — áp lực mua chỉ còn 34.7%.
 
 ---
 
-## Câu chuyện của một cổ phiếu đang &#34;ngồi trên hàng rào&#34;
+## Data
 
-54.000 VND. Đó là mức giá BCM đang giao dịch khi dữ liệu này được chạy qua hệ thố…</description>
+| Nhóm | Điểm nổi bật |
+|---|---|
+| Top tăng tuần | GAS +19.68%, PLX +12.23%, GVR +5.74% |
+| Top giảm tuần | VRE -5.29%, VHM -3.66%, MSN -3.37% |
+| Dòng tiền nội địa | Áp lực mua 34.7% (bán …</description>
 </item>
 </channel>
 </rss>
