@@ -2,18 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/latest.html</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/reports/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ducnhd.github.io/lotusmarket/reports/2026-06-02.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/reports/2026-06-01.html</loc>
@@ -91,12 +96,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</loc>
+    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</loc>
     <lastmod>2026-05-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</loc>
+    <loc>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</loc>
     <lastmod>2026-05-22</lastmod>
     <priority>0.5</priority>
   </url>
@@ -136,12 +141,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</loc>
+    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</loc>
     <lastmod>2026-05-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</loc>
+    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</loc>
     <lastmod>2026-05-18</lastmod>
     <priority>0.5</priority>
   </url>
@@ -156,12 +161,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-news-impact-05-15.html</loc>
-    <lastmod>2026-05-15</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-weekly-recap-w20.html</loc>
+    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-random-bcm.html</loc>
     <lastmod>2026-05-15</lastmod>
     <priority>0.5</priority>
   </url>
