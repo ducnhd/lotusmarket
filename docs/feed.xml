@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 03 Jun 2026 03:01:07 +0000</lastBuildDate>
+<lastBuildDate>Wed, 03 Jun 2026 11:30:52 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-06-03</title>
@@ -14,6 +14,20 @@
   <pubDate>Wed, 03 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Tại sao bạn bán đáy? Loss aversion + cohort data VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-03-psychology-loss-aversion.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-03-psychology-loss-aversion.html</guid>
+  <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Bán Đáy Là Thói Quen Đắt Tiền Nhất Của Nhà Đầu Tư Retail
+
+Não người không được lập trình để đầu tư — và dữ liệu backtest chứng minh điều đó theo cách khá tàn nhẫn.
+
+---
+
+Hãy thử một tình huống quen thuộc: bạn mua cổ phiếu A ở mức 30, giờ nó đang ở 24. Màn hình đỏ, group Zalo đầy tin xấu, tay đã hover trên nút bán. Cảm giác đó — cái cảm giác *phải làm gì đó ngay* — không phải …</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-02</title>
@@ -318,22 +332,6 @@ Có một nghịch lý mà phần lớn nhà đầu tư retail VN không muốn 
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 Cổ tức 10% — sang trọng hay bẫy giảm giá? Phân tích data ex-date VN30</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</guid>
-  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Cổ Tức Cao Không Phải &#34;Free Money&#34; — Đây Là Lý Do
-
-Nhận 1,500 đồng cổ tức rồi nhìn giá cổ phiếu giảm đúng 1,500 đồng — vẫn có người gọi đó là &#34;thu nhập thụ động&#34;.
-
----
-
-## Cái bẫy tâm lý có tên &#34;yield cao&#34;
-
-Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lên một vòng hype quen thuộc: *&#34;Cổ phiếu X chia cổ tức 15% mệnh giá, mua ngay!&#34;* Retail investor đổ vào, cảm giác như đang n…</description>
-</item>
-<item>
   <title>📝 VPB hôm nay: mixed, RSI 56, Outperform — random spotlight</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</guid>
@@ -350,12 +348,20 @@ Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lê
 VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con số trông khá hấp dẫn: technical score **75/100**, signal **BUY**, RSI **55.5** — nằm trong vùng &#34;khỏe mạnh&#34; mà không b…</description>
 </item>
 <item>
-  <title>📊 Daily VN stock report — 2026-05-15</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-15.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-15.html</guid>
-  <pubDate>Fri, 15 May 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+  <title>📝 Cổ tức 10% — sang trọng hay bẫy giảm giá? Phân tích data ex-date VN30</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Cổ Tức Cao Không Phải &#34;Free Money&#34; — Đây Là Lý Do
+
+Nhận 1,500 đồng cổ tức rồi nhìn giá cổ phiếu giảm đúng 1,500 đồng — vẫn có người gọi đó là &#34;thu nhập thụ động&#34;.
+
+---
+
+## Cái bẫy tâm lý có tên &#34;yield cao&#34;
+
+Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lên một vòng hype quen thuộc: *&#34;Cổ phiếu X chia cổ tức 15% mệnh giá, mua ngay!&#34;* Retail investor đổ vào, cảm giác như đang n…</description>
 </item>
 </channel>
 </rss>
