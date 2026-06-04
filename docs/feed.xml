@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 03 Jun 2026 12:56:16 +0000</lastBuildDate>
+<lastBuildDate>Thu, 04 Jun 2026 03:00:37 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-04</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-04.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-04.html</guid>
+  <pubDate>Thu, 04 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-03</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-03.html</link>
@@ -228,6 +236,16 @@ Wyckoff là framework …</description>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
+  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
+  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
+
+&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
+</item>
+<item>
   <title>📝 1 chỉ báo vô dụng, 2 chỉ báo có meaning — joint factor matters</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</guid>
@@ -242,16 +260,6 @@ Kết hợp đúng hai chỉ báo orthogonal tạo ra edge gần 5% trong 60 ng�
 Có một câu hỏi mình hay gặp trong các group cổ phiếu VN: *&#34;RSI đã 72 rồi, bán chưa?&#34;* Câu trả lời ngắn là: sai câu hỏi. Câu hỏi đúng là: *&#34;RSI 72 trong bối cảnh nào?&#34;*
 
 ## Chỉ Báo Đơn Lẻ Là �…</description>
-</item>
-<item>
-  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
-  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
-
-&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-21</title>
@@ -346,22 +354,6 @@ Có một nghịch lý mà phần lớn nhà đầu tư retail VN không muốn 
 ## Bức Tranh Kỹ Thuật: Đẹp Hơn Thực Tế?
 
 VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con số trông khá hấp dẫn: technical score **75/100**, signal **BUY**, RSI **55.5** — nằm trong vùng &#34;khỏe mạnh&#34; mà không b…</description>
-</item>
-<item>
-  <title>📝 Cổ tức 10% — sang trọng hay bẫy giảm giá? Phân tích data ex-date VN30</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</guid>
-  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Cổ Tức Cao Không Phải &#34;Free Money&#34; — Đây Là Lý Do
-
-Nhận 1,500 đồng cổ tức rồi nhìn giá cổ phiếu giảm đúng 1,500 đồng — vẫn có người gọi đó là &#34;thu nhập thụ động&#34;.
-
----
-
-## Cái bẫy tâm lý có tên &#34;yield cao&#34;
-
-Mỗi mùa đại hội cổ đông, cộng đồng đầu tư VN lại rộ lên một vòng hype quen thuộc: *&#34;Cổ phiếu X chia cổ tức 15% mệnh giá, mua ngay!&#34;* Retail investor đổ vào, cảm giác như đang n…</description>
 </item>
 </channel>
 </rss>

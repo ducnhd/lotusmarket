@@ -2,18 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/latest.html</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/reports/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ducnhd.github.io/lotusmarket/reports/2026-06-04.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/reports/2026-06-03.html</loc>
@@ -111,12 +116,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</loc>
+    <loc>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</loc>
     <lastmod>2026-05-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</loc>
+    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</loc>
     <lastmod>2026-05-22</lastmod>
     <priority>0.5</priority>
   </url>
@@ -157,11 +162,6 @@
   </url>
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</loc>
-    <lastmod>2026-05-18</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-myth-c-tc-cao--du-t-tt.html</loc>
     <lastmod>2026-05-18</lastmod>
     <priority>0.5</priority>
   </url>
