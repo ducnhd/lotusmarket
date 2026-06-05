@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 05 Jun 2026 03:00:49 +0000</lastBuildDate>
+<lastBuildDate>Fri, 05 Jun 2026 11:30:37 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-06-05</title>
@@ -14,6 +14,22 @@
   <pubDate>Fri, 05 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-05-regime-now-06-05.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-05-regime-now-06-05.html</guid>
+  <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Thị trường hôm nay nghiêng bán — nhưng lịch sử 9 năm nói gì?
+
+Dòng tiền đang rút, nhưng đây là lúc data thường bị đọc sai nhất.
+
+---
+
+## Bức tranh hôm nay: bề ngoài &#34;bearish&#34;, bên trong phức tạp hơn
+
+Snapshot hôm nay có một chi tiết đáng chú ý: **dòng tiền nội nghiêng bán với buy pressure chỉ 42.8%**. Đây là con số mà phần lớn nhà đầu tư cá nhân sẽ đọc ngay là tín hiệu xấu — đăng lên group, …</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-04</title>
@@ -338,22 +354,6 @@ Có một nghịch lý thú vị trong phân tích kỹ thuật: một cổ phi�
   <pubDate>Tue, 19 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-19-regime-now-05-19.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-19-regime-now-05-19.html</guid>
-  <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Thị Trường Đang &#34;Bán Mạnh&#34; — Nhưng Lịch Sử Nói Gì?
-
-Áp lực bán đang áp đảo với chỉ 39.1% buy pressure — và đây chính xác là lúc dữ liệu 9 năm trở nên thú vị nhất.
-
----
-
-Có một nghịch lý mà phần lớn nhà đầu tư retail VN không muốn thừa nhận: cảm giác sợ hãi nhất thường trùng với thời điểm kỳ vọng thống kê cao nhất. Hôm nay là một trong những ngày như vậy.
-
-## Snapshot Thực Tế: T…</description>
 </item>
 </channel>
 </rss>
