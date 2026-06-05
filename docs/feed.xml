@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 04 Jun 2026 11:32:35 +0000</lastBuildDate>
+<lastBuildDate>Fri, 05 Jun 2026 03:00:49 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-05</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-05.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-05.html</guid>
+  <pubDate>Fri, 05 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-04</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-04.html</link>
@@ -14,6 +22,22 @@
   <pubDate>Thu, 04 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Volume tăng đột biến — có phải tín hiệu \&#34;smart money\&#34;? Data nói gì</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-04-tech-classic-volume-surge-2x.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-04-tech-classic-volume-surge-2x.html</guid>
+  <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Volume Surge Không Phải &#34;Tín Hiệu Thần Thánh&#34; — Data 10 Năm Nói Gì?
+
+Sau khi chạy cohort analysis trên 10 năm backtest, kết quả khiến không ít người phải đặt lại câu hỏi: tại sao signal được hô hào nhiều nhất trong cộng đồng retail lại có edge yếu đến vậy?
+
+---
+
+## Câu Chuyện Quen Thuộc Trên Mọi Group Chứng Khoán
+
+Hầu như tuần nào cũng có một bài post kiểu này: &#34;Cổ phiếu XYZ hôm nay volume gấp 3 l…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-03</title>
@@ -236,16 +260,6 @@ Wyckoff là framework …</description>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
-  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
-
-&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
-</item>
-<item>
   <title>📝 1 chỉ báo vô dụng, 2 chỉ báo có meaning — joint factor matters</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</guid>
@@ -260,6 +274,16 @@ Kết hợp đúng hai chỉ báo orthogonal tạo ra edge gần 5% trong 60 ng�
 Có một câu hỏi mình hay gặp trong các group cổ phiếu VN: *&#34;RSI đã 72 rồi, bán chưa?&#34;* Câu trả lời ngắn là: sai câu hỏi. Câu hỏi đúng là: *&#34;RSI 72 trong bối cảnh nào?&#34;*
 
 ## Chỉ Báo Đơn Lẻ Là �…</description>
+</item>
+<item>
+  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
+  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
+
+&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-21</title>
@@ -330,30 +354,6 @@ Có một nghịch lý thú vị trong phân tích kỹ thuật: một cổ phi�
 Có một nghịch lý mà phần lớn nhà đầu tư retail VN không muốn thừa nhận: cảm giác sợ hãi nhất thường trùng với thời điểm kỳ vọng thống kê cao nhất. Hôm nay là một trong những ngày như vậy.
 
 ## Snapshot Thực Tế: T…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-05-18</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-18.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-18.html</guid>
-  <pubDate>Mon, 18 May 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 VPB hôm nay: mixed, RSI 56, Outperform — random spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-18-random-vpb.html</guid>
-  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># VPB 27,550 VND — Khi Dữ Liệu Nói &#34;Trung Lập&#34; Nhưng Kỹ Thuật Lại Chấm 75/100
-
-**Mua vì RSI đẹp hay vì thực sự có edge? Câu trả lời từ data cohort sẽ làm nhiều người bất ngờ.**
-
----
-
-## Bức Tranh Kỹ Thuật: Đẹp Hơn Thực Tế?
-
-VPB đang giao dịch tại 27,550 VND. Nhìn qua dashboard kỹ thuật, con số trông khá hấp dẫn: technical score **75/100**, signal **BUY**, RSI **55.5** — nằm trong vùng &#34;khỏe mạnh&#34; mà không b…</description>
 </item>
 </channel>
 </rss>
