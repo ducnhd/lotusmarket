@@ -5,8 +5,32 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 05 Jun 2026 11:42:54 +0000</lastBuildDate>
+<lastBuildDate>Mon, 08 Jun 2026 03:00:51 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-08</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-08.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-08.html</guid>
+  <pubDate>Mon, 08 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 5 điều cohort 47K data point cho thấy ngược trực giác retail VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-07-insight-wyckoff-stage-upset.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-07-insight-wyckoff-stage-upset.html</guid>
+  <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># 5 Điều Data VN30+HNX30 Nói Ngược Hoàn Toàn Với Trực Giác Retail
+
+Sau 9 năm backtest trên 45.493 rows dữ liệu sạch của cohort VN30+HNX30, kết quả cho thấy một sự thật khó chịu: phần lớn những gì cộng đồng retail VN tin là đúng — đều sai theo hướng ngược lại.
+
+---
+
+## 1. Wyckoff Distribution (Đỉnh Phân Phối) Lại Cho Return Cao Nhất
+
+Hỏi bất kỳ trader nào ở các group chứng khoán VN: &#34;Thấy Wyckoff Stage 3 t…</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-05</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-05.html</link>
@@ -276,6 +300,16 @@ Wyckoff là framework …</description>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
+  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
+  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
+
+&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
+</item>
+<item>
   <title>📝 1 chỉ báo vô dụng, 2 chỉ báo có meaning — joint factor matters</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</guid>
@@ -290,16 +324,6 @@ Kết hợp đúng hai chỉ báo orthogonal tạo ra edge gần 5% trong 60 ng�
 Có một câu hỏi mình hay gặp trong các group cổ phiếu VN: *&#34;RSI đã 72 rồi, bán chưa?&#34;* Câu trả lời ngắn là: sai câu hỏi. Câu hỏi đúng là: *&#34;RSI 72 trong bối cảnh nào?&#34;*
 
 ## Chỉ Báo Đơn Lẻ Là �…</description>
-</item>
-<item>
-  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
-  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
-
-&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-05-21</title>
@@ -330,28 +354,6 @@ Câu trả lời không nằm �…</description>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-20.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-20.html</guid>
   <pubDate>Wed, 20 May 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 VHM hôm nay: mixed, RSI 61, Outperform — random spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-20-random-vhm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-20-random-vhm.html</guid>
-  <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># VHM 157.000 VND — Khi Điểm Kỹ Thuật Cao Nhưng Edge Thực Sự Gần Bằng Zero
-
-**Signal BUY với technical score 75/100, nhưng cohort lịch sử không tìm được pattern mạnh nào — đây là bài học về sự khác biệt giữa &#34;trông đẹp&#34; và &#34;có xác suất thắng.&#34;**
-
----
-
-Có một nghịch lý thú vị trong phân tích kỹ thuật: một cổ phiếu có thể đạt điểm cao trên mọi thước đo quen thuộc, nhưng khi đặt vào máy tìm k…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-05-19</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-19.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-19.html</guid>
-  <pubDate>Tue, 19 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
