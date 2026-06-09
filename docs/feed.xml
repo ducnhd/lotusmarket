@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 08 Jun 2026 12:46:33 +0000</lastBuildDate>
+<lastBuildDate>Tue, 09 Jun 2026 03:00:36 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-09</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-09.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-09.html</guid>
+  <pubDate>Tue, 09 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-08</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-08.html</link>
@@ -316,6 +324,16 @@ Wyckoff là framework …</description>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
+  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
+  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
+
+&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
+</item>
+<item>
   <title>📝 1 chỉ báo vô dụng, 2 chỉ báo có meaning — joint factor matters</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-22-insight-joint-factor-analysis.html</guid>
@@ -332,38 +350,12 @@ Có một câu hỏi mình hay gặp trong các group cổ phiếu VN: *&#34;RSI
 ## Chỉ Báo Đơn Lẻ Là �…</description>
 </item>
 <item>
-  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
-  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
-
-&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
-</item>
-<item>
   <title>📊 Daily VN stock report — 2026-05-21</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-21.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-21.html</guid>
   <pubDate>Thu, 21 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 1 chỉ báo vô dụng, 2 chỉ báo có meaning — joint factor matters</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-21-insight-joint-factor-analysis.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-21-insight-joint-factor-analysis.html</guid>
-  <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Tại Sao Bạn Vẫn Thua Dù &#34;Đọc Đúng&#34; Tín Hiệu?
-
-Một chỉ báo kỹ thuật đứng một mình không phải signal — đó là noise được đóng gói đẹp.
-
----
-
-Hãy thử một thí nghiệm tư duy. Bạn mở chart, RSI chạm 72, tay đã chuẩn bị bấm bán. Người kia nhìn cùng mã đó, thấy MA50 đang nằm trên MA200, giá bứt phá khỏi vùng tích lũy 3 tuần — và họ mua. Sáu mươi ngày sau, ai đúng?
-
-Câu trả lời không nằm �…</description>
 </item>
 </channel>
 </rss>
