@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 10 Jun 2026 11:53:18 +0000</lastBuildDate>
+<lastBuildDate>Thu, 11 Jun 2026 03:01:04 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-11</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-11.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-11.html</guid>
+  <pubDate>Thu, 11 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-10</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-10.html</link>
@@ -354,14 +362,6 @@ Hầu hết những gì cộng đồng retail VN gọi là &#34;kinh nghiệm&#3
 ## Khi &#34;đỉnh phân phối = bán&#34; hóa ra là lời khuyên tệ nhất
 
 Wyckoff là framework …</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-05-22</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-22.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-22.html</guid>
-  <pubDate>Fri, 22 May 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
