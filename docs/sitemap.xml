@@ -2,21 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/latest.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/reports/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://ducnhd.github.io/lotusmarket/reports/2026-06-12.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://ducnhd.github.io/lotusmarket/reports/2026-06-11.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-06-11-career-full-time-vs-part-time.html</loc>
     <lastmod>2026-06-11</lastmod>
     <priority>0.5</priority>
   </url>
@@ -153,16 +163,6 @@
   <url>
     <loc>https://ducnhd.github.io/lotusmarket/reports/2026-05-25.html</loc>
     <lastmod>2026-05-25</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-25-supply-chain-vhm.html</loc>
-    <lastmod>2026-05-25</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ducnhd.github.io/lotusmarket/blog/2026-05-24-insight-wyckoff-stage-upset.html</loc>
-    <lastmod>2026-05-24</lastmod>
     <priority>0.5</priority>
   </url>
 </urlset>

@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 11 Jun 2026 12:28:42 +0000</lastBuildDate>
+<lastBuildDate>Fri, 12 Jun 2026 03:00:44 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-12</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-12.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-12.html</guid>
+  <pubDate>Fri, 12 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-11</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-11.html</link>
@@ -14,6 +22,18 @@
   <pubDate>Thu, 11 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 29 tuổi, lương dev senior 60tr — nên full-time trade hay giữ job? Math nói gì</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-11-career-full-time-vs-part-time.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-11-career-full-time-vs-part-time.html</guid>
+  <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Bỏ Việc Làm Full-Time Trader Ở Tuổi 29: Bài Toán Mà Phần Lớn Sẽ Tính Sai
+
+Tóm lại: với 2.4 tỷ đồng tài sản, bỏ việc để trade toàn thời gian là một quyết định tài chính tệ hơn bạn nghĩ — và con số chứng minh điều đó rất thẳng thắn.
+
+Có một câu hỏi mà cộng đồng trader Việt hay né tránh trả lời thật: *nếu bạn giỏi trading đến vậy, tại sao vẫn cần quit job để có thêm thời gian?…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-10</title>
@@ -334,34 +354,6 @@ VIX đang ở **17.01**, tăng…</description>
   <pubDate>Mon, 25 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 VHM và BĐS — chuỗi tác động khi lãi suất + tín dụng BĐS thay đổi</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-25-supply-chain-vhm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-25-supply-chain-vhm.html</guid>
-  <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># VHM và Ba Biến Số Quyết Định Số Phận Cổ Phiếu BĐS Lớn Nhất Việt Nam
-
-**VHM không phải cổ phiếu &#34;mua và giữ mãi mãi&#34; — nó là một cỗ máy nhạy cảm với lãi suất, tín dụng, và thu nhập hộ gia đình, và lịch sử đã cho thấy khi ba biến số này xấu cùng lúc, không có con số nền tảng nào cứu được bạn.**
-
-Có một câu hỏi mà retail VN hay hỏi sau khi VHM giảm 40-50%: *&#34;Vinhomes lớn vậy, sao l�…</description>
-</item>
-<item>
-  <title>📝 5 điều cohort 47K data point cho thấy ngược trực giác retail VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-24-insight-wyckoff-stage-upset.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-24-insight-wyckoff-stage-upset.html</guid>
-  <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># 9 Năm Dữ Liệu VN30+HNX30 Đã Phá Vỡ 5 Điều Retail Tin Tưởng Tuyệt Đối
-
-Hầu hết những gì cộng đồng retail VN gọi là &#34;kinh nghiệm&#34; thực ra là bias được lặp lại đủ lâu đến mức trở thành niềm tin — và backtest 45.493 dòng dữ liệu sạch trên cohort VN30+HNX30 qua 9 năm vừa cho thấy điều đó rõ hơn bao giờ hết.
-
----
-
-## Khi &#34;đỉnh phân phối = bán&#34; hóa ra là lời khuyên tệ nhất
-
-Wyckoff là framework …</description>
 </item>
 </channel>
 </rss>
