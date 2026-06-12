@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 12 Jun 2026 03:00:44 +0000</lastBuildDate>
+<lastBuildDate>Fri, 12 Jun 2026 11:30:52 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-06-12</title>
@@ -14,6 +14,22 @@
   <pubDate>Fri, 12 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 RSI &gt; 70 có thực sự là tín hiệu BÁN? Backtest 9 năm VN30 nói ngược</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-12-tech-classic-rsi--70.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-12-tech-classic-rsi--70.html</guid>
+  <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># RSI &gt; 70 Không Phải Tín Hiệu Bán — Data 45,000 Dòng Nói Gì Khác Hẳn
+
+Cộng đồng chứng khoán Việt Nam đã sai về RSI overbought suốt nhiều năm — và con số +9.23% return sau 60 ngày là bằng chứng khó chối cãi nhất.
+
+---
+
+## Cái Bẫy Tâm Lý Tên &#34;Quá Mua&#34;
+
+Hỏi bất kỳ trader bán lẻ nào ở các group Facebook chứng khoán: &#34;RSI vượt 70 thì làm gì?&#34; — câu trả lời gần như đồng thanh: *&#34;Chốt lời ngay, cổ phiế…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-11</title>
@@ -346,14 +362,6 @@ Nghe có vẻ nghịch lý: thị trường &#34;ổn định&#34; lại là lú
 ## Đọc snapshot hôm nay: Bình lặng, nhưng không hẳn là tốt
 
 VIX đang ở **17.01**, tăng…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-05-25</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-25.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-25.html</guid>
-  <pubDate>Mon, 25 May 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
