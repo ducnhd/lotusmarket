@@ -5,8 +5,32 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 12 Jun 2026 11:59:49 +0000</lastBuildDate>
+<lastBuildDate>Mon, 15 Jun 2026 03:00:30 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-15</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-15.html</guid>
+  <pubDate>Mon, 15 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Tại sao bạn bán đáy? Loss aversion + cohort data VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-14-psychology-loss-aversion.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-14-psychology-loss-aversion.html</guid>
+  <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Tại Sao Não Bạn Là Kẻ Thù Tệ Nhất Trong Thị Trường Chứng Khoán
+
+Retail VN thua không phải vì thiếu thông tin — mà vì não bộ được lập trình sai cho việc đầu tư. Và có một con số cụ thể chứng minh điều đó.
+
+---
+
+Hãy thử một bài toán nhỏ: Bạn mất 1 triệu đồng hôm nay. Cần thắng bao nhiêu để cảm thấy &#34;hòa&#34;?
+
+Nếu câu trả lời trong đầu bạn là &#34;2 triệu&#34;, chúc mừng — não bạn đang ho…</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-12</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-12.html</link>
@@ -336,32 +360,6 @@ Hai cổ phiếu tiêu dùng lớn nhất Việt Nam, cùng ngành hàng tiêu d
 ## Câu chuyện bắt đầu từ một lời khuyên quen thuộc
 
 Nếu bạn từng hỏi người thân hoặc nhóm đầu tư nào đó ở Việt Nam rằng &#34;mua cổ phiếu gì an toàn?&#34;, xác …</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-05-26</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-26.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-26.html</guid>
-  <pubDate>Tue, 26 May 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-26-regime-now-05-26.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-26-regime-now-05-26.html</guid>
-  <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Thị Trường Hôm Nay Đang Ở Đâu — Và Lịch Sử Nói Gì Về Điều Đó
-
-**Snapshot hôm nay rơi vào vùng STABLE — đúng cái regime mà data 9 năm cho thấy có edge âm so với baseline.**
-
-Nghe có vẻ nghịch lý: thị trường &#34;ổn định&#34; lại là lúc khó kiếm tiền nhất theo thống kê. Nhưng đó chính xác là điều data đang nói.
-
----
-
-## Đọc snapshot hôm nay: Bình lặng, nhưng không hẳn là tốt
-
-VIX đang ở **17.01**, tăng…</description>
 </item>
 </channel>
 </rss>
