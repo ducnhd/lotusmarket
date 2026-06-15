@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 15 Jun 2026 03:00:30 +0000</lastBuildDate>
+<lastBuildDate>Mon, 15 Jun 2026 11:30:57 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-06-15</title>
@@ -14,6 +14,24 @@
   <pubDate>Mon, 15 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-15-regime-now-06-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-15-regime-now-06-15.html</guid>
+  <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Thị Trường Đang Bán Mạnh — Nhưng Lịch Sử Nói Điều Ngược Lại
+
+Khi dòng tiền nội bán tháo và VIX vẫn còn đứng ở ngưỡng trung lập, đây chính xác là loại tín hiệu mà phần lớn retail trader bỏ qua — hoặc diễn giải sai.
+
+---
+
+## Bức Tranh Hôm Nay: Tín Hiệu Phân Kỳ
+
+Snapshot hôm nay có một điều thú vị đến mức khó chịu: **bên ngoài xanh, bên trong đỏ.**
+
+- Nikkei 225 tăng gần **+5%** trong một …</description>
 </item>
 <item>
   <title>📝 Tại sao bạn bán đáy? Loss aversion + cohort data VN</title>
@@ -344,22 +362,6 @@ Hãy tưởng tượng hai người bạn thân. Cùng xuất phát 2 tỷ đồ
   <pubDate>Wed, 27 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 VNM vs MSN: sữa cổ điển vs holding đa ngành — ai phù hợp retail?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-27-compare-vnm-vs-msn.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-27-compare-vnm-vs-msn.html</guid>
-  <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># &#34;Mua VNM ngủ ngon&#34; — 10 Năm Sau Tỉnh Dậy Thấy Lỗ 27%
-
-Hai cổ phiếu tiêu dùng lớn nhất Việt Nam, cùng ngành hàng tiêu dùng thiết yếu, cùng được gọi là &#34;blue chip&#34; — nhưng 10 năm qua một cái giảm gần 1/3, cái kia tăng gấp 2.6 lần.
-
----
-
-## Câu chuyện bắt đầu từ một lời khuyên quen thuộc
-
-Nếu bạn từng hỏi người thân hoặc nhóm đầu tư nào đó ở Việt Nam rằng &#34;mua cổ phiếu gì an toàn?&#34;, xác …</description>
 </item>
 </channel>
 </rss>
