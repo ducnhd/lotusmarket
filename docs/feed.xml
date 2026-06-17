@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 16 Jun 2026 13:12:17 +0000</lastBuildDate>
+<lastBuildDate>Wed, 17 Jun 2026 03:00:46 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-17</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-17.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-17.html</guid>
+  <pubDate>Wed, 17 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-16</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-16.html</link>
@@ -14,6 +22,22 @@
   <pubDate>Tue, 16 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-16-supply-chain-hpg.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-16-supply-chain-hpg.html</guid>
+  <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># HPG Không Phải Là Cổ Phiếu Thép — Nó Là Cổ Phiếu Quặng Sắt Úc Cộng HRC Thượng Hải
+
+Mua HPG mà chỉ nhìn chart HPG giống như lái xe ban đêm chỉ nhìn gương chiếu hậu — bạn thấy đường, nhưng toàn là đường đã qua.
+
+---
+
+## Retail VN Đang Nhìn Sai Biến
+
+Có một thói quen phổ biến trong cộng đồng F0 Việt Nam: phân tích HPG bằng cách nhìn vào P/E, RSI, volume, rồi đọc tin xây dựng trong nước. Không …</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-15</title>
@@ -338,30 +362,6 @@ Có 2.4 tỷ trong tay, lương 60 triệu một tháng, và vẫn đang cân nh
 ## Bức tranh thực sự đẹp — cho đến khi bạn mở Excel ra
 
 Hãy thử đặt mình vào vị trí này: 29 tuổi, senior developer, …</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-05-28</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-28.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-28.html</guid>
-  <pubDate>Thu, 28 May 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Bao nhiêu tiền đủ để full-time trader ở VN? Monte Carlo nói thật</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-28-career-fire-math-vn.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-28-career-fire-math-vn.html</guid>
-  <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Bạn Nghĩ 500 Triệu Là Đủ Để &#34;Nghỉ Hưu Sớm&#34;? Monte Carlo Nói Khác
-
-Xác suất cháy tài khoản trong 10 năm lên tới 94% — không phải vì bạn dốt, mà vì bạn sinh nhầm năm bắt đầu.
-
----
-
-## Câu chuyện của hai người cùng 2 tỷ
-
-Hãy tưởng tượng hai người bạn thân. Cùng xuất phát 2 tỷ đồng. Cùng chiến lược: mua và giữ VN30 equal-weight, rút 12 triệu mỗi tháng để sống. Cùng kỷ luật, không panic-se…</description>
 </item>
 </channel>
 </rss>
