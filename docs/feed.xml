@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 17 Jun 2026 03:00:46 +0000</lastBuildDate>
+<lastBuildDate>Wed, 17 Jun 2026 11:30:46 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-06-17</title>
@@ -14,6 +14,20 @@
   <pubDate>Wed, 17 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Backtest cherry-picking: cùng strategy, 2 con số khác biệt 9× — bài học từ window selection</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-17-insight-window-dependent-results.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-17-insight-window-dependent-results.html</guid>
+  <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Backtest Đẹp Không Có Nghĩa Là Strategy Tốt — Đây Là Cách Cửa Sổ Thời Gian Lừa Bạn
+
+Một chiến lược cho CAGR +26% trong 9 năm, nhưng chỉ +3% trong 16 năm — cùng một bộ rules, cùng một ticker pool, cùng mức phí.
+
+---
+
+Hãy tưởng tượng bạn nhận được pitch deck từ một fund nào đó. Trang đầu tiên: **&#34;Chiến lược low-volatility VN30 — CAGR 26.2% trong 10 năm qua.&#34;** Biểu đồ đẹp, đường equity curve thoải …</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-16</title>
@@ -346,22 +360,6 @@ Cộng đồng FIRE Việt Nam có một vấn đề cố hữu: người ta hay
   <pubDate>Fri, 29 May 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 29 tuổi, lương dev senior 60tr — nên full-time trade hay giữ job? Math nói gì</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-29-career-full-time-vs-part-time.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-29-career-full-time-vs-part-time.html</guid>
-  <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Quit Job Làm Trader Full-Time ở Tuổi 29: Con Số Nói Gì?
-
-Có 2.4 tỷ trong tay, lương 60 triệu một tháng, và vẫn đang cân nhắc nghỉ việc để &#34;chơi&#34; thị trường — đây không phải câu chuyện hiếm, nhưng kết cục thường rất dễ đoán nếu bạn chịu làm một phép tính đơn giản.
-
----
-
-## Bức tranh thực sự đẹp — cho đến khi bạn mở Excel ra
-
-Hãy thử đặt mình vào vị trí này: 29 tuổi, senior developer, …</description>
 </item>
 </channel>
 </rss>
