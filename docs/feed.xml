@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 17 Jun 2026 12:36:31 +0000</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 03:00:30 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-18</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-18.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-18.html</guid>
+  <pubDate>Thu, 18 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-17</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-17.html</link>
@@ -352,14 +360,6 @@ Số tiền không quan trọng bằng *năm bạn bắt đầu rút* — và đ
 ## Cái Bẫy Mang Tên &#34;Tôi Có Đủ Tiền Rồi&#34;
 
 Cộng đồng FIRE Việt Nam có một vấn đề cố hữu: người ta hay nói về con số tích lũy, nhưng rất ít ai nói về *việc tiê…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-05-29</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-29.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-29.html</guid>
-  <pubDate>Fri, 29 May 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
