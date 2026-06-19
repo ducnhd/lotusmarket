@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 18 Jun 2026 12:02:23 +0000</lastBuildDate>
+<lastBuildDate>Fri, 19 Jun 2026 03:00:47 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-19</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-19.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-19.html</guid>
+  <pubDate>Fri, 19 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-18</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-18.html</link>
@@ -14,6 +22,18 @@
   <pubDate>Thu, 18 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Side income trong khi giữ job — dev VN nên build gì? Math + realistic ROI</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-18-career-side-income-mathematics.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-18-career-side-income-mathematics.html</guid>
+  <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Side Income Không Phải Là &#34;Kiếm Thêm&#34; — Đó Là Vũ Khí FIRE Hiệu Quả Nhất Khi Vốn Dưới 5 Tỷ
+
+Với 1 tỷ đồng gửi vào VN30, bạn nhận được 12.5 triệu mỗi tháng — bằng khoảng một phần ba lương developer trung bình ở Hà Nội.
+
+Con số đó không sai. Nhưng nó đặt ra một câu hỏi khó chịu hơn: nếu mục tiêu là FIRE trong 10 năm, tại sao phần lớn cộng đồng đầu tư VN vẫn đang tập trung toàn bộ n…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-17</title>
@@ -332,34 +352,6 @@ Có một nghịch lý thú vị trong cộng đồng đầu tư Việt: cổ ph
   <pubDate>Mon, 01 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 TCB hôm nay: mixed, RSI 52, Outperform — random spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-01-random-tcb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-01-random-tcb.html</guid>
-  <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># TCB 32,750 VND — Khi &#34;Không Có Gì Để Nói&#34; Chính Là Điều Đáng Nói Nhất
-
-**Tóm gọn:** TCB đang đứng giữa vùng trung lập hoàn toàn — không có tín hiệu mạnh để mua hay tránh, nhưng cấu trúc nội tại của cổ phiếu này ẩn chứa một chi tiết đáng chú ý hơn mức &#34;HOLD&#34; thông thường.
-
-Có một loại cổ phiếu mà community hay bỏ qua vì nó không đủ &#34;sexy&#34; để tweet về — và đó thường là nơi dữ liệu…</description>
-</item>
-<item>
-  <title>📝 Bao nhiêu tiền đủ để full-time trader ở VN? Monte Carlo nói thật</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-31-career-fire-math-vn.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-31-career-fire-math-vn.html</guid>
-  <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Bạn Có 2 Tỷ và Nghĩ Mình Đã &#34;Về Hưu&#34; Được Rồi — Đây Là Lý Do Tại Sao Data Không Đồng Ý
-
-Số tiền không quan trọng bằng *năm bạn bắt đầu rút* — và đó là thứ không ai trong cộng đồng FIRE Việt Nam thèm nói thẳng ra.
-
----
-
-## Cái Bẫy Mang Tên &#34;Tôi Có Đủ Tiền Rồi&#34;
-
-Cộng đồng FIRE Việt Nam có một vấn đề cố hữu: người ta hay nói về con số tích lũy, nhưng rất ít ai nói về *việc tiê…</description>
 </item>
 </channel>
 </rss>
