@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 22 Jun 2026 03:00:42 +0000</lastBuildDate>
+<lastBuildDate>Mon, 22 Jun 2026 11:30:48 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-06-22</title>
@@ -14,6 +14,26 @@
   <pubDate>Mon, 22 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-22-regime-now-06-22.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-22-regime-now-06-22.html</guid>
+  <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Thị Trường Hôm Nay Đang Nói Gì — Và Lịch Sử 9 Năm Trả Lời Ra Sao
+
+**Dòng tiền cân bằng, VIX leo nhẹ, S&amp;P 500 phá đỉnh — đây là cái bẫy &#34;bình thường giả&#34; mà retail hay mắc nhất.**
+
+---
+
+Có một kiểu phiên giao dịch mà nhìn vào, chẳng ai biết nên vui hay lo. Hôm nay là một phiên như vậy.
+
+## Bức Tranh Snapshot: Không Rõ Ràng Có Chủ Đích
+
+Nhìn vào dữ liệu live ngay lúc này:
+
+- **Dòng tiền nội địa*…</description>
 </item>
 <item>
   <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
@@ -352,20 +372,6 @@ Hầu như tuần nào cũng có một bài post kiểu này: &#34;Cổ phiếu 
   <pubDate>Wed, 03 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Tại sao bạn bán đáy? Loss aversion + cohort data VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-03-psychology-loss-aversion.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-03-psychology-loss-aversion.html</guid>
-  <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Bán Đáy Là Thói Quen Đắt Tiền Nhất Của Nhà Đầu Tư Retail
-
-Não người không được lập trình để đầu tư — và dữ liệu backtest chứng minh điều đó theo cách khá tàn nhẫn.
-
----
-
-Hãy thử một tình huống quen thuộc: bạn mua cổ phiếu A ở mức 30, giờ nó đang ở 24. Màn hình đỏ, group Zalo đầy tin xấu, tay đã hover trên nút bán. Cảm giác đó — cái cảm giác *phải làm gì đó ngay* — không phải …</description>
 </item>
 </channel>
 </rss>
