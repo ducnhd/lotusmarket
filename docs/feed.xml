@@ -5,8 +5,34 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 19 Jun 2026 12:32:01 +0000</lastBuildDate>
+<lastBuildDate>Mon, 22 Jun 2026 03:00:42 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-22</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-22.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-22.html</guid>
+  <pubDate>Mon, 22 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-21-news-impact-06-21.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-21-news-impact-06-21.html</guid>
+  <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Phố Wall Xanh, Nhưng Hang Seng Đỏ — VN-Index Sẽ Nghe Ai?
+
+Thị trường toàn cầu đang gửi hai tín hiệu mâu thuẫn cùng lúc, và lịch sử cohort cho thấy VN-Index thường chọn đi theo bên nào một cách khá nhất quán.
+
+---
+
+## Khi hai ông lớn bất đồng
+
+Ngày 18–19/06, bức tranh vĩ mô toàn cầu trông như một cuộc tranh cãi giữa hai người trong cùng một phòng.
+
+Phía tích cực: S&amp;P 500 đóng cửa ở **7.500,58 điểm …</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-19</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-19.html</link>
@@ -340,26 +366,6 @@ Não người không được lập trình để đầu tư — và dữ liệu 
 ---
 
 Hãy thử một tình huống quen thuộc: bạn mua cổ phiếu A ở mức 30, giờ nó đang ở 24. Màn hình đỏ, group Zalo đầy tin xấu, tay đã hover trên nút bán. Cảm giác đó — cái cảm giác *phải làm gì đó ngay* — không phải …</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-02</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-02.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-02.html</guid>
-  <pubDate>Tue, 02 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 HPG hôm nay: mixed, RSI 39, Neutral — random spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-02-random-hpg.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-02-random-hpg.html</guid>
-  <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># HPG 23,700 VND — Khi &#34;cổ phiếu quốc dân&#34; chạm vùng trung tính
-
-**HPG đang ở vùng kỹ thuật thuần trung tính — không có edge rõ ràng theo hướng nào, và đó chính xác là điều đáng lo hơn một tín hiệu SELL thẳng thắn.**
-
-Có một nghịch lý thú vị trong cộng đồng đầu tư Việt: cổ phiếu bị ghét thì dễ phân tích, cổ phiếu được yêu thì dễ bị bias. HPG nằm vào nhóm thứ hai — &#34;cổ phiếu quốc dâ…</description>
 </item>
 </channel>
 </rss>
