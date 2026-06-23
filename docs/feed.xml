@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 23 Jun 2026 03:00:27 +0000</lastBuildDate>
+<lastBuildDate>Tue, 23 Jun 2026 11:30:41 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-06-23</title>
@@ -14,6 +14,22 @@
   <pubDate>Tue, 23 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 23/06 — regime nào đang dẫn dắt?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-23-event-flow.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-23-event-flow.html</guid>
+  <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Áp lực bán lan rộng, VN30+HNX30 chỉ còn 20% buy-pressure
+
+Hôm nay dòng tiền nội tổng của rổ VN30 và HNX30 ghi nhận buy-pressure chỉ đạt **20.0%** — ngưỡng mà thị trường thường gọi thẳng là &#34;bán mạnh&#34;. Câu hỏi mà data 9 năm có thể trả lời: khi thị trường rơi vào trạng thái này, lịch sử đã đi tiếp ra sao?
+
+---
+
+### ① Chuyện gì đang xảy ra
+
+Buy-pressure 20% có nghĩa là trong tổng khối lượng khớ…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-22</title>
@@ -356,22 +372,6 @@ Snapshot hôm nay có một chi tiết đáng chú ý: **dòng tiền nội nghi
   <pubDate>Thu, 04 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Volume tăng đột biến — có phải tín hiệu \&#34;smart money\&#34;? Data nói gì</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-04-tech-classic-volume-surge-2x.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-04-tech-classic-volume-surge-2x.html</guid>
-  <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Volume Surge Không Phải &#34;Tín Hiệu Thần Thánh&#34; — Data 10 Năm Nói Gì?
-
-Sau khi chạy cohort analysis trên 10 năm backtest, kết quả khiến không ít người phải đặt lại câu hỏi: tại sao signal được hô hào nhiều nhất trong cộng đồng retail lại có edge yếu đến vậy?
-
----
-
-## Câu Chuyện Quen Thuộc Trên Mọi Group Chứng Khoán
-
-Hầu như tuần nào cũng có một bài post kiểu này: &#34;Cổ phiếu XYZ hôm nay volume gấp 3 l…</description>
 </item>
 </channel>
 </rss>
