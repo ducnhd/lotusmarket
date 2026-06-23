@@ -7,11 +7,13 @@ import (
 	"math"
 	"os"
 	"path/filepath"
+	"sync"
 	"time"
 
 	"github.com/ducnhd/lotusmarket/go/ai"
 	"github.com/ducnhd/lotusmarket/go/fetchers"
 	"github.com/ducnhd/lotusmarket/go/technical"
+	"github.com/ducnhd/lotusmarket/go/types"
 )
 
 const eventCooldownDays = 5
@@ -112,37 +114,46 @@ func buildSnapshot(ctx context.Context) Snapshot {
 	universe := marketUniverse()
 	quotes, _ := fetchers.VPSMultiple(ctx, universe)
 
-	stocks := make([]StockSnap, 0, len(quotes))
-	for _, q := range quotes {
-		hist, err := fetchers.EntradeHistory(ctx, q.Ticker, 30)
-		avg := 0.0
-		rsi := 0.0
-		mat := "mixed"
-		if err == nil && len(hist) >= 20 {
-			var vsum int64
-			closes := make([]float64, len(hist))
-			for i, h := range hist {
-				closes[i] = h.Close
-				if i >= len(hist)-20 {
-					vsum += h.Volume
+	const histWorkers = 8
+	stocks := make([]StockSnap, len(quotes))
+	sem := make(chan struct{}, histWorkers)
+	var wg sync.WaitGroup
+	for i, q := range quotes {
+		wg.Add(1)
+		sem <- struct{}{}
+		go func(idx int, q types.StockData) {
+			defer func() { <-sem; wg.Done() }()
+			hist, err := fetchers.EntradeHistory(ctx, q.Ticker, 30)
+			avg := 0.0
+			rsi := 0.0
+			mat := "mixed"
+			if err == nil && len(hist) >= 20 {
+				var vsum int64
+				closes := make([]float64, len(hist))
+				for i, h := range hist {
+					closes[i] = h.Close
+					if i >= len(hist)-20 {
+						vsum += h.Volume
+					}
+				}
+				avg = float64(vsum) / 20
+				d := technical.Dashboard(closes)
+				rsi = d.RSI
+				if d.MA200 != nil && d.MA50 != nil {
+					if q.Close >= *d.MA200 && *d.MA50 >= *d.MA200 {
+						mat = "uptrend"
+					} else if q.Close < *d.MA200 && *d.MA50 < *d.MA200 {
+						mat = "downtrend"
+					}
 				}
 			}
-			avg = float64(vsum) / 20
-			d := technical.Dashboard(closes)
-			rsi = d.RSI
-			if d.MA200 != nil && d.MA50 != nil {
-				if q.Close >= *d.MA200 && *d.MA50 >= *d.MA200 {
-					mat = "uptrend"
-				} else if q.Close < *d.MA200 && *d.MA50 < *d.MA200 {
-					mat = "downtrend"
-				}
+			stocks[idx] = StockSnap{
+				Ticker: q.Ticker, Close: q.Close, ChangePct: q.ChangePercent,
+				Volume: q.Volume, AvgVol20: avg, RSI: rsi, MATrend: mat,
 			}
-		}
-		stocks = append(stocks, StockSnap{
-			Ticker: q.Ticker, Close: q.Close, ChangePct: q.ChangePercent,
-			Volume: q.Volume, AvgVol20: avg, RSI: rsi, MATrend: mat,
-		})
+		}(i, q)
 	}
+	wg.Wait()
 
 	globals := []GlobalSnap{}
 	for _, g := range fetchers.YahooMultiple(ctx, []string{"^VIX", "^GSPC", "^N225", "^HSI"}) {
