@@ -170,8 +170,9 @@ func TestNotRecentlyPosted(t *testing.T) {
 // Task 10: market universe.
 func TestMarketUniverse(t *testing.T) {
 	u := marketUniverse()
-	if len(u) < 55 {
-		t.Fatalf("universe = %d tickers, want ~60 (VN30+HNX30)", len(u))
+	// v1 is VN30-only (HNX30 deferred until a verified list is available).
+	if len(u) != len(vn30) {
+		t.Fatalf("universe = %d tickers, want %d (VN30 only in v1)", len(u), len(vn30))
 	}
 	seen := map[string]bool{}
 	for _, tk := range u {

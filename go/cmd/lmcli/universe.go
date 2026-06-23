@@ -1,12 +1,11 @@
 package main
 
-// hnx30 — HNX30 index constituents. VERIFY against the current official list
-// before merge; membership is reviewed periodically by HNX.
-var hnx30 = []string{
-	"SHS", "PVS", "CEO", "MBS", "IDC", "VCS", "HUT", "TNG", "PVI", "DTD",
-	"L14", "NVB", "BVS", "TIG", "LAS", "VGS", "DXP", "NRC", "PVC", "TVC",
-	"API", "IDV", "NTP", "PLC", "MST", "S99", "DDG", "AMV", "ART", "VC3",
-}
+// hnx30 — HNX30 index constituents. Deferred for v1: the HNX30 basket is
+// reviewed twice a year and a reliably-current list was not available at build
+// time, so the event scan runs on VN30 only. To add HNX30 later, populate this
+// slice with the official current constituents (https://hnx.vn) — marketUniverse
+// already merges and dedups it.
+var hnx30 = []string{}
 
 // marketUniverse returns the dedup'd union of VN30 and HNX30 tickers.
 func marketUniverse() []string {
