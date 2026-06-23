@@ -5,97 +5,373 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 15 May 2026 10:59:04 +0000</lastBuildDate>
+<lastBuildDate>Tue, 23 Jun 2026 03:00:27 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
-  <title>📝 Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược (có data thật)</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/tai-sao-90-phan-tram-retail-vn-lo.html</guid>
-  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Tại sao 90% retail Việt Nam lỗ — và 3 quy tắc đảo ngược
-
-&gt; TL;DR — Statistic Trung tâm Lưu ký Chứng khoán (SSC) hằng năm cho thấy ~85-90% tài khoản retail VN lỗ ròng sau 5 năm giao dịch. Mình chạy backtest 16 năm trên 30 mã VN30 + cohort analysis 47,000 data points để tìm ra **3 quy tắc** ngược với mọi lời khuyên đang lan truyền — và đây là data thật, code MIT open source tại [lotusmarket](https://github.com/ducnhd/lotus…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-05-15</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-05-15.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-05-15.html</guid>
-  <pubDate>Fri, 15 May 2026 08:30:00 +0000</pubDate>
+  <title>📊 Daily VN stock report — 2026-06-23</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-23.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-23.html</guid>
+  <pubDate>Tue, 23 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 16 năm backtest cổ phiếu Việt Nam — 5 điều ngược lại với hầu hết khuyên cũ</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/16-nam-backtest-vn-stocks.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/16-nam-backtest-vn-stocks.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <title>📊 Daily VN stock report — 2026-06-22</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-22.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-22.html</guid>
+  <pubDate>Mon, 22 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-22-regime-now-06-22.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-22-regime-now-06-22.html</guid>
+  <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
   <category>blog</category>
-  <description># 16 năm backtest cổ phiếu Việt Nam — 5 điều ngược lại với hầu hết khuyên cũ
+  <description># Thị Trường Hôm Nay Đang Nói Gì — Và Lịch Sử 9 Năm Trả Lời Ra Sao
 
-&gt; TL;DR — Mình chạy backtest deterministic trên ~47,000 data points của 30 mã VN30 + HNX30 từ 2010 đến 2026. Đây là 5 finding ngược với hầu hết khuyên đang lan truyền trên các group đầu tư Việt Nam. Tất cả code + data + reproducible setup đều open source tại [lotusmarket](https://github.com/ducnhd/lotusmarket).
+**Dòng tiền cân bằng, VIX leo nhẹ, S&amp;P 500 phá đỉnh — đây là cái bẫy &#34;bình thường giả&#34; mà retail hay mắc nhất.**
 
 ---
 
-## Setup ngắn gọn
+Có một kiểu phiên giao dịch mà nhìn vào, chẳng ai biết nên vui hay lo. Hôm nay là một phiên như vậy.
 
-- **Wind…</description>
+## Bức Tranh Snapshot: Không Rõ Ràng Có Chủ Đích
+
+Nhìn vào dữ liệu live ngay lúc này:
+
+- **Dòng tiền nội địa*…</description>
+</item>
+<item>
+  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-21-news-impact-06-21.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-21-news-impact-06-21.html</guid>
+  <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Phố Wall Xanh, Nhưng Hang Seng Đỏ — VN-Index Sẽ Nghe Ai?
+
+Thị trường toàn cầu đang gửi hai tín hiệu mâu thuẫn cùng lúc, và lịch sử cohort cho thấy VN-Index thường chọn đi theo bên nào một cách khá nhất quán.
+
+---
+
+## Khi hai ông lớn bất đồng
+
+Ngày 18–19/06, bức tranh vĩ mô toàn cầu trông như một cuộc tranh cãi giữa hai người trong cùng một phòng.
+
+Phía tích cực: S&amp;P 500 đóng cửa ở **7.500,58 điểm …</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-19</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-19.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-19.html</guid>
+  <pubDate>Fri, 19 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Golden Cross — tín hiệu thần kỳ hay over-rated? Data VN30 nói gì</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-19-tech-classic-golden-cross-ma50-vt-ma200.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-19-tech-classic-golden-cross-ma50-vt-ma200.html</guid>
+  <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Sau Golden Cross, Đừng Đợi Pullback — Data Nói Điều Ngược Lại
+
+Phần lớn sách giao dịch dạy bạn &#34;mua khi RSI về vùng oversold sau uptrend&#34; — nhưng 22,000+ phiên dữ liệu thực tế cho thấy đây là một trong những lời khuyên tốn tiền nhất mà cộng đồng retail hay nghe theo.
+
+---
+
+## Golden Cross không phải tín hiệu vào lệnh — đó là tấm vé vào cửa
+
+Khi MA50 cắt lên MA200 và giá đang trên cả hai đường, n…</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-18</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-18.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-18.html</guid>
+  <pubDate>Thu, 18 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Side income trong khi giữ job — dev VN nên build gì? Math + realistic ROI</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-18-career-side-income-mathematics.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-18-career-side-income-mathematics.html</guid>
+  <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Side Income Không Phải Là &#34;Kiếm Thêm&#34; — Đó Là Vũ Khí FIRE Hiệu Quả Nhất Khi Vốn Dưới 5 Tỷ
+
+Với 1 tỷ đồng gửi vào VN30, bạn nhận được 12.5 triệu mỗi tháng — bằng khoảng một phần ba lương developer trung bình ở Hà Nội.
+
+Con số đó không sai. Nhưng nó đặt ra một câu hỏi khó chịu hơn: nếu mục tiêu là FIRE trong 10 năm, tại sao phần lớn cộng đồng đầu tư VN vẫn đang tập trung toàn bộ n…</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-17</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-17.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-17.html</guid>
+  <pubDate>Wed, 17 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Backtest cherry-picking: cùng strategy, 2 con số khác biệt 9× — bài học từ window selection</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-17-insight-window-dependent-results.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-17-insight-window-dependent-results.html</guid>
+  <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Backtest Đẹp Không Có Nghĩa Là Strategy Tốt — Đây Là Cách Cửa Sổ Thời Gian Lừa Bạn
+
+Một chiến lược cho CAGR +26% trong 9 năm, nhưng chỉ +3% trong 16 năm — cùng một bộ rules, cùng một ticker pool, cùng mức phí.
+
+---
+
+Hãy tưởng tượng bạn nhận được pitch deck từ một fund nào đó. Trang đầu tiên: **&#34;Chiến lược low-volatility VN30 — CAGR 26.2% trong 10 năm qua.&#34;** Biểu đồ đẹp, đường equity curve thoải …</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-16</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-16.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-16.html</guid>
+  <pubDate>Tue, 16 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
   <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-supply-chain-hpg.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-16-supply-chain-hpg.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-16-supply-chain-hpg.html</guid>
+  <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
   <category>blog</category>
-  <description># HPG không phải cổ phiếu thép — đó là cổ phiếu quặng sắt Úc chạy bằng giá HRC Thượng Hải
+  <description># HPG Không Phải Là Cổ Phiếu Thép — Nó Là Cổ Phiếu Quặng Sắt Úc Cộng HRC Thượng Hải
 
-Đa số nhà đầu tư retail nhìn chart HPG rồi phán &#34;thép đang lên, mua thôi&#34; — nhưng lúc HPG giảm 8% trong 30 ngày dù chart nhìn &#34;ổn&#34;, họ không hiểu tại sao. Câu trả lời không nằm trên sàn HoSE.
+Mua HPG mà chỉ nhìn chart HPG giống như lái xe ban đêm chỉ nhìn gương chiếu hậu — bạn thấy đường, nhưng toàn là đường đã qua.
 
 ---
 
-## Câu chuyện bắt đầu từ một mỏ quặng ở Pilbara
+## Retail VN Đang Nhìn Sai Biến
 
-Tây Úc, vùng Pilbara — nơi BHP khai thác hàng trăm triệu …</description>
+Có một thói quen phổ biến trong cộng đồng F0 Việt Nam: phân tích HPG bằng cách nhìn vào P/E, RSI, volume, rồi đọc tin xây dựng trong nước. Không …</description>
 </item>
 <item>
-  <title>📝 Ticker spotlight</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-ticker-spotlight.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-ticker-spotlight.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Khi Không Có Dữ Liệu — Data Discipline Quan Trọng Hơn Bất Kỳ Signal Nào
-
-**TL;DR:** Không có data, không có bài — đây là nguyên tắc cốt lõi của quant analysis trung thực.
-
----
-
-## Vấn Đề Thực Sự Ở Đây
-
-Bài viết này được trigger bởi một tình huống thực tế: **data trống**.
-
-Không có số liệu giá. Không có volume. Không có backtест result. Không có gì để phân tích.
-
-Và đây là điểm khác biệt quan t…</description>
+  <title>📊 Daily VN stock report — 2026-06-15</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-15.html</guid>
+  <pubDate>Mon, 15 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 Tuần 20/2026: VN30 recap — sector dẫn dắt và pattern RSI</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-05-15-weekly-recap-w20.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-05-15-weekly-recap-w20.html</guid>
-  <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+  <title>📝 Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-15-regime-now-06-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-15-regime-now-06-15.html</guid>
+  <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
   <category>blog</category>
-  <description># Weekly Recap VN30 — Tuần 20/2026 (15/05/2026)
+  <description># Thị Trường Đang Bán Mạnh — Nhưng Lịch Sử Nói Điều Ngược Lại
 
-**TL;DR:** Tuần 20 ghi nhận sự phân hóa mạnh trong VN30 khi GAS bứt phá gần 20% trong khi dòng tiền nội địa kết thúc tuần ở trạng thái bán ròng — áp lực mua chỉ còn 34.7%.
+Khi dòng tiền nội bán tháo và VIX vẫn còn đứng ở ngưỡng trung lập, đây chính xác là loại tín hiệu mà phần lớn retail trader bỏ qua — hoặc diễn giải sai.
 
 ---
 
-## Data
+## Bức Tranh Hôm Nay: Tín Hiệu Phân Kỳ
 
-| Nhóm | Điểm nổi bật |
-|---|---|
-| Top tăng tuần | GAS +19.68%, PLX +12.23%, GVR +5.74% |
-| Top giảm tuần | VRE -5.29%, VHM -3.66%, MSN -3.37% |
-| Dòng tiền nội địa | Áp lực mua 34.7% (bán …</description>
+Snapshot hôm nay có một điều thú vị đến mức khó chịu: **bên ngoài xanh, bên trong đỏ.**
+
+- Nikkei 225 tăng gần **+5%** trong một …</description>
+</item>
+<item>
+  <title>📝 Tại sao bạn bán đáy? Loss aversion + cohort data VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-14-psychology-loss-aversion.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-14-psychology-loss-aversion.html</guid>
+  <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Tại Sao Não Bạn Là Kẻ Thù Tệ Nhất Trong Thị Trường Chứng Khoán
+
+Retail VN thua không phải vì thiếu thông tin — mà vì não bộ được lập trình sai cho việc đầu tư. Và có một con số cụ thể chứng minh điều đó.
+
+---
+
+Hãy thử một bài toán nhỏ: Bạn mất 1 triệu đồng hôm nay. Cần thắng bao nhiêu để cảm thấy &#34;hòa&#34;?
+
+Nếu câu trả lời trong đầu bạn là &#34;2 triệu&#34;, chúc mừng — não bạn đang ho…</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-12</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-12.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-12.html</guid>
+  <pubDate>Fri, 12 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 RSI &gt; 70 có thực sự là tín hiệu BÁN? Backtest 9 năm VN30 nói ngược</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-12-tech-classic-rsi--70.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-12-tech-classic-rsi--70.html</guid>
+  <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># RSI &gt; 70 Không Phải Tín Hiệu Bán — Data 45,000 Dòng Nói Gì Khác Hẳn
+
+Cộng đồng chứng khoán Việt Nam đã sai về RSI overbought suốt nhiều năm — và con số +9.23% return sau 60 ngày là bằng chứng khó chối cãi nhất.
+
+---
+
+## Cái Bẫy Tâm Lý Tên &#34;Quá Mua&#34;
+
+Hỏi bất kỳ trader bán lẻ nào ở các group Facebook chứng khoán: &#34;RSI vượt 70 thì làm gì?&#34; — câu trả lời gần như đồng thanh: *&#34;Chốt lời ngay, cổ phiế…</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-11</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-11.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-11.html</guid>
+  <pubDate>Thu, 11 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 29 tuổi, lương dev senior 60tr — nên full-time trade hay giữ job? Math nói gì</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-11-career-full-time-vs-part-time.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-11-career-full-time-vs-part-time.html</guid>
+  <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Bỏ Việc Làm Full-Time Trader Ở Tuổi 29: Bài Toán Mà Phần Lớn Sẽ Tính Sai
+
+Tóm lại: với 2.4 tỷ đồng tài sản, bỏ việc để trade toàn thời gian là một quyết định tài chính tệ hơn bạn nghĩ — và con số chứng minh điều đó rất thẳng thắn.
+
+Có một câu hỏi mà cộng đồng trader Việt hay né tránh trả lời thật: *nếu bạn giỏi trading đến vậy, tại sao vẫn cần quit job để có thêm thời gian?…</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-10</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-10.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-10.html</guid>
+  <pubDate>Wed, 10 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-10-news-impact-06-10.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-10-news-impact-06-10.html</guid>
+  <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Khi Châu Á Hắt Hơi, VN-Index Cũng Sổ Mũi — Nhưng Lịch Sử Nói Gì Tiếp Theo?
+
+Phiên 10/06 mở ra với một bức tranh APAC nhuốm màu đỏ nặng — và đây chính xác là kiểu môi trường mà retail thường hoảng loạn bán, trong khi data lại kể một câu chuyện khác hẳn.
+
+---
+
+## Bức tranh toàn cảnh: Đỏ từ Tokyo đến Hong Kong
+
+Nikkei 225 mất **-4.86%** trong phiên 10/06. Hang Seng rớt **-5.04%** cùng ngày. Đây không ph…</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-09</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-09.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-09.html</guid>
+  <pubDate>Tue, 09 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 MWG (Thế Giới Di Động) — phụ thuộc gì? Phân tích retail giant VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-09-supply-chain-mwg.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-09-supply-chain-mwg.html</guid>
+  <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># MWG — Mua Vì &#34;Proxy Tầng Lớp Trung Lưu&#34;, Nhưng CAGR Lại Thua VN30
+
+Từ 2014 đến nay, MWG tăng 275% — nghe ổn — cho đến khi so với benchmark và nhận ra mình đang cầm cổ phiếu *chậm hơn thị trường* suốt 12 năm.
+
+---
+
+## Câu chuyện bắt đầu từ một chiếc tủ lạnh
+
+Hãy hình dung một gia đình ở Bình Dương năm 2018: thu nhập vừa vượt ngưỡng 200 triệu/năm, quyết định mua điện thoại Samsung flagship đ�…</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-08</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-08.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-08.html</guid>
+  <pubDate>Mon, 08 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 5 điều cohort 47K data point cho thấy ngược trực giác retail VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-08-insight-wyckoff-stage-upset.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-08-insight-wyckoff-stage-upset.html</guid>
+  <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># 9 năm data VN30+HNX30 nói điều ngược lại với những gì bạn tin
+
+Backtest 45,493 điểm dữ liệu sạch trên cohort VN30+HNX30 cho ra 5 kết quả mà phần lớn nhà đầu tư retail VN sẽ không muốn nghe — vì chúng phủ nhận trực tiếp những &#34;kinh nghiệm&#34; được truyền miệng nhiều nhất trong cộng đồng.
+
+---
+
+## 1. Wyckoff distribution (đỉnh phân phối) không phải tín hiệu bán
+
+Hỏi bất kỳ trader VN nào về Wyckoff s…</description>
+</item>
+<item>
+  <title>📝 5 điều cohort 47K data point cho thấy ngược trực giác retail VN</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-07-insight-wyckoff-stage-upset.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-07-insight-wyckoff-stage-upset.html</guid>
+  <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># 5 Điều Data VN30+HNX30 Nói Ngược Hoàn Toàn Với Trực Giác Retail
+
+Sau 9 năm backtest trên 45.493 rows dữ liệu sạch của cohort VN30+HNX30, kết quả cho thấy một sự thật khó chịu: phần lớn những gì cộng đồng retail VN tin là đúng — đều sai theo hướng ngược lại.
+
+---
+
+## 1. Wyckoff Distribution (Đỉnh Phân Phối) Lại Cho Return Cao Nhất
+
+Hỏi bất kỳ trader nào ở các group chứng khoán VN: &#34;Thấy Wyckoff Stage 3 t…</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-05</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-05.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-05.html</guid>
+  <pubDate>Fri, 05 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-05-regime-now-06-05.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-05-regime-now-06-05.html</guid>
+  <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Thị trường hôm nay nghiêng bán — nhưng lịch sử 9 năm nói gì?
+
+Dòng tiền đang rút, nhưng đây là lúc data thường bị đọc sai nhất.
+
+---
+
+## Bức tranh hôm nay: bề ngoài &#34;bearish&#34;, bên trong phức tạp hơn
+
+Snapshot hôm nay có một chi tiết đáng chú ý: **dòng tiền nội nghiêng bán với buy pressure chỉ 42.8%**. Đây là con số mà phần lớn nhà đầu tư cá nhân sẽ đọc ngay là tín hiệu xấu — đăng lên group, …</description>
+</item>
+<item>
+  <title>📊 Daily VN stock report — 2026-06-04</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-04.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-04.html</guid>
+  <pubDate>Thu, 04 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Volume tăng đột biến — có phải tín hiệu \&#34;smart money\&#34;? Data nói gì</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-04-tech-classic-volume-surge-2x.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-04-tech-classic-volume-surge-2x.html</guid>
+  <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Volume Surge Không Phải &#34;Tín Hiệu Thần Thánh&#34; — Data 10 Năm Nói Gì?
+
+Sau khi chạy cohort analysis trên 10 năm backtest, kết quả khiến không ít người phải đặt lại câu hỏi: tại sao signal được hô hào nhiều nhất trong cộng đồng retail lại có edge yếu đến vậy?
+
+---
+
+## Câu Chuyện Quen Thuộc Trên Mọi Group Chứng Khoán
+
+Hầu như tuần nào cũng có một bài post kiểu này: &#34;Cổ phiếu XYZ hôm nay volume gấp 3 l…</description>
 </item>
 </channel>
 </rss>
