@@ -36,6 +36,7 @@ var (
 	contentDir = flag.String("content", "./content", "directory containing blog markdown + static assets")
 	baseURL    = flag.String("base-url", "https://lotusai.servehttp.com", "canonical base URL for sitemap/OG tags")
 	cacheTTL   = flag.Duration("cache-ttl", 10*time.Minute, "TTL for live data cache")
+	dataDir    = flag.String("data", "./data", "directory for runtime data (view counts)")
 )
 
 func main() {
@@ -45,6 +46,7 @@ func main() {
 		BaseURL:    *baseURL,
 		ContentDir: *contentDir,
 		CacheTTL:   *cacheTTL,
+		DataDir:    *dataDir,
 	})
 
 	mux := http.NewServeMux()

@@ -133,6 +133,9 @@ func (s *server) handleBlog(w http.ResponseWriter, r *http.Request) {
 		s.handleNotFound(w, r)
 		return
 	}
+	if s.views != nil {
+		s.views.hit(match.Slug, r.UserAgent())
+	}
 	s.renderPage(w, "blog-post", pageData{
 		Title:       match.Title + " · Lotus AI",
 		Description: match.Excerpt,
