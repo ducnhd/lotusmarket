@@ -87,13 +87,20 @@ const baseTpl = `<!DOCTYPE html>
 <meta property="og:description" content="{{.Description}}">
 <meta property="og:url" content="{{.Canonical}}">
 <meta property="og:image" content="{{.OGImage}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{.Title}}">
 <meta property="og:site_name" content="Lotus AI">
 <meta property="og:locale" content="vi_VN">
+{{if and (eq .OGType "article") .Post}}<meta property="article:published_time" content="{{.Post.Date.Format "2006-01-02T15:04:05Z07:00"}}">
+<meta property="article:author" content="ducnhd">
+<meta property="article:section" content="Phân tích cổ phiếu">{{end}}
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{.Title}}">
 <meta name="twitter:description" content="{{.Description}}">
 <meta name="twitter:image" content="{{.OGImage}}">
+<meta name="twitter:image:alt" content="{{.Title}}">
 <!-- Feeds -->
 <link rel="alternate" type="application/rss+xml" title="Lotus AI Blog RSS" href="{{.BaseURL}}/feed.xml">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B8%3C/text%3E%3C/svg%3E">

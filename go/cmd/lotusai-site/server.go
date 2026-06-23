@@ -63,6 +63,7 @@ func (s *server) routes(mux *http.ServeMux) {
 	mux.HandleFunc("/robots.txt", s.handleRobots)
 	mux.HandleFunc("/feed.xml", s.handleFeed)
 	mux.HandleFunc("/health", s.handleHealth)
+	mux.HandleFunc("/og/", s.handleOGImage)
 	// Static assets (CSS/img) served from content/static/
 	staticDir := filepath.Join(s.cfg.ContentDir, "static")
 	mux.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir(staticDir))))

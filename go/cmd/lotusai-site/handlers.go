@@ -42,7 +42,7 @@ func (s *server) renderPage(w http.ResponseWriter, name string, data pageData) {
 		data.OGType = "website"
 	}
 	if data.OGImage == "" {
-		data.OGImage = data.BaseURL + "/static/og-default.png"
+		data.OGImage = data.BaseURL + "/og/default.png"
 	}
 	data.Year = time.Now().Year()
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
@@ -138,6 +138,7 @@ func (s *server) handleBlog(w http.ResponseWriter, r *http.Request) {
 		Description: match.Excerpt,
 		Canonical:   s.cfg.BaseURL + "/blog/" + match.Slug,
 		OGType:      "article",
+		OGImage:     s.cfg.BaseURL + "/og/blog/" + match.Slug + ".png",
 		PageType:    "blog-post",
 		Post:        match,
 		JSONLD:      jsonLDArticle(s.cfg.BaseURL, match),

@@ -73,6 +73,9 @@ func runAutoBlog(ctx context.Context, outDir, topicFlag string) {
 		log.Fatalf("mkdir %s: %v", outDir, err)
 	}
 
+	// Load variant recency so builders can avoid recently-published content.
+	recentVariantKeys = recentContentKeys(outDir, variantCooldownDays)
+
 	apiKey := os.Getenv("CLAUDE_API_KEY")
 	if apiKey == "" {
 		apiKey = os.Getenv("ANTHROPIC_API_KEY")
@@ -107,8 +110,91 @@ func runAutoBlog(ctx context.Context, outDir, topicFlag string) {
 	fmt.Println(full)
 }
 
-// selectTopic — pick a topic not used in last 7 days. If topicFlag is set,
-// honor it directly.
+// Recency windows. Two granularities work together:
+//   - topicCooldownDays: how long before a topic *type* may recur. Controls the
+//     single-variant timely topics (regime-now, news-impact) — their only lever.
+//   - variantCooldownDays: how long before a specific *variant* (slug/content)
+//     may recur. Carries content diversity even when a topic type returns.
+const (
+	topicCooldownDays   = 14
+	variantCooldownDays = 60
+)
+
+// recentVariantKeys maps a normalized content key -> days ago (smaller = more
+// recent). Populated once at the start of runAutoBlog and consulted by builders
+// via pickFresh so variant selection avoids recently-published content.
+var recentVariantKeys map[string]int
+
+// slugTopicPrefixes maps a filename slug prefix to its topic key. Order matters:
+// the first matching prefix wins. Built from the actual slug shapes the builders
+// emit (e.g. comparison -> "compare-", data-insight -> "insight-"), which the
+// old prefix-vs-key matching got wrong for half the topics.
+var slugTopicPrefixes = []struct{ prefix, topic string }{
+	{"tech-classic", "tech-classic"},
+	{"myth-", "myth-buster"},
+	{"random-", "random-ticker"},
+	{"career-", "career-investing"},
+	{"supply-chain", "supply-chain"},
+	{"psychology", "psychology"},
+	{"insight-", "data-insight"},
+	{"compare-", "comparison"},
+	{"regime-now", "regime-now"},
+	{"news-impact", "news-impact"},
+}
+
+// topicOf returns the topic key for a filename slug (the part after YYYY-MM-DD-).
+func topicOf(rest string) string {
+	for _, m := range slugTopicPrefixes {
+		if strings.HasPrefix(rest, m.prefix) {
+			return m.topic
+		}
+	}
+	return rest
+}
+
+// contentKey normalizes a slug-rest into a stable content identity. The timely
+// topics carry a -MM-DD suffix; we strip it so every daily snapshot collapses to
+// one key for recency purposes. Catalog topics already carry their variant in
+// the slug, so they pass through unchanged.
+func contentKey(rest string) string {
+	for _, p := range []string{"regime-now", "news-impact"} {
+		if strings.HasPrefix(rest, p+"-") {
+			return p
+		}
+	}
+	return rest
+}
+
+// pickFresh returns the index of the candidate whose slug was used least
+// recently. Never-used slugs win (random among them); if every candidate was
+// used inside the variant window, the one used longest ago wins.
+func pickFresh(slugs []string) int {
+	fresh := []int{}
+	for i, s := range slugs {
+		if _, used := recentVariantKeys[contentKey(s)]; !used {
+			fresh = append(fresh, i)
+		}
+	}
+	if len(fresh) > 0 {
+		return fresh[rand.Intn(len(fresh))]
+	}
+	oldest, bestAge := []int{}, -1
+	for i, s := range slugs {
+		age := recentVariantKeys[contentKey(s)]
+		if age > bestAge {
+			bestAge, oldest = age, []int{i}
+		} else if age == bestAge {
+			oldest = append(oldest, i)
+		}
+	}
+	if len(oldest) == 0 {
+		return rand.Intn(len(slugs))
+	}
+	return oldest[rand.Intn(len(oldest))]
+}
+
+// selectTopic — pick a topic not used in the last topicCooldownDays. If
+// topicFlag is set, honor it directly.
 func selectTopic(outDir, topicFlag string) topicSpec {
 	if topicFlag != "" && topicFlag != "auto" {
 		for _, t := range topicRegistry {
@@ -118,7 +204,7 @@ func selectTopic(outDir, topicFlag string) topicSpec {
 		}
 		log.Printf("[autoblog] unknown topic %q, falling back to auto", topicFlag)
 	}
-	recent := recentTopicKeys(outDir, 7)
+	recent := recentTopicKeys(outDir, topicCooldownDays)
 	eligible := []topicSpec{}
 	for _, t := range topicRegistry {
 		if !contains(recent, t.Key) {
@@ -143,36 +229,49 @@ func recentTopicKeys(dir string, days int) []string {
 		if e.IsDir() || !strings.HasSuffix(e.Name(), ".md") {
 			continue
 		}
-		// Filename pattern: YYYY-MM-DD-<topic>.md
+		// Filename pattern: YYYY-MM-DD-<rest>.md
 		name := strings.TrimSuffix(e.Name(), ".md")
 		if len(name) < 11 {
 			continue
 		}
-		dateStr := name[:10]
-		d, err := time.Parse("2006-01-02", dateStr)
+		d, err := time.Parse("2006-01-02", name[:10])
 		if err != nil || d.Before(cutoff) {
 			continue
 		}
-		// topic = everything after YYYY-MM-DD-
-		topic := name[11:]
-		// Strip trailing ticker/indicator suffix to get base topic key
-		base := topic
-		if idx := strings.Index(topic, "-"); idx > 0 {
-			// e.g. "tech-classic" stays, "random-ticker-acb" becomes "random-ticker"
-			parts := strings.Split(topic, "-")
-			if len(parts) >= 2 {
-				// Try matching against known topic keys
-				for _, t := range topicRegistry {
-					if strings.HasPrefix(topic, t.Key) {
-						base = t.Key
-						break
-					}
-				}
-			}
-		}
-		keys = append(keys, base)
+		keys = append(keys, topicOf(name[11:]))
 	}
 	return keys
+}
+
+// recentContentKeys scans outDir for posts within the last `days` and returns a
+// map of content key -> days ago (smaller = more recent).
+func recentContentKeys(dir string, days int) map[string]int {
+	out := map[string]int{}
+	entries, err := os.ReadDir(dir)
+	if err != nil {
+		return out
+	}
+	now := time.Now()
+	cutoff := now.AddDate(0, 0, -days)
+	for _, e := range entries {
+		if e.IsDir() || !strings.HasSuffix(e.Name(), ".md") {
+			continue
+		}
+		name := strings.TrimSuffix(e.Name(), ".md")
+		if len(name) < 11 {
+			continue
+		}
+		d, err := time.Parse("2006-01-02", name[:10])
+		if err != nil || d.Before(cutoff) {
+			continue
+		}
+		key := contentKey(name[11:])
+		age := int(now.Sub(d).Hours() / 24)
+		if prev, ok := out[key]; !ok || age < prev {
+			out[key] = age
+		}
+	}
+	return out
 }
 
 func contains(s []string, v string) bool {
@@ -319,7 +418,11 @@ Insight: Volume surge KHÔNG phải edge độc lập. Phải kết hợp với 
 }
 
 func buildTechClassic(ctx context.Context) (data, title, slug string) {
-	t := techClassicCatalog[rand.Intn(len(techClassicCatalog))]
+	slugs := make([]string, len(techClassicCatalog))
+	for i, c := range techClassicCatalog {
+		slugs[i] = "tech-classic-" + safeSlug(c.indicator)
+	}
+	t := techClassicCatalog[pickFresh(slugs)]
 	data = t.data
 	title = t.headline
 	slug = "tech-classic-" + safeSlug(t.indicator)
@@ -444,7 +547,11 @@ Insight: yield cao thường là proxy cho stagnant growth. "Cổ tức cao = an
 }
 
 func buildMythBuster(ctx context.Context) (data, title, slug string) {
-	t := mythCatalog[rand.Intn(len(mythCatalog))]
+	slugs := make([]string, len(mythCatalog))
+	for i, c := range mythCatalog {
+		slugs[i] = "myth-" + safeSlug(c.myth)
+	}
+	t := mythCatalog[pickFresh(slugs)]
 	data = "Myth dưới phân tích: \"" + t.myth + "\"\n\n" + t.data
 	title = t.headline
 	slug = "myth-" + safeSlug(t.myth)
@@ -455,8 +562,11 @@ func buildMythBuster(ctx context.Context) (data, title, slug string) {
 
 func buildRandomTicker(ctx context.Context) (data, title, slug string) {
 	rand.Seed(time.Now().UnixNano())
-	idx := rand.Intn(len(vn30))
-	ticker := vn30[idx]
+	slugs := make([]string, len(vn30))
+	for i, tk := range vn30 {
+		slugs[i] = "random-" + strings.ToLower(tk)
+	}
+	ticker := vn30[pickFresh(slugs)]
 
 	hist, err := fetchers.EntradeHistory(ctx, ticker, 250)
 	if err != nil || len(hist) < 50 {
@@ -648,7 +758,11 @@ Bài học:
 - Pattern này được chứng minh: SELL/CUT_LOSS audit 0/3 đúng trong 30-day plan retrospective.`,
 		},
 	}
-	t := topics[rand.Intn(len(topics))]
+	slugs := make([]string, len(topics))
+	for i, c := range topics {
+		slugs[i] = "career-" + safeSlug(c.angle)
+	}
+	t := topics[pickFresh(slugs)]
 	data = t.data
 	title = t.headline
 	slug = "career-" + safeSlug(t.angle)
@@ -790,7 +904,11 @@ Performance backtest:
 Insight: MWG là proxy của VN consumer middle-class. Theo dõi GDP, USD/VND, e-com share dynamics.`,
 		},
 	}
-	t := cases[rand.Intn(len(cases))]
+	slugs := make([]string, len(cases))
+	for i, c := range cases {
+		slugs[i] = "supply-chain-" + strings.ToLower(c.ticker)
+	}
+	t := cases[pickFresh(slugs)]
 	data = t.data
 	title = t.headline
 	slug = "supply-chain-" + strings.ToLower(t.ticker)
@@ -894,7 +1012,11 @@ Bài học:
 - Group đầu tư FB là LAGGING indicator, không phải leading.`,
 		},
 	}
-	t := cases[rand.Intn(len(cases))]
+	slugs := make([]string, len(cases))
+	for i, c := range cases {
+		slugs[i] = "psychology-" + safeSlug(c.angle)
+	}
+	t := cases[pickFresh(slugs)]
 	data = t.data
 	title = t.headline
 	slug = "psychology-" + safeSlug(t.angle)
@@ -1008,7 +1130,11 @@ Rule:
 - Bot Telegram "win rate 78%": hỏi N sample, time horizon, fees.`,
 		},
 	}
-	t := topics[rand.Intn(len(topics))]
+	slugs := make([]string, len(topics))
+	for i, c := range topics {
+		slugs[i] = "insight-" + safeSlug(c.angle)
+	}
+	t := topics[pickFresh(slugs)]
 	data = t.data
 	title = t.headline
 	slug = "insight-" + safeSlug(t.angle)
@@ -1128,7 +1254,11 @@ Insight cho retail:
 VN30 buy-hold equal-weight CAGR 16y +15.37% beat cả VNM và MSN solo.`,
 		},
 	}
-	t := cases[rand.Intn(len(cases))]
+	slugs := make([]string, len(cases))
+	for i, c := range cases {
+		slugs[i] = "compare-" + safeSlug(c.pair)
+	}
+	t := cases[pickFresh(slugs)]
 	data = t.data
 	title = t.headline
 	slug = "compare-" + safeSlug(t.pair)
@@ -1163,7 +1293,7 @@ func buildRegimeNow(ctx context.Context) (data, title, slug string) {
 	sb.WriteString("- CRISIS_FUNDAMENTAL: vấn đề cấu trúc nội tại VN. Vd VTP 10/2022. May not recover.\n")
 
 	data = sb.String()
-	title = "Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa"
+	title = "Thị trường hôm nay (" + time.Now().Format("02/01") + ") đang ở regime nào? Phân loại deterministic + ý nghĩa"
 	slug = "regime-now-" + time.Now().Format("01-02")
 	return
 }
@@ -1191,7 +1321,7 @@ func buildNewsImpact(ctx context.Context) (data, title, slug string) {
 	sb.WriteString("- EUPHORIA global (VIX < 13, S&P all-time high): VN fwd thường +6.12%, win 59% — momentum continuation.\n")
 
 	data = sb.String()
-	title = "Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup"
+	title = "Tin nóng global (" + time.Now().Format("02/01") + ") — ảnh hưởng VN30 thế nào? Cohort lookup"
 	slug = "news-impact-" + time.Now().Format("01-02")
 	return
 }
