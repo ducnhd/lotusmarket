@@ -1,6 +1,7 @@
 package main
 
 import (
+	"strings"
 	"testing"
 	"time"
 )
@@ -53,6 +54,11 @@ func TestDetectVolume(t *testing.T) {
 
 // Task 4: flow detection.
 func TestDetectFlow(t *testing.T) {
+	// zero-value guard: unset FlowBuyPressure must produce no events.
+	if got := detectFlow(Snapshot{}); got != nil {
+		t.Fatalf("zero-value snapshot: got %v, want nil", got)
+	}
+
 	if got := detectFlow(Snapshot{FlowBuyPressure: 52}); len(got) != 0 {
 		t.Fatalf("neutral flow: got %d, want 0", len(got))
 	}
@@ -62,6 +68,25 @@ func TestDetectFlow(t *testing.T) {
 	}
 	if got[0].Score < 40 || got[0].Score > 60 {
 		t.Errorf("flow score = %.1f, want 40-60", got[0].Score)
+	}
+
+	// sell-pressure branch: FlowBuyPressure <= 40 triggers "bán mạnh".
+	sell := detectFlow(Snapshot{FlowBuyPressure: 36})
+	if len(sell) != 1 {
+		t.Fatalf("sell-pressure: got %d events, want 1", len(sell))
+	}
+	e := sell[0]
+	if e.Type != "flow" {
+		t.Errorf("sell-pressure: Type = %q, want flow", e.Type)
+	}
+	if e.Ticker != "" {
+		t.Errorf("sell-pressure: Ticker = %q, want empty (market-wide)", e.Ticker)
+	}
+	if e.Score < 40 || e.Score > 60 {
+		t.Errorf("sell-pressure: Score = %.1f, want 40-60", e.Score)
+	}
+	if !strings.Contains(e.DataBlock, "bán mạnh") {
+		t.Errorf("sell-pressure: DataBlock = %q, want mention of bán mạnh", e.DataBlock)
 	}
 }
 
