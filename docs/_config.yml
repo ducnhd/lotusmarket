@@ -13,3 +13,7 @@ include:
   - reports
 exclude:
   - "*.md.bak"
+  # Internal dev docs (design specs + implementation plans). They contain Go
+  # code and GitHub Actions YAML with {{ }} / ${{ }} that break Jekyll's Liquid
+  # parser, and they are not site content.
+  - superpowers
