@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 22 Jun 2026 14:14:01 +0000</lastBuildDate>
+<lastBuildDate>Tue, 23 Jun 2026 03:00:27 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-23</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-23.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-23.html</guid>
+  <pubDate>Tue, 23 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-22</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-22.html</link>
@@ -364,14 +372,6 @@ Sau khi chạy cohort analysis trên 10 năm backtest, kết quả khiến khôn
 ## Câu Chuyện Quen Thuộc Trên Mọi Group Chứng Khoán
 
 Hầu như tuần nào cũng có một bài post kiểu này: &#34;Cổ phiếu XYZ hôm nay volume gấp 3 l…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-03</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-03.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-03.html</guid>
-  <pubDate>Wed, 03 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
