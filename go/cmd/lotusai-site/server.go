@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"html/template"
 	"log"
@@ -25,6 +26,7 @@ type serverConfig struct {
 	BaseURL    string
 	ContentDir string
 	CacheTTL   time.Duration
+	DataDir    string
 }
 
 type server struct {
@@ -32,6 +34,7 @@ type server struct {
 	tpl       map[string]*template.Template
 	cache     liveCache
 	startedAt time.Time
+	views     *viewStore
 }
 
 func newServer(cfg serverConfig) *server {
@@ -41,6 +44,15 @@ func newServer(cfg serverConfig) *server {
 		startedAt: time.Now(),
 	}
 	s.tpl = parseTemplates()
+	if err := os.MkdirAll(cfg.DataDir, 0o755); err == nil {
+		s.views = newViewStore(filepath.Join(cfg.DataDir, "blog_views.json"))
+		go func() {
+			t := time.NewTicker(2 * time.Minute)
+			for range t.C {
+				_ = s.views.flush()
+			}
+		}()
+	}
 	return s
 }
 
@@ -50,6 +62,9 @@ func (s *server) routes(mux *http.ServeMux) {
 	mux.HandleFunc("/", s.handleRoot)
 	mux.HandleFunc("/dashboard", s.handleDashboard)
 	mux.HandleFunc("/dashboard/", s.handleDashboard) // accept trailing slash too — avoids 404
+	// /blog/stats must be registered before /blog/ so ServeMux routes it to
+	// its own handler rather than the catch-all handleBlog.
+	mux.HandleFunc("/blog/stats", s.handleBlogStats)
 	// Register both /blog and /blog/ as the same handler so Google never sees
 	// a 301 redirect (GSC was flagging "Lỗi chuyển hướng" / Page with redirect
 	// because Go's http.ServeMux auto-redirects "/blog" → "/blog/").
@@ -521,4 +536,14 @@ func (s *server) handleFeed(w http.ResponseWriter, _ *http.Request) {
 	}
 	sb.WriteString("</channel></rss>\n")
 	_, _ = w.Write([]byte(sb.String()))
+}
+
+func (s *server) handleBlogStats(w http.ResponseWriter, _ *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	if s.views == nil {
+		_, _ = w.Write([]byte("{}"))
+		return
+	}
+	b, _ := json.MarshalIndent(s.views.snapshot(), "", "  ")
+	_, _ = w.Write(b)
 }
