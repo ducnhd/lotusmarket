@@ -101,6 +101,15 @@ func main() {
 			}
 		}
 		runAutoBlog(ctx, outDir, topic)
+	case "marketscan":
+		outDir := "docs/blog"
+		for i := 0; i < len(args); i++ {
+			if args[i] == "--out" && i+1 < len(args) {
+				outDir = args[i+1]
+				i++
+			}
+		}
+		runMarketScan(ctx, outDir)
 	case "report":
 		runReport(ctx)
 	case "-h", "--help", "help":
@@ -131,6 +140,7 @@ Usage:
   lmcli autoblog [flags]     AI-generated blog post from real data (Mon/Wed/Fri rotation)
                              Flags: --out docs/blog --topic auto|weekly|cohort|ticker
                              Needs CLAUDE_API_KEY env
+  lmcli marketscan [--out path]  Event-triggered market blog (posts only on a real event)
   lmcli report [--out=path]  Full daily report
 
 Examples:
