@@ -167,6 +167,21 @@ func TestNotRecentlyPosted(t *testing.T) {
 	}
 }
 
+// Task 10: market universe.
+func TestMarketUniverse(t *testing.T) {
+	u := marketUniverse()
+	if len(u) < 55 {
+		t.Fatalf("universe = %d tickers, want ~60 (VN30+HNX30)", len(u))
+	}
+	seen := map[string]bool{}
+	for _, tk := range u {
+		if seen[tk] {
+			t.Errorf("duplicate ticker in universe: %s", tk)
+		}
+		seen[tk] = true
+	}
+}
+
 // Task 9: backfill decision helpers.
 func TestShouldBackfill(t *testing.T) {
 	if shouldBackfill(2) {
