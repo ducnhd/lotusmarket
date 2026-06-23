@@ -1,27 +1,17 @@
 name: Auto Blog
 
-# AI-generated blog post 3x/week. Topic rotates by weekday:
-#   Mon: weekly recap (5-day VN30 movers + sector + regime hint)
-#   Wed: educational cohort post (rotating focus)
-#   Fri: ticker spotlight (highest-rated VN30 with exposure context)
-#
-# Each post is data-grounded — real numbers pulled from VPS / Entrade /
-# YahooHistory via lmcli, then Claude does prose synthesis only.
+# AI-generated blog post triggered by real market events (Mon-Fri post-close).
+# lmcli marketscan detects VN30+HNX30 events, gates on a score threshold,
+# deduplicates against recent posts, and falls back to evergreen backfill when
+# no event clears the threshold and ≥3 days have passed since the last post.
 # Output: docs/blog/YYYY-MM-DD-slug.md, committed to repo.
 # Pi (lotusai-site) syncs via git pull cron.
 # Telegram channel gets a short link summary.
 
 on:
   schedule:
-    - cron: "0 2 * * 1,3,5"   # 09:00 VN on Mon/Wed/Fri
+    - cron: "0 9 * * 1-5"   # 16:00 VN (after 15:00 close), Mon-Fri
   workflow_dispatch:
-    inputs:
-      topic:
-        description: "Force topic"
-        required: false
-        type: choice
-        default: auto
-        options: [auto, weekly, cohort, ticker]
 
 permissions:
   contents: write
@@ -49,14 +39,17 @@ jobs:
         id: gen
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
-          TOPIC: ${{ inputs.topic }}
         run: |
           if [ -z "$CLAUDE_API_KEY" ]; then
             echo "::error::CLAUDE_API_KEY secret not set"
             exit 1
           fi
-          TOPIC_ARG="${TOPIC:-auto}"
-          OUT=$(/tmp/lmcli autoblog --out docs/blog --topic "$TOPIC_ARG")
+          OUT=$(/tmp/lmcli marketscan --out docs/blog)
+          if [ -z "$OUT" ]; then
+            echo "no-event=true" >> "${GITHUB_OUTPUT}"
+            echo "::notice::marketscan produced no post today (no event, no backfill)"
+            exit 0
+          fi
           echo "path=${OUT}" >> "${GITHUB_OUTPUT}"
           echo "filename=$(basename "$OUT")" >> "${GITHUB_OUTPUT}"
           echo "slug=$(basename "$OUT" .md)" >> "${GITHUB_OUTPUT}"
@@ -67,6 +60,7 @@ jobs:
 
       - name: Quality gate (decide if post is broadcast-worthy)
         id: gate
+        if: steps.gen.outputs.path != ''
         env:
           POSTPATH: ${{ steps.gen.outputs.path }}
         run: |
@@ -108,6 +102,7 @@ jobs:
           fi
 
       - name: Commit + push
+        if: steps.gen.outputs.path != ''
         run: |
           git config user.name "lotusmarket-bot"
           git config user.email "bot@lotusmarket.local"
@@ -119,7 +114,7 @@ jobs:
           git push
 
       - name: Wait for deploy (Pi sync + GH Pages) before broadcasting
-        if: steps.gate.outputs.broadcast == 'true'
+        if: steps.gen.outputs.path != '' && steps.gate.outputs.broadcast == 'true'
         env:
           SLUG: ${{ steps.gen.outputs.slug }}
         run: |
@@ -145,7 +140,7 @@ jobs:
           wait_for "$PAGES_URL" "GitHub Pages"
 
       - name: Post link to Telegram
-        if: env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHANNEL != '' && steps.gate.outputs.broadcast == 'true'
+        if: steps.gen.outputs.path != '' && env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHANNEL != '' && steps.gate.outputs.broadcast == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
