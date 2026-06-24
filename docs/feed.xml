@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 23 Jun 2026 11:38:59 +0000</lastBuildDate>
+<lastBuildDate>Wed, 24 Jun 2026 03:01:00 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-24</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-24.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-24.html</guid>
+  <pubDate>Wed, 24 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-23</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-23.html</link>
@@ -364,14 +372,6 @@ Dòng tiền đang rút, nhưng đây là lúc data thường bị đọc sai nh
 ## Bức tranh hôm nay: bề ngoài &#34;bearish&#34;, bên trong phức tạp hơn
 
 Snapshot hôm nay có một chi tiết đáng chú ý: **dòng tiền nội nghiêng bán với buy pressure chỉ 42.8%**. Đây là con số mà phần lớn nhà đầu tư cá nhân sẽ đọc ngay là tín hiệu xấu — đăng lên group, …</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-04</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-04.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-04.html</guid>
-  <pubDate>Thu, 04 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
