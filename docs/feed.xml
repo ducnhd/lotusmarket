@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 26 Jun 2026 03:00:51 +0000</lastBuildDate>
+<lastBuildDate>Fri, 26 Jun 2026 11:23:50 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-06-26</title>
@@ -14,6 +14,22 @@
   <pubDate>Fri, 26 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 HPG vs HSG: ai là vua thép VN? Backtest 10 năm + sensitivity test</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</guid>
+  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># HPG vs HSG: Khi &#34;thép là thép&#34; — nhưng không phải mọi thép đều như nhau
+
+Hai mã cùng ngành, cùng chịu cơn bão 2022, cùng hồi phục — nhưng sau 10 năm, khoảng cách lợi nhuận giữa họ là 190 điểm phần trăm. Điều gì tạo ra hố ngăn cách đó?
+
+---
+
+## Bắt đầu từ một quan sát đơn giản
+
+Nếu ai đó hỏi retail investor bình thường: &#34;HPG và HSG, mua cái nào?&#34; — câu trả lời thường là &#34;HSG giá thấp hơn, up…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-25</title>
@@ -348,22 +364,6 @@ Backtest 45,493 điểm dữ liệu sạch trên cohort VN30+HNX30 cho ra 5 kế
 ## 1. Wyckoff distribution (đỉnh phân phối) không phải tín hiệu bán
 
 Hỏi bất kỳ trader VN nào về Wyckoff s…</description>
-</item>
-<item>
-  <title>📝 5 điều cohort 47K data point cho thấy ngược trực giác retail VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-07-insight-wyckoff-stage-upset.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-07-insight-wyckoff-stage-upset.html</guid>
-  <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># 5 Điều Data VN30+HNX30 Nói Ngược Hoàn Toàn Với Trực Giác Retail
-
-Sau 9 năm backtest trên 45.493 rows dữ liệu sạch của cohort VN30+HNX30, kết quả cho thấy một sự thật khó chịu: phần lớn những gì cộng đồng retail VN tin là đúng — đều sai theo hướng ngược lại.
-
----
-
-## 1. Wyckoff Distribution (Đỉnh Phân Phối) Lại Cho Return Cao Nhất
-
-Hỏi bất kỳ trader nào ở các group chứng khoán VN: &#34;Thấy Wyckoff Stage 3 t…</description>
 </item>
 </channel>
 </rss>
