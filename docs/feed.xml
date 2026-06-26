@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 25 Jun 2026 11:15:58 +0000</lastBuildDate>
+<lastBuildDate>Fri, 26 Jun 2026 03:00:51 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-26</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-26.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-26.html</guid>
+  <pubDate>Fri, 26 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-25</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-25.html</link>
@@ -356,14 +364,6 @@ Sau 9 năm backtest trên 45.493 rows dữ liệu sạch của cohort VN30+HNX30
 ## 1. Wyckoff Distribution (Đỉnh Phân Phối) Lại Cho Return Cao Nhất
 
 Hỏi bất kỳ trader nào ở các group chứng khoán VN: &#34;Thấy Wyckoff Stage 3 t…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-05</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-05.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-05.html</guid>
-  <pubDate>Fri, 05 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
