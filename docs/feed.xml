@@ -5,8 +5,32 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 26 Jun 2026 11:23:50 +0000</lastBuildDate>
+<lastBuildDate>Mon, 29 Jun 2026 03:00:26 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-06-29</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-29.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-29.html</guid>
+  <pubDate>Mon, 29 Jun 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Nội bộ SSB giao dịch lớn (28/06) — đọc tín hiệu thế nào?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-28-event-insider-ssb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-28-event-insider-ssb.html</guid>
+  <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Cú mua 5 triệu cổ phiếu SSB của người trong cuộc
+
+Một giao dịch nội bộ vừa được công bố tại Sea Bank (SSB): ông Lê Hữu Báu vừa mua vào 5.000.000 cổ phiếu SSB. Quy mô không nhỏ, và câu hỏi đặt ra ngay lập tức là — người gần nhất với thông tin nội bộ của ngân hàng đang nhìn thấy điều gì mà thị trường chưa định giá đủ?
+
+---
+
+### ① Chuyện gì vừa xảy ra
+
+Con số 5.000.000 cổ phiếu l…</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-26</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-26.html</link>
@@ -30,6 +54,16 @@ Hai mã cùng ngành, cùng chịu cơn bão 2022, cùng hồi phục — nhưng
 ## Bắt đầu từ một quan sát đơn giản
 
 Nếu ai đó hỏi retail investor bình thường: &#34;HPG và HSG, mua cái nào?&#34; — câu trả lời thường là &#34;HSG giá thấp hơn, up…</description>
+</item>
+<item>
+  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
+  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
+
+SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-25</title>
@@ -324,46 +358,6 @@ Nikkei 225 mất **-4.86%** trong phiên 10/06. Hang Seng rớt **-5.04%** cùng
   <pubDate>Tue, 09 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 MWG (Thế Giới Di Động) — phụ thuộc gì? Phân tích retail giant VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-09-supply-chain-mwg.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-09-supply-chain-mwg.html</guid>
-  <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># MWG — Mua Vì &#34;Proxy Tầng Lớp Trung Lưu&#34;, Nhưng CAGR Lại Thua VN30
-
-Từ 2014 đến nay, MWG tăng 275% — nghe ổn — cho đến khi so với benchmark và nhận ra mình đang cầm cổ phiếu *chậm hơn thị trường* suốt 12 năm.
-
----
-
-## Câu chuyện bắt đầu từ một chiếc tủ lạnh
-
-Hãy hình dung một gia đình ở Bình Dương năm 2018: thu nhập vừa vượt ngưỡng 200 triệu/năm, quyết định mua điện thoại Samsung flagship đ�…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-08</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-08.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-08.html</guid>
-  <pubDate>Mon, 08 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 5 điều cohort 47K data point cho thấy ngược trực giác retail VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-08-insight-wyckoff-stage-upset.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-08-insight-wyckoff-stage-upset.html</guid>
-  <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># 9 năm data VN30+HNX30 nói điều ngược lại với những gì bạn tin
-
-Backtest 45,493 điểm dữ liệu sạch trên cohort VN30+HNX30 cho ra 5 kết quả mà phần lớn nhà đầu tư retail VN sẽ không muốn nghe — vì chúng phủ nhận trực tiếp những &#34;kinh nghiệm&#34; được truyền miệng nhiều nhất trong cộng đồng.
-
----
-
-## 1. Wyckoff distribution (đỉnh phân phối) không phải tín hiệu bán
-
-Hỏi bất kỳ trader VN nào về Wyckoff s…</description>
 </item>
 </channel>
 </rss>
