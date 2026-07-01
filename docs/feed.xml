@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 30 Jun 2026 11:28:08 +0000</lastBuildDate>
+<lastBuildDate>Wed, 01 Jul 2026 03:00:45 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-01</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-01.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-01.html</guid>
+  <pubDate>Wed, 01 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-30</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-30.html</link>
@@ -342,22 +350,6 @@ Có một câu hỏi mà cộng đồng trader Việt hay né tránh trả lời
   <pubDate>Wed, 10 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-10-news-impact-06-10.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-10-news-impact-06-10.html</guid>
-  <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Khi Châu Á Hắt Hơi, VN-Index Cũng Sổ Mũi — Nhưng Lịch Sử Nói Gì Tiếp Theo?
-
-Phiên 10/06 mở ra với một bức tranh APAC nhuốm màu đỏ nặng — và đây chính xác là kiểu môi trường mà retail thường hoảng loạn bán, trong khi data lại kể một câu chuyện khác hẳn.
-
----
-
-## Bức tranh toàn cảnh: Đỏ từ Tokyo đến Hong Kong
-
-Nikkei 225 mất **-4.86%** trong phiên 10/06. Hang Seng rớt **-5.04%** cùng ngày. Đây không ph…</description>
 </item>
 </channel>
 </rss>
