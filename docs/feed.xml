@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 01 Jul 2026 03:00:45 +0000</lastBuildDate>
+<lastBuildDate>Wed, 01 Jul 2026 11:30:48 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-07-01</title>
@@ -14,6 +14,22 @@
   <pubDate>Wed, 01 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 \&#34;Mua đáy bán đỉnh\&#34; — câu thần chú phổ biến nhất, và sai nhất với VN30</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-01-myth-mua-dy-bn-dnh.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-01-myth-mua-dy-bn-dnh.html</guid>
+  <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># &#34;Mua đáy bán đỉnh&#34; — Chiến lược nghe có lý nhưng data nói ngược lại
+
+Retail VN bán đúng lúc nên giữ, mua đúng lúc nên tránh — và backtest 45,000 điểm dữ liệu trên VN30+HNX30 chứng minh điều đó bằng con số cụ thể.
+
+---
+
+Có một câu hỏi khá khó chịu: nếu &#34;mua đáy bán đỉnh&#34; là chiến lược đúng, tại sao đại đa số nhà đầu tư cá nhân lại thua thị trường?
+
+Câu trả lời không nằm ở việc…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-30</title>
@@ -56,16 +72,6 @@ Con số 5.000.000 cổ phiếu l…</description>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
-
-SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
-</item>
-<item>
   <title>📝 HPG vs HSG: ai là vua thép VN? Backtest 10 năm + sensitivity test</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</guid>
@@ -80,6 +86,16 @@ Hai mã cùng ngành, cùng chịu cơn bão 2022, cùng hồi phục — nhưng
 ## Bắt đầu từ một quan sát đơn giản
 
 Nếu ai đó hỏi retail investor bình thường: &#34;HPG và HSG, mua cái nào?&#34; — câu trả lời thường là &#34;HSG giá thấp hơn, up…</description>
+</item>
+<item>
+  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
+  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
+
+SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-25</title>
@@ -342,14 +358,6 @@ Hỏi bất kỳ trader bán lẻ nào ở các group Facebook chứng khoán: &
 Tóm lại: với 2.4 tỷ đồng tài sản, bỏ việc để trade toàn thời gian là một quyết định tài chính tệ hơn bạn nghĩ — và con số chứng minh điều đó rất thẳng thắn.
 
 Có một câu hỏi mà cộng đồng trader Việt hay né tránh trả lời thật: *nếu bạn giỏi trading đến vậy, tại sao vẫn cần quit job để có thêm thời gian?…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-10</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-10.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-10.html</guid>
-  <pubDate>Wed, 10 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
