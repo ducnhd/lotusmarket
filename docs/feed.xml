@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 01 Jul 2026 11:38:23 +0000</lastBuildDate>
+<lastBuildDate>Thu, 02 Jul 2026 03:00:46 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-02</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-02.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-02.html</guid>
+  <pubDate>Thu, 02 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-01</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-01.html</link>
@@ -346,18 +354,6 @@ Hỏi bất kỳ trader bán lẻ nào ở các group Facebook chứng khoán: &
   <pubDate>Thu, 11 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 29 tuổi, lương dev senior 60tr — nên full-time trade hay giữ job? Math nói gì</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-11-career-full-time-vs-part-time.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-11-career-full-time-vs-part-time.html</guid>
-  <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Bỏ Việc Làm Full-Time Trader Ở Tuổi 29: Bài Toán Mà Phần Lớn Sẽ Tính Sai
-
-Tóm lại: với 2.4 tỷ đồng tài sản, bỏ việc để trade toàn thời gian là một quyết định tài chính tệ hơn bạn nghĩ — và con số chứng minh điều đó rất thẳng thắn.
-
-Có một câu hỏi mà cộng đồng trader Việt hay né tránh trả lời thật: *nếu bạn giỏi trading đến vậy, tại sao vẫn cần quit job để có thêm thời gian?…</description>
 </item>
 </channel>
 </rss>
