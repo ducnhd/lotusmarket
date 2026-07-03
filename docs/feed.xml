@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 03 Jul 2026 03:00:29 +0000</lastBuildDate>
+<lastBuildDate>Fri, 03 Jul 2026 11:10:20 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-07-03</title>
@@ -14,6 +14,16 @@
   <pubDate>Fri, 03 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 03/07 — regime nào đang dẫn dắt?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-03-event-flow.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-03-event-flow.html</guid>
+  <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Áp lực bán áp đảo VN30+HNX30 — lịch sử nói gì về những ngày như thế này?
+
+Hôm nay dòng tiền nội trên rổ tổng hợp VN30+HNX30 ghi nhận buy-pressure chỉ đạt **31.3%** — tức là gần 7 trong 10 đồng tiền chảy qua hai rổ bluechip lớn nhất sàn đang đứng về phía bán. Con số này không phải &#34;hơi yếu&#34; mà nằm thẳng vào vùng **bán mạnh** theo phân loại regime của hệ thống. Câu hỏi thực sự là: trong…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-02</title>
@@ -88,6 +98,16 @@ Con số 5.000.000 cổ phiếu l…</description>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
+  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
+  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
+
+SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
+</item>
+<item>
   <title>📝 HPG vs HSG: ai là vua thép VN? Backtest 10 năm + sensitivity test</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</guid>
@@ -102,16 +122,6 @@ Hai mã cùng ngành, cùng chịu cơn bão 2022, cùng hồi phục — nhưng
 ## Bắt đầu từ một quan sát đơn giản
 
 Nếu ai đó hỏi retail investor bình thường: &#34;HPG và HSG, mua cái nào?&#34; — câu trả lời thường là &#34;HSG giá thấp hơn, up…</description>
-</item>
-<item>
-  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
-
-SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-25</title>
@@ -338,22 +348,6 @@ Nếu câu trả lời trong đầu bạn là &#34;2 triệu&#34;, chúc mừng 
   <pubDate>Fri, 12 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 RSI &gt; 70 có thực sự là tín hiệu BÁN? Backtest 9 năm VN30 nói ngược</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-12-tech-classic-rsi--70.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-12-tech-classic-rsi--70.html</guid>
-  <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># RSI &gt; 70 Không Phải Tín Hiệu Bán — Data 45,000 Dòng Nói Gì Khác Hẳn
-
-Cộng đồng chứng khoán Việt Nam đã sai về RSI overbought suốt nhiều năm — và con số +9.23% return sau 60 ngày là bằng chứng khó chối cãi nhất.
-
----
-
-## Cái Bẫy Tâm Lý Tên &#34;Quá Mua&#34;
-
-Hỏi bất kỳ trader bán lẻ nào ở các group Facebook chứng khoán: &#34;RSI vượt 70 thì làm gì?&#34; — câu trả lời gần như đồng thanh: *&#34;Chốt lời ngay, cổ phiế…</description>
 </item>
 </channel>
 </rss>
