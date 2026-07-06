@@ -5,7 +5,7 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 06 Jul 2026 12:24:48 +0000</lastBuildDate>
+<lastBuildDate>Mon, 06 Jul 2026 20:30:32 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
 <item>
   <title>📊 Daily VN stock report — 2026-07-06</title>
@@ -14,6 +14,20 @@
   <pubDate>Mon, 06 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Recency bias: tại sao bạn nghĩ thị trường năm tới giống năm vừa rồi</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-06-psychology-recency-bias.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-06-psychology-recency-bias.html</guid>
+  <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Recency Bias Đã Ăn Mất Bao Nhiêu % CAGR Của Bạn?
+
+Retail VN liên tục mua đỉnh, bán đáy — không phải vì thiếu thông tin, mà vì não người được lập trình để làm đúng điều đó.
+
+---
+
+Cuối năm 2021, hàng loạt tài khoản chứng khoán mới được mở. VN-Index đang ở vùng 1.500, group Facebook tràn ngập screenshot lãi 40-50%, và câu cửa miệng lúc đó là *&#34;thị trường này còn lên nữa.&#34;* Đến Q1/2022, dòng ti�…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-03</title>
@@ -332,22 +346,6 @@ Khi dòng tiền nội bán tháo và VIX vẫn còn đứng ở ngưỡng trung
 Snapshot hôm nay có một điều thú vị đến mức khó chịu: **bên ngoài xanh, bên trong đỏ.**
 
 - Nikkei 225 tăng gần **+5%** trong một …</description>
-</item>
-<item>
-  <title>📝 Tại sao bạn bán đáy? Loss aversion + cohort data VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-14-psychology-loss-aversion.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-14-psychology-loss-aversion.html</guid>
-  <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Tại Sao Não Bạn Là Kẻ Thù Tệ Nhất Trong Thị Trường Chứng Khoán
-
-Retail VN thua không phải vì thiếu thông tin — mà vì não bộ được lập trình sai cho việc đầu tư. Và có một con số cụ thể chứng minh điều đó.
-
----
-
-Hãy thử một bài toán nhỏ: Bạn mất 1 triệu đồng hôm nay. Cần thắng bao nhiêu để cảm thấy &#34;hòa&#34;?
-
-Nếu câu trả lời trong đầu bạn là &#34;2 triệu&#34;, chúc mừng — não bạn đang ho…</description>
 </item>
 </channel>
 </rss>
