@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 06 Jul 2026 20:30:32 +0000</lastBuildDate>
+<lastBuildDate>Tue, 07 Jul 2026 11:25:02 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-07</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-07.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-07.html</guid>
+  <pubDate>Tue, 07 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-06</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-06.html</link>
@@ -328,24 +336,6 @@ Có một thói quen phổ biến trong cộng đồng F0 Việt Nam: phân tíc
   <pubDate>Mon, 15 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-15-regime-now-06-15.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-15-regime-now-06-15.html</guid>
-  <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Thị Trường Đang Bán Mạnh — Nhưng Lịch Sử Nói Điều Ngược Lại
-
-Khi dòng tiền nội bán tháo và VIX vẫn còn đứng ở ngưỡng trung lập, đây chính xác là loại tín hiệu mà phần lớn retail trader bỏ qua — hoặc diễn giải sai.
-
----
-
-## Bức Tranh Hôm Nay: Tín Hiệu Phân Kỳ
-
-Snapshot hôm nay có một điều thú vị đến mức khó chịu: **bên ngoài xanh, bên trong đỏ.**
-
-- Nikkei 225 tăng gần **+5%** trong một …</description>
 </item>
 </channel>
 </rss>
