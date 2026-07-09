@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 08 Jul 2026 10:36:08 +0000</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 11:26:33 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-09</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-09.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-09.html</guid>
+  <pubDate>Thu, 09 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-08</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-08.html</link>
@@ -14,6 +22,16 @@
   <pubDate>Wed, 08 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 08/07 — regime nào đang dẫn dắt?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-08-event-flow.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-08-event-flow.html</guid>
+  <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Áp lực bán áp đảo trên VN30+HNX30 — lịch sử nói gì về những ngày như hôm nay?
+
+Hôm nay dòng tiền nội từ rổ VN30 và HNX30 ghi nhận chỉ số buy-pressure ở mức **30.2%** — nghĩa là hơn 2/3 áp lực giao dịch đang nghiêng về phía bán. Tín hiệu này rơi thẳng vào vùng phân loại &#34;bán mạnh&#34; theo mô hình của Lotus AI. Câu hỏi mà data 9 năm có thể trả lời: những lần thị trường rơi vào trạng thái tươ…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-07</title>
@@ -312,30 +330,6 @@ Một chiến lược cho CAGR +26% trong 9 năm, nhưng chỉ +3% trong 16 năm
 ---
 
 Hãy tưởng tượng bạn nhận được pitch deck từ một fund nào đó. Trang đầu tiên: **&#34;Chiến lược low-volatility VN30 — CAGR 26.2% trong 10 năm qua.&#34;** Biểu đồ đẹp, đường equity curve thoải …</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-16</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-16.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-16.html</guid>
-  <pubDate>Tue, 16 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 HPG phụ thuộc gì? Phân tích chuỗi tác động ngoại sinh của thép VN</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-16-supply-chain-hpg.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-16-supply-chain-hpg.html</guid>
-  <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># HPG Không Phải Là Cổ Phiếu Thép — Nó Là Cổ Phiếu Quặng Sắt Úc Cộng HRC Thượng Hải
-
-Mua HPG mà chỉ nhìn chart HPG giống như lái xe ban đêm chỉ nhìn gương chiếu hậu — bạn thấy đường, nhưng toàn là đường đã qua.
-
----
-
-## Retail VN Đang Nhìn Sai Biến
-
-Có một thói quen phổ biến trong cộng đồng F0 Việt Nam: phân tích HPG bằng cách nhìn vào P/E, RSI, volume, rồi đọc tin xây dựng trong nước. Không …</description>
 </item>
 </channel>
 </rss>
