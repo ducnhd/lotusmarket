@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 09 Jul 2026 11:26:33 +0000</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 11:26:18 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-10</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-10.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-10.html</guid>
+  <pubDate>Fri, 10 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-09</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-09.html</link>
@@ -316,20 +324,6 @@ Con số đó không sai. Nhưng nó đặt ra một câu hỏi khó chịu hơn
   <pubDate>Wed, 17 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Backtest cherry-picking: cùng strategy, 2 con số khác biệt 9× — bài học từ window selection</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-17-insight-window-dependent-results.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-17-insight-window-dependent-results.html</guid>
-  <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Backtest Đẹp Không Có Nghĩa Là Strategy Tốt — Đây Là Cách Cửa Sổ Thời Gian Lừa Bạn
-
-Một chiến lược cho CAGR +26% trong 9 năm, nhưng chỉ +3% trong 16 năm — cùng một bộ rules, cùng một ticker pool, cùng mức phí.
-
----
-
-Hãy tưởng tượng bạn nhận được pitch deck từ một fund nào đó. Trang đầu tiên: **&#34;Chiến lược low-volatility VN30 — CAGR 26.2% trong 10 năm qua.&#34;** Biểu đồ đẹp, đường equity curve thoải …</description>
 </item>
 </channel>
 </rss>
