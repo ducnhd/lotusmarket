@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 13 Jul 2026 11:39:04 +0000</lastBuildDate>
+<lastBuildDate>Tue, 14 Jul 2026 10:17:32 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-14</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-14.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-14.html</guid>
+  <pubDate>Tue, 14 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-13</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-13.html</link>
@@ -14,6 +22,22 @@
   <pubDate>Mon, 13 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 BCM giảm 5.5% hôm nay 13/07 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-13-event-mover-bcm.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-13-event-mover-bcm.html</guid>
+  <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## BCM rơi 5.5% với RSI chạm 16 — vùng oversold hiếm gặp trong lịch sử
+
+Phiên hôm nay, BCM đóng cửa tại 46.000 VND, giảm 5,54% so với phiên trước. Điều đáng chú ý hơn mức giảm là chỉ số RSI(14) vừa chạm 16,2 — một mức hiếm gặp mà dữ liệu lịch sử có câu trả lời khá rõ ràng.
+
+---
+
+### ① Chuyện gì xảy ra hôm nay
+
+Mức giảm 5,54% trong một phiên không phải là con số nhỏ với một cổ phiếu b�…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-10</title>
@@ -170,16 +194,6 @@ Con số 5.000.000 cổ phiếu l…</description>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
-
-SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
-</item>
-<item>
   <title>📝 HPG vs HSG: ai là vua thép VN? Backtest 10 năm + sensitivity test</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</guid>
@@ -194,6 +208,16 @@ Hai mã cùng ngành, cùng chịu cơn bão 2022, cùng hồi phục — nhưng
 ## Bắt đầu từ một quan sát đơn giản
 
 Nếu ai đó hỏi retail investor bình thường: &#34;HPG và HSG, mua cái nào?&#34; — câu trả lời thường là &#34;HSG giá thấp hơn, up…</description>
+</item>
+<item>
+  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
+  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
+
+SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-25</title>
@@ -304,26 +328,6 @@ Phần lớn sách giao dịch dạy bạn &#34;mua khi RSI về vùng oversold 
 ## Golden Cross không phải tín hiệu vào lệnh — đó là tấm vé vào cửa
 
 Khi MA50 cắt lên MA200 và giá đang trên cả hai đường, n…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-18</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-18.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-18.html</guid>
-  <pubDate>Thu, 18 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Side income trong khi giữ job — dev VN nên build gì? Math + realistic ROI</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-18-career-side-income-mathematics.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-18-career-side-income-mathematics.html</guid>
-  <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Side Income Không Phải Là &#34;Kiếm Thêm&#34; — Đó Là Vũ Khí FIRE Hiệu Quả Nhất Khi Vốn Dưới 5 Tỷ
-
-Với 1 tỷ đồng gửi vào VN30, bạn nhận được 12.5 triệu mỗi tháng — bằng khoảng một phần ba lương developer trung bình ở Hà Nội.
-
-Con số đó không sai. Nhưng nó đặt ra một câu hỏi khó chịu hơn: nếu mục tiêu là FIRE trong 10 năm, tại sao phần lớn cộng đồng đầu tư VN vẫn đang tập trung toàn bộ n…</description>
 </item>
 </channel>
 </rss>
