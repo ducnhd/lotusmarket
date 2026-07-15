@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 14 Jul 2026 10:17:32 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 10:20:50 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-15</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-15.html</guid>
+  <pubDate>Wed, 15 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-14</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-14.html</link>
@@ -194,6 +202,16 @@ Con số 5.000.000 cổ phiếu l…</description>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
+  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
+  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
+
+SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
+</item>
+<item>
   <title>📝 HPG vs HSG: ai là vua thép VN? Backtest 10 năm + sensitivity test</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</guid>
@@ -208,16 +226,6 @@ Hai mã cùng ngành, cùng chịu cơn bão 2022, cùng hồi phục — nhưng
 ## Bắt đầu từ một quan sát đơn giản
 
 Nếu ai đó hỏi retail investor bình thường: &#34;HPG và HSG, mua cái nào?&#34; — câu trả lời thường là &#34;HSG giá thấp hơn, up…</description>
-</item>
-<item>
-  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
-
-SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-25</title>
@@ -312,22 +320,6 @@ Phía tích cực: S&amp;P 500 đóng cửa ở **7.500,58 điểm …</descript
   <pubDate>Fri, 19 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Golden Cross — tín hiệu thần kỳ hay over-rated? Data VN30 nói gì</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-19-tech-classic-golden-cross-ma50-vt-ma200.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-19-tech-classic-golden-cross-ma50-vt-ma200.html</guid>
-  <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Sau Golden Cross, Đừng Đợi Pullback — Data Nói Điều Ngược Lại
-
-Phần lớn sách giao dịch dạy bạn &#34;mua khi RSI về vùng oversold sau uptrend&#34; — nhưng 22,000+ phiên dữ liệu thực tế cho thấy đây là một trong những lời khuyên tốn tiền nhất mà cộng đồng retail hay nghe theo.
-
----
-
-## Golden Cross không phải tín hiệu vào lệnh — đó là tấm vé vào cửa
-
-Khi MA50 cắt lên MA200 và giá đang trên cả hai đường, n…</description>
 </item>
 </channel>
 </rss>
