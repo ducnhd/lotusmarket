@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 15 Jul 2026 10:20:50 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Jul 2026 10:27:09 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-16</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-16.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-16.html</guid>
+  <pubDate>Thu, 16 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-15</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-15.html</link>
@@ -312,14 +320,6 @@ Thị trường toàn cầu đang gửi hai tín hiệu mâu thuẫn cùng lúc,
 Ngày 18–19/06, bức tranh vĩ mô toàn cầu trông như một cuộc tranh cãi giữa hai người trong cùng một phòng.
 
 Phía tích cực: S&amp;P 500 đóng cửa ở **7.500,58 điểm …</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-19</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-19.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-19.html</guid>
-  <pubDate>Fri, 19 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
