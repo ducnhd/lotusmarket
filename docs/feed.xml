@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 16 Jul 2026 10:27:09 +0000</lastBuildDate>
+<lastBuildDate>Fri, 17 Jul 2026 10:18:26 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-17</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-17.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-17.html</guid>
+  <pubDate>Fri, 17 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-16</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-16.html</link>
@@ -14,6 +22,22 @@
   <pubDate>Thu, 16 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 16/07 — regime nào đang dẫn dắt?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-16-event-flow.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-16-event-flow.html</guid>
+  <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Áp lực bán bao trùm VN30+HNX30: lịch sử nói gì?
+
+Phiên hôm nay, dòng tiền nội tổng của rổ VN30+HNX30 ghi nhận buy-pressure chỉ ở mức **31.0%** — ngưỡng mà thị trường thường gọi thẳng là &#34;bán mạnh&#34;. Câu hỏi không phải là *liệu* áp lực đang nặng hay không, mà là: **9 năm dữ liệu cohort đã cho thấy điều gì xảy ra sau những lần như vậy?**
+
+---
+
+### ① Chuyện gì đang xảy ra
+
+Con số 31.0% buy-pres…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-15</title>
@@ -282,44 +306,6 @@ Buy-pressure 20% có nghĩa là trong tổng khối lượng khớ…</descripti
   <pubDate>Mon, 22 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Thị trường hôm nay đang ở regime nào? Phân loại deterministic + ý nghĩa</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-22-regime-now-06-22.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-22-regime-now-06-22.html</guid>
-  <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Thị Trường Hôm Nay Đang Nói Gì — Và Lịch Sử 9 Năm Trả Lời Ra Sao
-
-**Dòng tiền cân bằng, VIX leo nhẹ, S&amp;P 500 phá đỉnh — đây là cái bẫy &#34;bình thường giả&#34; mà retail hay mắc nhất.**
-
----
-
-Có một kiểu phiên giao dịch mà nhìn vào, chẳng ai biết nên vui hay lo. Hôm nay là một phiên như vậy.
-
-## Bức Tranh Snapshot: Không Rõ Ràng Có Chủ Đích
-
-Nhìn vào dữ liệu live ngay lúc này:
-
-- **Dòng tiền nội địa*…</description>
-</item>
-<item>
-  <title>📝 Tin nóng global tuần này — ảnh hưởng VN30 thế nào? Cohort lookup</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-21-news-impact-06-21.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-21-news-impact-06-21.html</guid>
-  <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Phố Wall Xanh, Nhưng Hang Seng Đỏ — VN-Index Sẽ Nghe Ai?
-
-Thị trường toàn cầu đang gửi hai tín hiệu mâu thuẫn cùng lúc, và lịch sử cohort cho thấy VN-Index thường chọn đi theo bên nào một cách khá nhất quán.
-
----
-
-## Khi hai ông lớn bất đồng
-
-Ngày 18–19/06, bức tranh vĩ mô toàn cầu trông như một cuộc tranh cãi giữa hai người trong cùng một phòng.
-
-Phía tích cực: S&amp;P 500 đóng cửa ở **7.500,58 điểm …</description>
 </item>
 </channel>
 </rss>
