@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 17 Jul 2026 10:18:26 +0000</lastBuildDate>
+<lastBuildDate>Mon, 20 Jul 2026 11:22:27 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-20</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-20.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-20.html</guid>
+  <pubDate>Mon, 20 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-17</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-17.html</link>
@@ -234,16 +242,6 @@ Con số 5.000.000 cổ phiếu l…</description>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 <item>
-  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
-
-SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
-</item>
-<item>
   <title>📝 HPG vs HSG: ai là vua thép VN? Backtest 10 năm + sensitivity test</title>
   <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</guid>
@@ -258,6 +256,16 @@ Hai mã cùng ngành, cùng chịu cơn bão 2022, cùng hồi phục — nhưng
 ## Bắt đầu từ một quan sát đơn giản
 
 Nếu ai đó hỏi retail investor bình thường: &#34;HPG và HSG, mua cái nào?&#34; — câu trả lời thường là &#34;HSG giá thấp hơn, up…</description>
+</item>
+<item>
+  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
+  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
+
+SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-06-25</title>
@@ -298,14 +306,6 @@ Hôm nay dòng tiền nội tổng của rổ VN30 và HNX30 ghi nhận buy-pres
 ### ① Chuyện gì đang xảy ra
 
 Buy-pressure 20% có nghĩa là trong tổng khối lượng khớ…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-22</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-22.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-22.html</guid>
-  <pubDate>Mon, 22 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
