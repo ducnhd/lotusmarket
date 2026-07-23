@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 22 Jul 2026 10:39:07 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 10:39:40 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-23</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-23.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-23.html</guid>
+  <pubDate>Thu, 23 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-22</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-22.html</link>
@@ -14,6 +22,20 @@
   <pubDate>Wed, 22 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 VIC giảm 7.0% hôm nay 22/07 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-22-event-mover-vic.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-22-event-mover-vic.html</guid>
+  <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## VIC rơi gần 7% trong một phiên — vùng oversold lịch sử đang bật tín hiệu
+
+VIC đóng cửa hôm nay ở 202.100 đồng, giảm **6,99%** chỉ trong một phiên — mức rơi hiếm gặp với một bluechip quy mô như Vinhomes. RSI(14) chạm **25,8**, sâu dưới ngưỡng oversold 30. Câu hỏi mà data có thể trả lời: những lần VIC rơi vào vùng này trước đây, thị trường đã phản ứng ra sao trong 60 ngày tiếp theo?
+
+---
+
+### ① C…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-21</title>
@@ -286,32 +308,6 @@ Con số 5.000.000 cổ phiếu l…</description>
   <pubDate>Fri, 26 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 HPG vs HSG: ai là vua thép VN? Backtest 10 năm + sensitivity test</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-compare-hpg-vs-hsg.html</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># HPG vs HSG: Khi &#34;thép là thép&#34; — nhưng không phải mọi thép đều như nhau
-
-Hai mã cùng ngành, cùng chịu cơn bão 2022, cùng hồi phục — nhưng sau 10 năm, khoảng cách lợi nhuận giữa họ là 190 điểm phần trăm. Điều gì tạo ra hố ngăn cách đó?
-
----
-
-## Bắt đầu từ một quan sát đơn giản
-
-Nếu ai đó hỏi retail investor bình thường: &#34;HPG và HSG, mua cái nào?&#34; — câu trả lời thường là &#34;HSG giá thấp hơn, up…</description>
-</item>
-<item>
-  <title>📝 SSB tăng 5.9% hôm nay 26/06 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-26-event-mover-ssb.html</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## SSB tăng gần 6% trong một phiên — thanh khoản lại vắng tanh
-
-SeABank (SSB) đóng cửa hôm nay ở mức **16.100 VND**, bật tăng **+5,92%** chỉ trong một phiên. Con số đó đủ để gây chú ý — nhưng điều kỳ lạ nằm ở chỗ khác: khối lượng giao dịch chỉ đạt **332.470 cổ phiếu**, bằng khoảng **0,1× MA20 volume**. Vậy một cú bứt phá gần 6% mà gần như không có người tham gia — điều đó nói lên chuyệ…</description>
 </item>
 </channel>
 </rss>
