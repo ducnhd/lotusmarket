@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 23 Jul 2026 10:39:40 +0000</lastBuildDate>
+<lastBuildDate>Fri, 24 Jul 2026 10:34:02 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-24</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-24.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-24.html</guid>
+  <pubDate>Fri, 24 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-23</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-23.html</link>
@@ -14,6 +22,16 @@
   <pubDate>Thu, 23 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Nội bộ VIC giao dịch lớn (23/07) — đọc tín hiệu thế nào?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-23-event-insider-vic.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-23-event-insider-vic.html</guid>
+  <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Vinpearl rút gần 15 triệu cổ phiếu VIC khỏi sổ: đọc tín hiệu từ người trong cuộc
+
+Hôm nay, Công ty Cổ phần Vinpearl đăng ký bán ra **14.974.526 cổ phiếu VIC** — một khối lượng đủ lớn để khiến bất kỳ nhà theo dõi giao dịch nội bộ nào phải dừng lại. Câu hỏi không phải là &#34;có nên hoảng sợ không&#34;, mà là: *người trong cuộc đang phát tín hiệu gì, và lịch sử các đợt bán nội bộ quy m…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-22</title>
@@ -282,30 +300,6 @@ Câu trả lời không nằm ở việc…</description>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-29.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-29.html</guid>
   <pubDate>Mon, 29 Jun 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Nội bộ SSB giao dịch lớn (28/06) — đọc tín hiệu thế nào?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-06-28-event-insider-ssb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-06-28-event-insider-ssb.html</guid>
-  <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## Cú mua 5 triệu cổ phiếu SSB của người trong cuộc
-
-Một giao dịch nội bộ vừa được công bố tại Sea Bank (SSB): ông Lê Hữu Báu vừa mua vào 5.000.000 cổ phiếu SSB. Quy mô không nhỏ, và câu hỏi đặt ra ngay lập tức là — người gần nhất với thông tin nội bộ của ngân hàng đang nhìn thấy điều gì mà thị trường chưa định giá đủ?
-
----
-
-### ① Chuyện gì vừa xảy ra
-
-Con số 5.000.000 cổ phiếu l…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-26</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-26.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-26.html</guid>
-  <pubDate>Fri, 26 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
