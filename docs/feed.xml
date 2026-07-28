@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 27 Jul 2026 11:51:38 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Jul 2026 10:58:12 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-28</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-28.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-28.html</guid>
+  <pubDate>Tue, 28 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-27</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-27.html</link>
@@ -14,6 +22,16 @@
   <pubDate>Mon, 27 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 MWG giảm 6.9% hôm nay 27/07 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-27-event-mover-mwg.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-27-event-mover-mwg.html</guid>
+  <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## MWG rơi gần 7% trong một phiên — RSI chạm 19, vùng mà lịch sử thường không yên lặng lâu
+
+Cổ phiếu MWG đóng cửa hôm nay ở 63.300 đồng, giảm **6,91%** chỉ trong một phiên — mức sụt khá mạnh với một bluechip bán lẻ. Điều đáng chú ý hơn con số giá là tín hiệu kỹ thuật phía sau: RSI(14) hiện ở **19,2**, thấp hơn ngưỡng oversold truyền thống rất nhiều. Câu hỏi mà data sẽ giúp trả lời: lần…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-24</title>
@@ -276,30 +294,6 @@ Hôm nay dòng tiền nội trên rổ tổng hợp VN30+HNX30 ghi nhận buy-pr
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-01.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-01.html</guid>
   <pubDate>Wed, 01 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 \&#34;Mua đáy bán đỉnh\&#34; — câu thần chú phổ biến nhất, và sai nhất với VN30</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-01-myth-mua-dy-bn-dnh.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-01-myth-mua-dy-bn-dnh.html</guid>
-  <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># &#34;Mua đáy bán đỉnh&#34; — Chiến lược nghe có lý nhưng data nói ngược lại
-
-Retail VN bán đúng lúc nên giữ, mua đúng lúc nên tránh — và backtest 45,000 điểm dữ liệu trên VN30+HNX30 chứng minh điều đó bằng con số cụ thể.
-
----
-
-Có một câu hỏi khá khó chịu: nếu &#34;mua đáy bán đỉnh&#34; là chiến lược đúng, tại sao đại đa số nhà đầu tư cá nhân lại thua thị trường?
-
-Câu trả lời không nằm ở việc…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-06-30</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-06-30.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-06-30.html</guid>
-  <pubDate>Tue, 30 Jun 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
