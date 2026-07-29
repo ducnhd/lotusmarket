@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 28 Jul 2026 10:58:12 +0000</lastBuildDate>
+<lastBuildDate>Wed, 29 Jul 2026 11:03:06 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-29</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-29.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-29.html</guid>
+  <pubDate>Wed, 29 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-28</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-28.html</link>
@@ -14,6 +22,22 @@
   <pubDate>Tue, 28 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 28/07 — regime nào đang dẫn dắt?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-28-event-flow.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-28-event-flow.html</guid>
+  <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Áp lực bán áp đảo VN30+HNX30 — lịch sử nói gì?
+
+Phiên hôm nay, dòng tiền nội khối VN30 và HNX30 ghi nhận buy-pressure chỉ đạt **31.7%** — tức là gần 7 phần 10 giao dịch nghiêng về phía bán. Con số này không phải biến động thông thường. Vậy trong lịch sử 9 năm, những lần thị trường rơi vào trạng thái tương tự đã đi tiếp như thế nào?
+
+---
+
+### ① Chuyện gì đang xảy ra
+
+Buy-pressure 31.7% là…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-27</title>
@@ -280,22 +304,6 @@ Cuối năm 2021, hàng loạt tài khoản chứng khoán mới được mở. 
   <description>## Áp lực bán áp đảo VN30+HNX30 — lịch sử nói gì về những ngày như thế này?
 
 Hôm nay dòng tiền nội trên rổ tổng hợp VN30+HNX30 ghi nhận buy-pressure chỉ đạt **31.3%** — tức là gần 7 trong 10 đồng tiền chảy qua hai rổ bluechip lớn nhất sàn đang đứng về phía bán. Con số này không phải &#34;hơi yếu&#34; mà nằm thẳng vào vùng **bán mạnh** theo phân loại regime của hệ thống. Câu hỏi thực sự là: trong…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-02</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-02.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-02.html</guid>
-  <pubDate>Thu, 02 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-01</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-01.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-01.html</guid>
-  <pubDate>Wed, 01 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
