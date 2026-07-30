@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 29 Jul 2026 11:03:06 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Jul 2026 10:38:19 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-30</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-30.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-30.html</guid>
+  <pubDate>Thu, 30 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-29</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-29.html</link>
@@ -14,6 +22,16 @@
   <pubDate>Wed, 29 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 VRE tăng 6.8% hôm nay 29/07 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-29-event-mover-vre.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-29-event-mover-vre.html</guid>
+  <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## VRE bật +6.81% từ vùng RSI 26: tín hiệu đảo chiều hay bẫy hồi kỹ thuật?
+
+Phiên hôm nay, VRE (Vincom Retail) bứt phá mạnh với mức tăng **+6.81%**, đóng cửa tại **22.750 đồng**. Điều khiến tín hiệu này đáng chú ý hơn là bối cảnh nền — RSI(14) chỉ ở **26.7**, tức vùng quá bán sâu. Câu hỏi trung tâm: liệu đây là cú nảy kỹ thuật đơn lẻ, hay điểm khởi đầu của một pha phục hồi có chiều s…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-28</title>
@@ -286,24 +304,6 @@ Retail VN liên tục mua đỉnh, bán đáy — không phải vì thiếu thô
 ---
 
 Cuối năm 2021, hàng loạt tài khoản chứng khoán mới được mở. VN-Index đang ở vùng 1.500, group Facebook tràn ngập screenshot lãi 40-50%, và câu cửa miệng lúc đó là *&#34;thị trường này còn lên nữa.&#34;* Đến Q1/2022, dòng ti�…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-03</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-03.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-03.html</guid>
-  <pubDate>Fri, 03 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 03/07 — regime nào đang dẫn dắt?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-03-event-flow.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-03-event-flow.html</guid>
-  <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## Áp lực bán áp đảo VN30+HNX30 — lịch sử nói gì về những ngày như thế này?
-
-Hôm nay dòng tiền nội trên rổ tổng hợp VN30+HNX30 ghi nhận buy-pressure chỉ đạt **31.3%** — tức là gần 7 trong 10 đồng tiền chảy qua hai rổ bluechip lớn nhất sàn đang đứng về phía bán. Con số này không phải &#34;hơi yếu&#34; mà nằm thẳng vào vùng **bán mạnh** theo phân loại regime của hệ thống. Câu hỏi thực sự là: trong…</description>
 </item>
 </channel>
 </rss>
