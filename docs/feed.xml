@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 30 Jul 2026 10:38:19 +0000</lastBuildDate>
+<lastBuildDate>Fri, 31 Jul 2026 11:06:23 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-07-31</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-31.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-31.html</guid>
+  <pubDate>Fri, 31 Jul 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-30</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-30.html</link>
@@ -14,6 +22,22 @@
   <pubDate>Thu, 30 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 VHM tăng 5.6% hôm nay 30/07 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-30-event-mover-vhm.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-30-event-mover-vhm.html</guid>
+  <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## VHM bứt phá +5.64% — nhưng volume chỉ bằng 0.1× trung bình: tin hay ngờ?
+
+Hôm nay Vinhomes (VHM) đóng cửa tại 147,900 VND, tăng mạnh +5.64% trong một phiên mà phần lớn thị trường vẫn còn dè dặt. Điều khiến người theo dõi dừng lại không phải là mức tăng — mà là câu hỏi đằng sau nó: một cú bứt như vậy với volume chỉ bằng 0.1× MA20 thì thực chất là gì?
+
+---
+
+### ① Chuyện gì xảy ra hôm nay
+
+Con…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-29</title>
@@ -282,28 +306,6 @@ Hôm nay dòng tiền nội từ rổ VN30 và HNX30 ghi nhận chỉ số buy-p
   <pubDate>Tue, 07 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-06</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-06.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-06.html</guid>
-  <pubDate>Mon, 06 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Recency bias: tại sao bạn nghĩ thị trường năm tới giống năm vừa rồi</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-06-psychology-recency-bias.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-06-psychology-recency-bias.html</guid>
-  <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description># Recency Bias Đã Ăn Mất Bao Nhiêu % CAGR Của Bạn?
-
-Retail VN liên tục mua đỉnh, bán đáy — không phải vì thiếu thông tin, mà vì não người được lập trình để làm đúng điều đó.
-
----
-
-Cuối năm 2021, hàng loạt tài khoản chứng khoán mới được mở. VN-Index đang ở vùng 1.500, group Facebook tràn ngập screenshot lãi 40-50%, và câu cửa miệng lúc đó là *&#34;thị trường này còn lên nữa.&#34;* Đến Q1/2022, dòng ti�…</description>
 </item>
 </channel>
 </rss>
