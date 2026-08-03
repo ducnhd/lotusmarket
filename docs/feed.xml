@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 31 Jul 2026 11:06:23 +0000</lastBuildDate>
+<lastBuildDate>Mon, 03 Aug 2026 11:56:57 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-03</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-03.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-03.html</guid>
+  <pubDate>Mon, 03 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-31</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-31.html</link>
@@ -298,14 +306,6 @@ Mức giảm 5,54% trong một phiên không phải là con số nhỏ với m�
   <description>## Áp lực bán áp đảo trên VN30+HNX30 — lịch sử nói gì về những ngày như hôm nay?
 
 Hôm nay dòng tiền nội từ rổ VN30 và HNX30 ghi nhận chỉ số buy-pressure ở mức **30.2%** — nghĩa là hơn 2/3 áp lực giao dịch đang nghiêng về phía bán. Tín hiệu này rơi thẳng vào vùng phân loại &#34;bán mạnh&#34; theo mô hình của Lotus AI. Câu hỏi mà data 9 năm có thể trả lời: những lần thị trường rơi vào trạng thái tươ…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-07</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-07.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-07.html</guid>
-  <pubDate>Tue, 07 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
