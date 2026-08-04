@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 03 Aug 2026 11:56:57 +0000</lastBuildDate>
+<lastBuildDate>Tue, 04 Aug 2026 11:04:12 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-04</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-04.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-04.html</guid>
+  <pubDate>Tue, 04 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-03</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-03.html</link>
@@ -14,6 +22,20 @@
   <pubDate>Mon, 03 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 BVH tăng 7.0% hôm nay 03/08 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-03-event-mover-bvh.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-03-event-mover-bvh.html</guid>
+  <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## BVH bật +6.99% trong một phiên — volume mỏng đặt ra câu hỏi đáng theo dõi
+
+Bảo Việt Holdings (BVH) đóng cửa hôm nay tại **64,300 VND**, tăng mạnh **+6.99%** so với phiên trước. Mức tăng gần 7% trong một phiên không phải chuyện thường với một cổ phiếu vốn hóa lớn thuộc ngành bảo hiểm. Nhưng khi nhìn vào phần còn lại của data, câu hỏi tự nhiên nảy ra: **ai thực sự đứng sau cú bật này?**
+
+---
+
+…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-07-31</title>
@@ -288,24 +310,6 @@ Mức giảm 5,54% trong một phiên không phải là con số nhỏ với m�
   <pubDate>Thu, 09 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-08</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-08.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-08.html</guid>
-  <pubDate>Wed, 08 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 08/07 — regime nào đang dẫn dắt?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-08-event-flow.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-08-event-flow.html</guid>
-  <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## Áp lực bán áp đảo trên VN30+HNX30 — lịch sử nói gì về những ngày như hôm nay?
-
-Hôm nay dòng tiền nội từ rổ VN30 và HNX30 ghi nhận chỉ số buy-pressure ở mức **30.2%** — nghĩa là hơn 2/3 áp lực giao dịch đang nghiêng về phía bán. Tín hiệu này rơi thẳng vào vùng phân loại &#34;bán mạnh&#34; theo mô hình của Lotus AI. Câu hỏi mà data 9 năm có thể trả lời: những lần thị trường rơi vào trạng thái tươ…</description>
 </item>
 </channel>
 </rss>
