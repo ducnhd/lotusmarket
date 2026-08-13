@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 12 Aug 2026 09:41:48 +0000</lastBuildDate>
+<lastBuildDate>Thu, 13 Aug 2026 09:41:07 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-13</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-13.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-13.html</guid>
+  <pubDate>Thu, 13 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-12</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-12.html</link>
@@ -14,6 +22,16 @@
   <pubDate>Wed, 12 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 BCM tăng 6.9% hôm nay 12/08 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-12-event-mover-bcm.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-12-event-mover-bcm.html</guid>
+  <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## BCM bật +6.93% — thanh khoản mỏng hay tín hiệu thật?
+
+BCM đóng cửa hôm nay ở **44,000 VND**, tăng **+6.93%** so với phiên trước — mức tăng đủ để lọt vào danh sách cổ phiếu đáng chú ý trong ngày. Điều khiến tín hiệu này trở nên phức tạp hơn bình thường: volume giao dịch chỉ đạt **185,320 cổ phiếu**, tức **0.2× so với MA20 volume**. Câu hỏi cần data trả lời — một nhịp tăng gần 7% trên nề…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-11</title>
@@ -294,30 +312,6 @@ Hôm nay GAS đóng cửa ở 68.000 đồng, mất gần 7% chỉ trong một p
 ---
 
 ### ① Chuyện gì xảy ra …</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-20</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-20.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-20.html</guid>
-  <pubDate>Mon, 20 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 BCM giảm 6.9% hôm nay 20/07 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-20-event-mover-bcm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-20-event-mover-bcm.html</guid>
-  <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## BCM lao dốc gần 7% trong một phiên — RSI chạm đáy lịch sử
-
-Phiên hôm nay, BCM đóng cửa ở **40.950 VND**, mất **6,93%** chỉ trong một ngày giao dịch. Điều đáng chú ý hơn cả mức giảm là chỉ số RSI(14) hiện chỉ còn **10,9** — một con số cực kỳ hiếm gặp. Vậy khi RSI rơi xuống vùng này, lịch sử đã cho thấy điều gì xảy ra tiếp theo?
-
----
-
-### ① Chuyện gì đã xảy ra hôm nay
-
-Mức giảm 6,93% tro…</description>
 </item>
 </channel>
 </rss>
