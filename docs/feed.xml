@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 13 Aug 2026 09:41:07 +0000</lastBuildDate>
+<lastBuildDate>Fri, 14 Aug 2026 09:36:27 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-14</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-14.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-14.html</guid>
+  <pubDate>Fri, 14 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-13</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-13.html</link>
@@ -14,6 +22,16 @@
   <pubDate>Thu, 13 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 13/08 — regime nào đang dẫn dắt?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-13-event-flow.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-13-event-flow.html</guid>
+  <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Áp lực bán phủ khắp VN30+HNX30 — lịch sử nói gì tiếp theo?
+
+Phiên hôm nay, dòng tiền nội tổng trên rổ VN30+HNX30 ghi nhận buy-pressure chỉ còn 28.7% — tức gần 3/4 lực giao dịch đang nghiêng về phía bán. Con số này không phải dao động thông thường; nó phản ánh một trạng thái mà thị trường đang ở vùng căng thẳng thực sự. Câu hỏi đặt ra: trong những lần tương tự trước đây, thị trường…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-12</title>
@@ -290,28 +308,6 @@ VIC đóng cửa hôm nay ở 202.100 đồng, giảm **6,99%** chỉ trong mộ
 ---
 
 ### ① C…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-21</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-21.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-21.html</guid>
-  <pubDate>Tue, 21 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 GAS giảm 7.0% hôm nay 21/07 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-21-event-mover-gas.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-21-event-mover-gas.html</guid>
-  <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## GAS rơi gần 7% trong một phiên — vùng oversold mở ra câu hỏi gì?
-
-Hôm nay GAS đóng cửa ở 68.000 đồng, mất gần 7% chỉ trong một phiên giao dịch. Đây là mức giảm đáng kể, kéo RSI(14) xuống còn 23.8 — vùng oversold sâu mà không phải lúc nào thị trường cũng chứng kiến. Câu hỏi trực tiếp mà data đặt ra: lần trước GAS rơi vào vùng này, giá đã đi tiếp như thế nào?
-
----
-
-### ① Chuyện gì xảy ra …</description>
 </item>
 </channel>
 </rss>
