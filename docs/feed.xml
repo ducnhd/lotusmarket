@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 14 Aug 2026 09:36:27 +0000</lastBuildDate>
+<lastBuildDate>Mon, 17 Aug 2026 09:09:45 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-17</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-17.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-17.html</guid>
+  <pubDate>Mon, 17 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-14</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-14.html</link>
@@ -14,6 +22,16 @@
   <pubDate>Fri, 14 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Nội bộ VHM giao dịch lớn (14/08) — đọc tín hiệu thế nào?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-14-event-insider-vhm.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-14-event-insider-vhm.html</guid>
+  <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Vingroup &#34;xả&#34; hơn 15 triệu cổ phiếu VHM — tín hiệu gì ẩn sau giao dịch nội bộ quy mô lớn?
+
+Tập đoàn Vingroup vừa thực hiện giao dịch bán nội bộ 15.226.260 cổ phiếu VHM — một con số không nhỏ trên thị trường bất động sản vốn đang nhiều biến động. Câu hỏi mà bất kỳ nhà đầu tư nào cũng cần đặt ra: đây là động thái tái cơ cấu danh mục thông thường, hay có điều gì sâu hơn đ�…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-13</title>
@@ -286,28 +304,6 @@ Cổ phiếu MWG đóng cửa hôm nay ở 63.300 đồng, giảm **6,91%** ch�
   <description>## Vinpearl rút gần 15 triệu cổ phiếu VIC khỏi sổ: đọc tín hiệu từ người trong cuộc
 
 Hôm nay, Công ty Cổ phần Vinpearl đăng ký bán ra **14.974.526 cổ phiếu VIC** — một khối lượng đủ lớn để khiến bất kỳ nhà theo dõi giao dịch nội bộ nào phải dừng lại. Câu hỏi không phải là &#34;có nên hoảng sợ không&#34;, mà là: *người trong cuộc đang phát tín hiệu gì, và lịch sử các đợt bán nội bộ quy m…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-22</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-22.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-22.html</guid>
-  <pubDate>Wed, 22 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 VIC giảm 7.0% hôm nay 22/07 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-22-event-mover-vic.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-22-event-mover-vic.html</guid>
-  <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## VIC rơi gần 7% trong một phiên — vùng oversold lịch sử đang bật tín hiệu
-
-VIC đóng cửa hôm nay ở 202.100 đồng, giảm **6,99%** chỉ trong một phiên — mức rơi hiếm gặp với một bluechip quy mô như Vinhomes. RSI(14) chạm **25,8**, sâu dưới ngưỡng oversold 30. Câu hỏi mà data có thể trả lời: những lần VIC rơi vào vùng này trước đây, thị trường đã phản ứng ra sao trong 60 ngày tiếp theo?
-
----
-
-### ① C…</description>
 </item>
 </channel>
 </rss>
