@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 18 Aug 2026 09:02:57 +0000</lastBuildDate>
+<lastBuildDate>Wed, 19 Aug 2026 09:05:05 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-19</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-19.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-19.html</guid>
+  <pubDate>Wed, 19 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-18</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-18.html</link>
@@ -14,6 +22,16 @@
   <pubDate>Tue, 18 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 PLX tăng 6.9% hôm nay 18/08 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-18-event-mover-plx.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-18-event-mover-plx.html</guid>
+  <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## PLX tăng gần 7% trong một phiên — volume nói gì khi giá đã chạy xa?
+
+Petrolimex bất ngờ bứt phá +6.90% trong phiên hôm nay, đóng cửa tại 37.950 VND — mức tăng hiếm gặp với một cổ phiếu vốn hóa lớn trong ngành phân phối xăng dầu. Điều khiến người quan sát phải dừng lại: volume chỉ đạt 535.090 cổ phiếu, tương đương 0.2× MA20 — tức là thanh khoản chưa bằng một phần năm trung bình 20 phiên. C…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-17</title>
@@ -284,24 +302,6 @@ Buy-pressure 31.7% là…</description>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-27.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-27.html</guid>
   <pubDate>Mon, 27 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 MWG giảm 6.9% hôm nay 27/07 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-27-event-mover-mwg.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-27-event-mover-mwg.html</guid>
-  <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## MWG rơi gần 7% trong một phiên — RSI chạm 19, vùng mà lịch sử thường không yên lặng lâu
-
-Cổ phiếu MWG đóng cửa hôm nay ở 63.300 đồng, giảm **6,91%** chỉ trong một phiên — mức sụt khá mạnh với một bluechip bán lẻ. Điều đáng chú ý hơn con số giá là tín hiệu kỹ thuật phía sau: RSI(14) hiện ở **19,2**, thấp hơn ngưỡng oversold truyền thống rất nhiều. Câu hỏi mà data sẽ giúp trả lời: lần…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-24</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-24.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-24.html</guid>
-  <pubDate>Fri, 24 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
