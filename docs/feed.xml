@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 20 Aug 2026 09:06:15 +0000</lastBuildDate>
+<lastBuildDate>Fri, 21 Aug 2026 09:08:16 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-21</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-21.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-21.html</guid>
+  <pubDate>Fri, 21 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-20</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-20.html</link>
@@ -288,22 +296,6 @@ Phiên hôm nay, VRE (Vincom Retail) bứt phá mạnh với mức tăng **+6.81
   <pubDate>Tue, 28 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 28/07 — regime nào đang dẫn dắt?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-28-event-flow.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-28-event-flow.html</guid>
-  <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## Áp lực bán áp đảo VN30+HNX30 — lịch sử nói gì?
-
-Phiên hôm nay, dòng tiền nội khối VN30 và HNX30 ghi nhận buy-pressure chỉ đạt **31.7%** — tức là gần 7 phần 10 giao dịch nghiêng về phía bán. Con số này không phải biến động thông thường. Vậy trong lịch sử 9 năm, những lần thị trường rơi vào trạng thái tương tự đã đi tiếp như thế nào?
-
----
-
-### ① Chuyện gì đang xảy ra
-
-Buy-pressure 31.7% là…</description>
 </item>
 </channel>
 </rss>
