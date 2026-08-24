@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 21 Aug 2026 09:08:16 +0000</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 09:23:27 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-24</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-24.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-24.html</guid>
+  <pubDate>Mon, 24 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-21</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-21.html</link>
@@ -14,6 +22,22 @@
   <pubDate>Fri, 21 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 SSI tăng 7.0% hôm nay 21/08 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-21-event-mover-ssi.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-21-event-mover-ssi.html</guid>
+  <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## SSI bật +6.96% — khối lượng mỏng nói lên điều gì?
+
+Phiên hôm nay, SSI đóng cửa tại 20.750 VND, tăng gần 7% chỉ trong một phiên. Nhưng điều đáng chú ý hơn mức tăng đó là khối lượng giao dịch — và chính con số này mới là câu hỏi cần trả lời.
+
+---
+
+### ① Chuyện gì vừa xảy ra
+
+SSI khép phiên với mức tăng +6.96%, một con số đủ để lọt vào nhóm cổ phiếu nổi bật nhất thị trường trong…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-20</title>
@@ -276,24 +300,6 @@ Con…</description>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-29.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-29.html</guid>
   <pubDate>Wed, 29 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 VRE tăng 6.8% hôm nay 29/07 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-07-29-event-mover-vre.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-07-29-event-mover-vre.html</guid>
-  <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## VRE bật +6.81% từ vùng RSI 26: tín hiệu đảo chiều hay bẫy hồi kỹ thuật?
-
-Phiên hôm nay, VRE (Vincom Retail) bứt phá mạnh với mức tăng **+6.81%**, đóng cửa tại **22.750 đồng**. Điều khiến tín hiệu này đáng chú ý hơn là bối cảnh nền — RSI(14) chỉ ở **26.7**, tức vùng quá bán sâu. Câu hỏi trung tâm: liệu đây là cú nảy kỹ thuật đơn lẻ, hay điểm khởi đầu của một pha phục hồi có chiều s…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-28</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-28.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-28.html</guid>
-  <pubDate>Tue, 28 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
