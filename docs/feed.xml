@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 25 Aug 2026 09:09:03 +0000</lastBuildDate>
+<lastBuildDate>Wed, 26 Aug 2026 09:12:04 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-26</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-26.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-26.html</guid>
+  <pubDate>Wed, 26 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-25</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-25.html</link>
@@ -290,14 +298,6 @@ Bảo Việt Holdings (BVH) đóng cửa hôm nay tại **64,300 VND**, tăng m�
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-31.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-31.html</guid>
   <pubDate>Fri, 31 Jul 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-30</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-30.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-30.html</guid>
-  <pubDate>Thu, 30 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
