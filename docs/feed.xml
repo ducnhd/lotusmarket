@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 26 Aug 2026 09:12:04 +0000</lastBuildDate>
+<lastBuildDate>Thu, 27 Aug 2026 19:13:16 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-27</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-27.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-27.html</guid>
+  <pubDate>Thu, 27 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-26</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-26.html</link>
@@ -14,6 +22,20 @@
   <pubDate>Wed, 26 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 BCM tăng 7.0% hôm nay 26/08 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-26-event-mover-bcm.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-26-event-mover-bcm.html</guid>
+  <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## BCM tăng gần 7% trong một phiên — volume lại nói điều ngược lại
+
+BCM đóng cửa hôm nay ở **44.450 VND**, ghi nhận mức tăng **+6,98%** so với phiên trước — một con số đủ để bất kỳ ai lướt bảng điện cũng phải dừng lại. Nhưng nhìn vào volume, câu chuyện trở nên phức tạp hơn nhiều. Liệu đây là nhịp bứt phá thực sự, hay chỉ là cú giật giá trên nền giao dịch thưa thớt?
+
+---
+
+### ① Chuy�…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-25</title>
@@ -276,28 +298,6 @@ Buy-p…</description>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-03.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-03.html</guid>
   <pubDate>Mon, 03 Aug 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 BVH tăng 7.0% hôm nay 03/08 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-03-event-mover-bvh.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-03-event-mover-bvh.html</guid>
-  <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## BVH bật +6.99% trong một phiên — volume mỏng đặt ra câu hỏi đáng theo dõi
-
-Bảo Việt Holdings (BVH) đóng cửa hôm nay tại **64,300 VND**, tăng mạnh **+6.99%** so với phiên trước. Mức tăng gần 7% trong một phiên không phải chuyện thường với một cổ phiếu vốn hóa lớn thuộc ngành bảo hiểm. Nhưng khi nhìn vào phần còn lại của data, câu hỏi tự nhiên nảy ra: **ai thực sự đứng sau cú bật này?**
-
----
-
-…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-07-31</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-07-31.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-07-31.html</guid>
-  <pubDate>Fri, 31 Jul 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
