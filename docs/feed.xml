@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 28 Aug 2026 20:19:07 +0000</lastBuildDate>
+<lastBuildDate>Mon, 31 Aug 2026 16:17:43 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-08-31</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-31.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-31.html</guid>
+  <pubDate>Mon, 31 Aug 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-28</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-28.html</link>
@@ -14,6 +22,22 @@
   <pubDate>Fri, 28 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 SSB tăng 6.9% hôm nay 28/08 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-28-event-mover-ssb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-28-event-mover-ssb.html</guid>
+  <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## SSB bùng phá +6.88% — nhưng volume nói điều khác
+
+SeABank (SSB) đóng cửa hôm nay ở mức 17.100 VND, tăng gần 6.88% chỉ trong một phiên. Con số đó đủ để thu hút ánh mắt của bất kỳ ai theo dõi bảng điện. Câu hỏi mà data đặt ra ngay lập tức: liệu đây là một cú phá vỡ thật sự, hay chỉ là một nhịp bắn giá thiếu nền tảng?
+
+---
+
+### ① Chuyện gì đã xảy ra hôm nay
+
+Mức tăng 6.88% trong một phi�…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-27</title>
@@ -274,30 +298,6 @@ BCM tăng +6.93%…</description>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-05.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-05.html</guid>
   <pubDate>Wed, 05 Aug 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 05/08 — regime nào đang dẫn dắt?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-05-event-flow.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-05-event-flow.html</guid>
-  <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## Thị trường rơi vào vùng bán mạnh — lịch sử nói gì?
-
-Phiên hôm nay, áp lực bán trên rổ VN30+HNX30 đẩy buy-pressure xuống chỉ còn **32.0%** — ngưỡng mà hệ thống phân loại thẳng là *bán mạnh*. Câu hỏi thực sự không phải là &#34;thị trường có đang xấu không&#34; — data đã trả lời rồi — mà là: **những lần tương tự trong 9 năm qua, giá đi đâu tiếp theo?**
-
----
-
-### ① Chuyện gì đang xảy ra
-
-Buy-p…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-08-04</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-04.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-04.html</guid>
-  <pubDate>Tue, 04 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
