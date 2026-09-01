@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 31 Aug 2026 16:17:43 +0000</lastBuildDate>
+<lastBuildDate>Tue, 01 Sep 2026 13:37:44 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-01</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-01.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-01.html</guid>
+  <pubDate>Tue, 01 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-31</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-31.html</link>
@@ -14,6 +22,22 @@
   <pubDate>Mon, 31 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Nội bộ SSB giao dịch lớn (31/08) — đọc tín hiệu thế nào?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-31-event-insider-ssb.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-31-event-insider-ssb.html</guid>
+  <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Nguyễn Thị Nga vừa rót 3,5 triệu cổ phiếu SSB — thị trường đang nghĩ gì?
+
+Một giao dịch nội bộ quy mô lớn vừa được công bố tại SeABank: bà Nguyễn Thị Nga đăng ký mua 3.500.000 cổ phiếu SSB. Đây là loại sự kiện hiếm khi xuất hiện mà không kéo theo câu hỏi — người trong cuộc đang nhìn thấy điều gì mà thị trường chưa định giá?
+
+---
+
+### ① Chuyện gì vừa xảy ra
+
+Giao dịch được cô…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-08-28</title>
@@ -284,22 +308,6 @@ Phiên hôm nay, BCM đóng cửa ở 38,600 VND — tăng gần 7% chỉ trong 
 ### ① Chuyện gì xảy ra hôm nay
 
 BCM tăng +6.93%…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-08-06</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-06.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-06.html</guid>
-  <pubDate>Thu, 06 Aug 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-08-05</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-05.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-05.html</guid>
-  <pubDate>Wed, 05 Aug 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
