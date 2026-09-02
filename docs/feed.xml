@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 01 Sep 2026 13:37:44 +0000</lastBuildDate>
+<lastBuildDate>Wed, 02 Sep 2026 12:54:02 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-02</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-02.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-02.html</guid>
+  <pubDate>Wed, 02 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-01</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-01.html</link>
@@ -292,22 +300,6 @@ GAS tăng +6.97%, đóng cửa tại 79.800 VND. Đây l�…</description>
   <pubDate>Fri, 07 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 BCM tăng 6.9% hôm nay 07/08 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-07-event-mover-bcm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-07-event-mover-bcm.html</guid>
-  <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## BCM bật +6.93% trong im lặng: thanh khoản thấp nói lên điều gì?
-
-Phiên hôm nay, BCM đóng cửa ở 38,600 VND — tăng gần 7% chỉ trong một phiên. Điều kỳ lạ là mức tăng này diễn ra với volume cực kỳ mỏng. Câu hỏi mà data đặt ra: một nhịp bật mạnh thiếu thanh khoản như vậy thực sự phản ánh sức mạnh hay chỉ là tiếng vang trong căn phòng trống?
-
----
-
-### ① Chuyện gì xảy ra hôm nay
-
-BCM tăng +6.93%…</description>
 </item>
 </channel>
 </rss>
