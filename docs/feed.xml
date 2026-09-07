@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 04 Sep 2026 12:51:55 +0000</lastBuildDate>
+<lastBuildDate>Mon, 07 Sep 2026 14:22:42 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-07</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-07.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-07.html</guid>
+  <pubDate>Mon, 07 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-04</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-04.html</link>
@@ -14,6 +22,17 @@
   <pubDate>Fri, 04 Sep 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Dòng tiền VN30 nghiêng bán hôm nay 04/09 — regime nào đang dẫn dắt?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-09-04-event-flow.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-09-04-event-flow.html</guid>
+  <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## Áp lực bán đang chi phối VN30+HNX30 — lịch sử nói gì tiếp theo?
+
+Phiên hôm nay, dòng tiền nội tổng của hai rổ cổ phiếu lớn nhất thị trường — VN30 và HNX30 — ghi nhận buy-pressure chỉ còn **26.5%**, một ngưỡng thuộc diện &#34;bán mạnh&#34; theo phân loại định lượng. Câu hỏi mà data 9 năm lịch sử có thể trả lời: khi thị trường rơi vào trạng thái này, điều gì thường xảy ra trong 60 ngày tới?
+…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-03</title>
@@ -280,24 +299,6 @@ Phiên hôm nay, dòng tiền nội tổng trên rổ VN30+HNX30 ghi nhận buy-
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-12.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-12.html</guid>
   <pubDate>Wed, 12 Aug 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 BCM tăng 6.9% hôm nay 12/08 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-12-event-mover-bcm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-12-event-mover-bcm.html</guid>
-  <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## BCM bật +6.93% — thanh khoản mỏng hay tín hiệu thật?
-
-BCM đóng cửa hôm nay ở **44,000 VND**, tăng **+6.93%** so với phiên trước — mức tăng đủ để lọt vào danh sách cổ phiếu đáng chú ý trong ngày. Điều khiến tín hiệu này trở nên phức tạp hơn bình thường: volume giao dịch chỉ đạt **185,320 cổ phiếu**, tức **0.2× so với MA20 volume**. Câu hỏi cần data trả lời — một nhịp tăng gần 7% trên nề…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-08-11</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-11.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-11.html</guid>
-  <pubDate>Tue, 11 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
