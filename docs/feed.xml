@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 08 Sep 2026 12:59:54 +0000</lastBuildDate>
+<lastBuildDate>Wed, 09 Sep 2026 13:05:32 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-09</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-09.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-09.html</guid>
+  <pubDate>Wed, 09 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-08</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-08.html</link>
@@ -295,14 +303,6 @@ Phiên hôm nay, BVH (Bảo Việt Holdings) đóng cửa ở **68,500 VND**, gh
   <description>## Vingroup &#34;xả&#34; hơn 15 triệu cổ phiếu VHM — tín hiệu gì ẩn sau giao dịch nội bộ quy mô lớn?
 
 Tập đoàn Vingroup vừa thực hiện giao dịch bán nội bộ 15.226.260 cổ phiếu VHM — một con số không nhỏ trên thị trường bất động sản vốn đang nhiều biến động. Câu hỏi mà bất kỳ nhà đầu tư nào cũng cần đặt ra: đây là động thái tái cơ cấu danh mục thông thường, hay có điều gì sâu hơn đ�…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-08-13</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-13.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-13.html</guid>
-  <pubDate>Thu, 13 Aug 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
