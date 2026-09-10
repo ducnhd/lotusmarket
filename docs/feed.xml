@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 09 Sep 2026 13:05:32 +0000</lastBuildDate>
+<lastBuildDate>Thu, 10 Sep 2026 13:02:26 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-10</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-10.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-10.html</guid>
+  <pubDate>Thu, 10 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-09</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-09.html</link>
@@ -293,16 +301,6 @@ Phiên hôm nay, BVH (Bảo Việt Holdings) đóng cửa ở **68,500 VND**, gh
   <pubDate>Fri, 14 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 Nội bộ VHM giao dịch lớn (14/08) — đọc tín hiệu thế nào?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-14-event-insider-vhm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-14-event-insider-vhm.html</guid>
-  <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## Vingroup &#34;xả&#34; hơn 15 triệu cổ phiếu VHM — tín hiệu gì ẩn sau giao dịch nội bộ quy mô lớn?
-
-Tập đoàn Vingroup vừa thực hiện giao dịch bán nội bộ 15.226.260 cổ phiếu VHM — một con số không nhỏ trên thị trường bất động sản vốn đang nhiều biến động. Câu hỏi mà bất kỳ nhà đầu tư nào cũng cần đặt ra: đây là động thái tái cơ cấu danh mục thông thường, hay có điều gì sâu hơn đ�…</description>
 </item>
 </channel>
 </rss>
