@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Fri, 11 Sep 2026 12:56:36 +0000</lastBuildDate>
+<lastBuildDate>Mon, 14 Sep 2026 15:10:25 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-14</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-14.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-14.html</guid>
+  <pubDate>Mon, 14 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-11</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-11.html</link>
@@ -291,16 +299,6 @@ Petrolimex bất ngờ bứt phá +6.90% trong phiên hôm nay, đóng cửa t�
   <pubDate>Mon, 17 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 BVH tăng 5.4% hôm nay 17/08 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-17-event-mover-bvh.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-17-event-mover-bvh.html</guid>
-  <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## BVH tăng 5.38% trong một phiên — tín hiệu mạnh hay chỉ là cú bật kỹ thuật?
-
-Phiên hôm nay, BVH (Bảo Việt Holdings) đóng cửa ở **68,500 VND**, ghi nhận mức tăng **+5.38%** — một con số đủ để lọt vào danh sách những cổ phiếu đáng chú ý trong ngày. Nhưng điều làm mình dừng lại không phải ở mức tăng, mà ở một nghịch lý nằm ngay trong chính dữ liệu: giá tăng mạnh, trong khi khối lượng giao d�…</description>
 </item>
 </channel>
 </rss>
