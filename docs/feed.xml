@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 14 Sep 2026 15:10:25 +0000</lastBuildDate>
+<lastBuildDate>Tue, 15 Sep 2026 13:47:19 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-15</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-15.html</guid>
+  <pubDate>Tue, 15 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-14</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-14.html</link>
@@ -291,14 +299,6 @@ SSI khép phiên với mức tăng +6.96%, một con số đủ để lọt vào
   <description>## PLX tăng gần 7% trong một phiên — volume nói gì khi giá đã chạy xa?
 
 Petrolimex bất ngờ bứt phá +6.90% trong phiên hôm nay, đóng cửa tại 37.950 VND — mức tăng hiếm gặp với một cổ phiếu vốn hóa lớn trong ngành phân phối xăng dầu. Điều khiến người quan sát phải dừng lại: volume chỉ đạt 535.090 cổ phiếu, tương đương 0.2× MA20 — tức là thanh khoản chưa bằng một phần năm trung bình 20 phiên. C…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-08-17</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-17.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-17.html</guid>
-  <pubDate>Mon, 17 Aug 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
