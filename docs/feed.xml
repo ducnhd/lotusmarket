@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 16 Sep 2026 13:40:04 +0000</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 13:42:27 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-17</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-17.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-17.html</guid>
+  <pubDate>Thu, 17 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-16</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-16.html</link>
@@ -287,14 +295,6 @@ SSI khép phiên với mức tăng +6.96%, một con số đủ để lọt vào
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-19.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-19.html</guid>
   <pubDate>Wed, 19 Aug 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-08-18</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-18.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-18.html</guid>
-  <pubDate>Tue, 18 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
