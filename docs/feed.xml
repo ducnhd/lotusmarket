@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 21 Sep 2026 15:16:17 +0000</lastBuildDate>
+<lastBuildDate>Tue, 22 Sep 2026 13:35:51 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-22</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-22.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-22.html</guid>
+  <pubDate>Tue, 22 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-21</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-21.html</link>
@@ -281,22 +289,6 @@ Có một điều kỳ lạ xảy ra trong phiên 21–24/08: S&amp;P 500 tăng 
   <pubDate>Fri, 21 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 SSI tăng 7.0% hôm nay 21/08 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-21-event-mover-ssi.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-21-event-mover-ssi.html</guid>
-  <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## SSI bật +6.96% — khối lượng mỏng nói lên điều gì?
-
-Phiên hôm nay, SSI đóng cửa tại 20.750 VND, tăng gần 7% chỉ trong một phiên. Nhưng điều đáng chú ý hơn mức tăng đó là khối lượng giao dịch — và chính con số này mới là câu hỏi cần trả lời.
-
----
-
-### ① Chuyện gì vừa xảy ra
-
-SSI khép phiên với mức tăng +6.96%, một con số đủ để lọt vào nhóm cổ phiếu nổi bật nhất thị trường trong…</description>
 </item>
 </channel>
 </rss>
