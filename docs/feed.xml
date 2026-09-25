@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 24 Sep 2026 13:43:04 +0000</lastBuildDate>
+<lastBuildDate>Fri, 25 Sep 2026 14:04:20 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-25</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-25.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-25.html</guid>
+  <pubDate>Fri, 25 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-24</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-24.html</link>
@@ -273,14 +281,6 @@ BCM đóng cửa hôm nay ở **44.450 VND**, ghi nhận mức tăng **+6,98%** 
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-25.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-25.html</guid>
   <pubDate>Tue, 25 Aug 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-08-24</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-08-24.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-08-24.html</guid>
-  <pubDate>Mon, 24 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
