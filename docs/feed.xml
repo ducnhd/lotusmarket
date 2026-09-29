@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 28 Sep 2026 16:55:27 +0000</lastBuildDate>
+<lastBuildDate>Tue, 29 Sep 2026 14:58:48 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-09-29</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-29.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-29.html</guid>
+  <pubDate>Tue, 29 Sep 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-09-28</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-28.html</link>
@@ -269,20 +277,6 @@ Mức tăng 6.88% trong một phi�…</description>
   <pubDate>Wed, 26 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 BCM tăng 7.0% hôm nay 26/08 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-26-event-mover-bcm.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-26-event-mover-bcm.html</guid>
-  <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## BCM tăng gần 7% trong một phiên — volume lại nói điều ngược lại
-
-BCM đóng cửa hôm nay ở **44.450 VND**, ghi nhận mức tăng **+6,98%** so với phiên trước — một con số đủ để bất kỳ ai lướt bảng điện cũng phải dừng lại. Nhưng nhìn vào volume, câu chuyện trở nên phức tạp hơn nhiều. Liệu đây là nhịp bứt phá thực sự, hay chỉ là cú giật giá trên nền giao dịch thưa thớt?
-
----
-
-### ① Chuy�…</description>
 </item>
 </channel>
 </rss>
