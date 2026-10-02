@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 01 Oct 2026 15:35:37 +0000</lastBuildDate>
+<lastBuildDate>Fri, 02 Oct 2026 14:54:24 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-10-02</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-02.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-02.html</guid>
+  <pubDate>Fri, 02 Oct 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-10-01</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-01.html</link>
@@ -261,22 +269,6 @@ Giao dịch được cô…</description>
   <pubDate>Fri, 28 Aug 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📝 SSB tăng 6.9% hôm nay 28/08 — cohort lịch sử nói gì?</title>
-  <link>https://ducnhd.github.io/lotusmarket/blog/2026-08-28-event-mover-ssb.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-08-28-event-mover-ssb.html</guid>
-  <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-  <category>blog</category>
-  <description>## SSB bùng phá +6.88% — nhưng volume nói điều khác
-
-SeABank (SSB) đóng cửa hôm nay ở mức 17.100 VND, tăng gần 6.88% chỉ trong một phiên. Con số đó đủ để thu hút ánh mắt của bất kỳ ai theo dõi bảng điện. Câu hỏi mà data đặt ra ngay lập tức: liệu đây là một cú phá vỡ thật sự, hay chỉ là một nhịp bắn giá thiếu nền tảng?
-
----
-
-### ① Chuyện gì đã xảy ra hôm nay
-
-Mức tăng 6.88% trong một phi�…</description>
 </item>
 </channel>
 </rss>
