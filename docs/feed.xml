@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 07 Oct 2026 15:42:14 +0000</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 15:47:29 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-10-08</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-08.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-08.html</guid>
+  <pubDate>Thu, 08 Oct 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-10-07</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-07.html</link>
@@ -253,14 +261,6 @@ SeABank (SSB) đóng cửa hôm nay ở **17,100 VND**, tăng mạnh **+6.88%** 
 ### ① Chuyện gì vừa xảy ra
 
 Một mức tăng gần 7% trong một phiên không phải chuyện t…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-09-01</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-01.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-01.html</guid>
-  <pubDate>Tue, 01 Sep 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
