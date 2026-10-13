@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Mon, 12 Oct 2026 18:07:52 +0000</lastBuildDate>
+<lastBuildDate>Tue, 13 Oct 2026 16:16:16 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-10-13</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-13.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-13.html</guid>
+  <pubDate>Tue, 13 Oct 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-10-12</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-12.html</link>
@@ -245,14 +253,6 @@ Cứ mỗi đầu tháng 5, một vòng lặp quen thuộc bắt đầu trên c�
 
 Phiên hôm nay, dòng tiền nội tổng của hai rổ cổ phiếu lớn nhất thị trường — VN30 và HNX30 — ghi nhận buy-pressure chỉ còn **26.5%**, một ngưỡng thuộc diện &#34;bán mạnh&#34; theo phân loại định lượng. Câu hỏi mà data 9 năm lịch sử có thể trả lời: khi thị trường rơi vào trạng thái này, điều gì thường xảy ra trong 60 ngày tới?
 …</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-09-03</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-03.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-03.html</guid>
-  <pubDate>Thu, 03 Sep 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
