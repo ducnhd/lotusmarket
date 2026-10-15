@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 14 Oct 2026 13:57:19 +0000</lastBuildDate>
+<lastBuildDate>Thu, 15 Oct 2026 13:36:32 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-10-15</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-15.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-15.html</guid>
+  <pubDate>Thu, 15 Oct 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-10-14</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-14.html</link>
@@ -242,14 +250,6 @@
 Câu trả lời ngắn: trên dữ liệu VN 2010–2025, edge này gần như không tồn tại sau khi trừ phí — nhưng lý do *tại sao* nó không hoạt động mới là phần thú vị.
 
 Cứ mỗi đầu tháng 5, một vòng lặp quen thuộc bắt đầu trên các hội nhóm chứng khoán: ai đó post ảnh câu quote tiếng Anh, vài người gật đầu &#34;đúng r�…</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-09-04</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-04.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-04.html</guid>
-  <pubDate>Fri, 04 Sep 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
 </channel>
 </rss>
