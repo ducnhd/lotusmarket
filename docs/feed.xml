@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 20 Oct 2026 13:46:46 +0000</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 14:01:48 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-10-21</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-21.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-21.html</guid>
+  <pubDate>Wed, 21 Oct 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-10-20</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-20.html</link>
@@ -236,14 +244,6 @@
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-10.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-10.html</guid>
   <pubDate>Thu, 10 Sep 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-09-09</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-09.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-09.html</guid>
-  <pubDate>Wed, 09 Sep 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
