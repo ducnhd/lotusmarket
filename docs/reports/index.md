@@ -9,6 +9,7 @@ Auto-generated reports for VN stock market. New report each weekday 15:30 VN.
 [← Back to home](../)
 
 - [index](index.html)
+- [2026-10-29](2026-10-29.html)
 - [2026-10-28](2026-10-28.html)
 - [2026-10-27](2026-10-27.html)
 - [2026-10-26](2026-10-26.html)
@@ -97,4 +98,3 @@ Auto-generated reports for VN stock market. New report each weekday 15:30 VN.
 - [2026-07-01](2026-07-01.html)
 - [2026-06-30](2026-06-30.html)
 - [2026-06-29](2026-06-29.html)
-- [2026-06-26](2026-06-26.html)
