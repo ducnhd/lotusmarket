@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Tue, 10 Nov 2026 16:32:17 +0000</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 16:28:32 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-11-11</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-11-11.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-11-11.html</guid>
+  <pubDate>Wed, 11 Nov 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-11-10</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-11-10.html</link>
@@ -14,6 +22,20 @@
   <pubDate>Tue, 10 Nov 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 Recency bias: tại sao bạn nghĩ thị trường năm tới giống năm vừa rồi</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-11-10-psychology-recency-bias.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-11-10-psychology-recency-bias.html</guid>
+  <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description># Recency Bias và Cái Bẫy Tâm Lý Khiến Retail VN Mãi Mua Đỉnh Bán Đáy
+
+**Não người được thiết kế để học từ kinh nghiệm gần nhất — và đó chính xác là lý do tại sao phần lớn nhà đầu tư cá nhân liên tục làm ngược với những gì data chỉ ra.**
+
+---
+
+Cuối năm 2021, các group chứng khoán Facebook tràn ngập screenshot lãi 40–50%. Người người đổ tiền vào. Đó là đỉnh. Đến Q3–Q4/2022, thị trư�…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-11-09</title>
@@ -228,22 +250,6 @@
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-02.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-02.html</guid>
   <pubDate>Fri, 02 Oct 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-10-01</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-01.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-01.html</guid>
-  <pubDate>Thu, 01 Oct 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-09-30</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-09-30.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-09-30.html</guid>
-  <pubDate>Wed, 30 Sep 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
