@@ -58,7 +58,7 @@ Có ba biến số đáng quan sát:
 
 ### Verify reproducible
 
-Theo dõi và kiểm tra lại giao dịch nội bộ tương tự với [Lotus Market](https://lotusai.servehttp.com):
+Theo dõi và kiểm tra lại giao dịch nội bộ tương tự với [Lotus Market](https://lotus.leo-inc.bid):
 
 ```bash
 pip install lotusmarket

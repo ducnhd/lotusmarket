@@ -299,7 +299,7 @@ OUTPUT spec:
 - KHÔNG khuyến nghị mua/bán cụ thể. Phrasing: "data cho thấy cohort thắng X%", "lịch sử cho thấy...".
 - Cuối bài: 3 takeaway ngắn + 1 đoạn "Verify reproducible" (lệnh pip install + 1-3 dòng code Python hoặc lmcli command).
 - 1 dòng disclaimer cuối: không phải lời khuyên đầu tư.
-- Link 1-2 lần: https://lotusai.servehttp.com hoặc https://github.com/ducnhd/lotusmarket.
+- Link 1-2 lần: https://lotus.leo-inc.bid hoặc https://github.com/ducnhd/lotusmarket.
 - Tone: thẳng, không hype, sarcasm nhẹ với myth/hype trong cộng đồng retail VN.
 - Emoji: tối đa 2-3, dùng có chủ đích, không spam.
 
@@ -321,7 +321,7 @@ OUTPUT spec:
 - KHÔNG bịa số. CHỈ dùng số trong DATA. KHÔNG viết "có thể, có lẽ, dự đoán" kiểu mơ hồ — khẳng định từ data.
 - KHÔNG khuyến nghị mua/bán. Phrasing: "data cho thấy cohort thắng X%", "lịch sử cho thấy...".
 - Cuối bài: 1 đoạn "Verify reproducible" (pip install lotusmarket + 1-3 dòng code, hoặc 1 lệnh lmcli) + 1 dòng disclaimer không phải lời khuyên đầu tư.
-- Link 1 lần: https://lotusai.servehttp.com hoặc https://github.com/ducnhd/lotusmarket.
+- Link 1 lần: https://lotus.leo-inc.bid hoặc https://github.com/ducnhd/lotusmarket.
 - Tone: thẳng, không hype. Emoji tối đa 2. Ngôi đơn (mình/impersonal), KHÔNG "chúng ta".
 
 DATA:

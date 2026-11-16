@@ -95,7 +95,7 @@ bhp = yf.download("BHP", start="2022-01-01")["Close"].pct_change()
 # print(f"Pearson r = {r:.3f}, p-value = {p:.4f}")
 ```
 
-Toàn bộ pipeline phân tích HPG vs. BHP vs. HRC đang được build trong [Lotus AI](https://lotusai.servehttp.com) — open source tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Toàn bộ pipeline phân tích HPG vs. BHP vs. HRC đang được build trong [Lotus AI](https://lotus.leo-inc.bid) — open source tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ---
 

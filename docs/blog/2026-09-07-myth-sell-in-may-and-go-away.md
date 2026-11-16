@@ -113,7 +113,7 @@ print(f"Tháng 5 mean return: {may_returns.mean():.2%}")
 print(f"Win rate tháng 5: {(may_returns > 0).mean():.2%}")
 ```
 
-Hoặc khám phá thêm regime-based analysis tại [lotusai.servehttp.com](https://lotusai.servehttp.com).
+Hoặc khám phá thêm regime-based analysis tại [lotus.leo-inc.bid](https://lotus.leo-inc.bid).
 
 ---
 

@@ -99,7 +99,7 @@ Với profile hiện tại, có ba biến số đáng watch:
 
 ## Verify Reproducible 🔍
 
-Toàn bộ scoring framework có thể kiểm tra lại tại [Lotus AI](https://lotusai.servehttp.com) hoặc repo mở tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Toàn bộ scoring framework có thể kiểm tra lại tại [Lotus AI](https://lotus.leo-inc.bid) hoặc repo mở tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ```bash
 pip install lotusmarket

@@ -109,7 +109,7 @@ Nếu đồng thuận (ví dụ: Uptrend + RSI > 70), data cho thấy cohort l�
 
 ## Verify Reproducible
 
-Toàn bộ cohort analysis này có thể reproduce được qua [Lotus Market](https://github.com/ducnhd/lotusmarket) hoặc xem thêm tại [lotusai.servehttp.com](https://lotusai.servehttp.com).
+Toàn bộ cohort analysis này có thể reproduce được qua [Lotus Market](https://github.com/ducnhd/lotusmarket) hoặc xem thêm tại [lotus.leo-inc.bid](https://lotus.leo-inc.bid).
 
 ```bash
 pip install lotusmarket pandas numpy

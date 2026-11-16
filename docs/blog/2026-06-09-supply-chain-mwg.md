@@ -87,7 +87,7 @@ Theo dõi ba signal này theo thứ tự ưu tiên:
 
 ## Verify Reproducible
 
-Toàn bộ pipeline phân tích có thể tái tạo qua [Lotus AI](https://lotusai.servehttp.com) hoặc clone repo tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Toàn bộ pipeline phân tích có thể tái tạo qua [Lotus AI](https://lotus.leo-inc.bid) hoặc clone repo tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ```bash
 pip install pandas numpy matplotlib vnstock

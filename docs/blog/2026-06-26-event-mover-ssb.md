@@ -56,7 +56,7 @@ Hai biến số quan trọng nhất cần quan sát trong các phiên tới:
 
 ### Verify reproducible
 
-Toàn bộ phân tích này có thể tái hiện qua [Lotus AI](https://lotusai.servehttp.com):
+Toàn bộ phân tích này có thể tái hiện qua [Lotus AI](https://lotus.leo-inc.bid):
 
 ```bash
 pip install lotusmarket

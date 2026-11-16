@@ -96,7 +96,7 @@ Gọi đây là "an toàn" hay "thận trọng" đều được. Nhưng đừng 
 
 ## Verify Reproducible
 
-Toàn bộ số liệu trong bài có thể kiểm tra lại qua [Lotus AI](https://lotusai.servehttp.com) hoặc codebase tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Toàn bộ số liệu trong bài có thể kiểm tra lại qua [Lotus AI](https://lotus.leo-inc.bid) hoặc codebase tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ```bash
 pip install lotusmarket pandas numpy

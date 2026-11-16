@@ -103,7 +103,7 @@ for t, df in data.items():
     print(f"{t}: CAGR = {cagr:.2%}")
 ```
 
-Xem thêm methodology và dataset tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) hoặc chạy query trực tiếp tại [Lotus AI](https://lotusai.servehttp.com). 📊
+Xem thêm methodology và dataset tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) hoặc chạy query trực tiếp tại [Lotus AI](https://lotus.leo-inc.bid). 📊
 
 ---
 

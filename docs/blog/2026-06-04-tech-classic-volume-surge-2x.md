@@ -103,7 +103,7 @@ Cùng một tín hiệu volume, trong uptrend mạnh với RSI xác nhận, edge
 
 ## Verify Reproducible 🔍
 
-Toàn bộ cohort analysis này được build trên pipeline của [Lotus AI](https://lotusai.servehttp.com). Nếu muốn tự verify hoặc chạy thử trên data khác:
+Toàn bộ cohort analysis này được build trên pipeline của [Lotus AI](https://lotus.leo-inc.bid). Nếu muốn tự verify hoặc chạy thử trên data khác:
 
 ```bash
 pip install lotusmarket pandas numpy

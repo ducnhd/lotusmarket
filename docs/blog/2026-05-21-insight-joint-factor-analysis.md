@@ -116,7 +116,7 @@ result = cohort_analysis(
 print(result.pivot_table(values="fwd_return", index="factor_a", columns="factor_b"))
 ```
 
-Chi tiết về methodology và source code tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket). Dashboard trực quan tại [lotusai.servehttp.com](https://lotusai.servehttp.com).
+Chi tiết về methodology và source code tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket). Dashboard trực quan tại [lotus.leo-inc.bid](https://lotus.leo-inc.bid).
 
 ---
 

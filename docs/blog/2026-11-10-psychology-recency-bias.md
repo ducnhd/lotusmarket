@@ -111,7 +111,7 @@ print(bt.base_rate_summary())          # win rate, avg return by prior year perf
 print(bt.dca_vs_timing_comparison())   # CAGR gap giữa DCA và recency-biased cohort
 ```
 
-Hoặc query trực tiếp qua [Lotus AI](https://lotusai.servehttp.com) với prompt: *"backtest VN30 DCA vs timing 2008–2024"*.
+Hoặc query trực tiếp qua [Lotus AI](https://lotus.leo-inc.bid) với prompt: *"backtest VN30 DCA vs timing 2008–2024"*.
 
 ---
 

@@ -94,7 +94,7 @@ Và đây là phần quan trọng nhất: ngay cả khi bạn đạt được nh
 
 ## Verify & Reproduce
 
-Data và methodology được mở công khai. Có thể tự reproduce tại [https://github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) hoặc chạy trực tiếp qua [Lotus AI](https://lotusai.servehttp.com).
+Data và methodology được mở công khai. Có thể tự reproduce tại [https://github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) hoặc chạy trực tiếp qua [Lotus AI](https://lotus.leo-inc.bid).
 
 ```bash
 pip install lotusmarket pandas numpy matplotlib

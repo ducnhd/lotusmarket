@@ -100,7 +100,7 @@ TCB hiện tại là ví dụ điển hình của một cổ phiếu đang *cons
 
 ## Verify Reproducible
 
-Toàn bộ phân tích này có thể kiểm tra lại qua [Lotus AI](https://lotusai.servehttp.com) hoặc repo tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Toàn bộ phân tích này có thể kiểm tra lại qua [Lotus AI](https://lotus.leo-inc.bid) hoặc repo tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ```bash
 pip install lotusmarket

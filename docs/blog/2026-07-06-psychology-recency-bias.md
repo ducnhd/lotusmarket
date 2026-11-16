@@ -95,7 +95,7 @@ Sarcasm nhẹ dành cho ai vẫn chờ "thị trường ổn định hơn": lị
 
 ## Verify Reproducible
 
-Data và backtest logic dùng trong bài có thể kiểm tra qua [Lotus AI](https://lotusai.servehttp.com) hoặc trực tiếp tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Data và backtest logic dùng trong bài có thể kiểm tra qua [Lotus AI](https://lotus.leo-inc.bid) hoặc trực tiếp tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ```bash
 pip install lotusmarket pandas numpy

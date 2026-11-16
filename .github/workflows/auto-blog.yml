@@ -122,7 +122,7 @@ jobs:
           # the blog if Pi sync (every 1min cron) and GH Pages (1-3min build)
           # haven't caught up yet → 404. Poll both URLs until they return 200
           # or timeout (up to ~4 min) before posting.
-          PI_URL="https://lotusai.servehttp.com/blog/${SLUG}"
+          PI_URL="https://lotus.leo-inc.bid/blog/${SLUG}"
           PAGES_URL="https://ducnhd.github.io/lotusmarket/blog/${SLUG}.html"
 
           wait_for() {
@@ -136,7 +136,7 @@ jobs:
             echo "::warning::${label} NOT ready after 240s — proceeding anyway: $url"
             return 1
           }
-          wait_for "$PI_URL" "Pi (lotusai.servehttp.com)"
+          wait_for "$PI_URL" "Pi (lotus.leo-inc.bid)"
           wait_for "$PAGES_URL" "GitHub Pages"
 
       - name: Post link to Telegram
@@ -155,7 +155,7 @@ jobs:
             f { next }
             NF && !/^#/ && !/^[[:space:]]*$/ { print; exit }
           ' "$POSTPATH" | head -c 400)
-          MESSAGE=$(printf "📝 <b>%s</b>\n\n%s\n\n📖 Đọc đầy đủ: https://lotusai.servehttp.com/blog/%s\n📊 Hoặc trên GitHub Pages: https://ducnhd.github.io/lotusmarket/blog/%s.html" \
+          MESSAGE=$(printf "📝 <b>%s</b>\n\n%s\n\n📖 Đọc đầy đủ: https://lotus.leo-inc.bid/blog/%s\n📊 Hoặc trên GitHub Pages: https://ducnhd.github.io/lotusmarket/blog/%s.html" \
             "$TITLE" "$TLDR" "$SLUG" "$SLUG")
           curl -fsS "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${TELEGRAM_CHANNEL}" \

@@ -101,7 +101,7 @@ df = cohort.load(trend="uptrend_full", rsi_bucket=">70")
 print(df["fwd_return_60d"].describe())
 ```
 
-Hoặc xem thêm tại [lotusai.servehttp.com](https://lotusai.servehttp.com) để truy cập dashboard cohort đầy đủ. 🔍
+Hoặc xem thêm tại [lotus.leo-inc.bid](https://lotus.leo-inc.bid) để truy cập dashboard cohort đầy đủ. 🔍
 
 ---
 

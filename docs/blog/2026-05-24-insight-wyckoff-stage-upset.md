@@ -97,7 +97,7 @@ Edge không đến từ việc "đảo ngược tâm lý" một cách mù quáng
 
 ## Verify reproducible
 
-Toàn bộ backtest chạy trên dataset công khai. Tự kiểm tra tại [https://github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) hoặc qua [Lotus AI](https://lotusai.servehttp.com).
+Toàn bộ backtest chạy trên dataset công khai. Tự kiểm tra tại [https://github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) hoặc qua [Lotus AI](https://lotus.leo-inc.bid).
 
 ```bash
 pip install lotusmarket pandas numpy

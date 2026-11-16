@@ -49,7 +49,7 @@ VRE dẫn đầu mức giảm với -5.29% — đây là mức giảm tuần đ�
 
 ### 4. RSI distribution: thị trường ở vùng trung tính tuyệt đối
 
-Một điểm đáng ghi nhận từ [Lotus AI](https://lotusai.servehttp.com): **0/30 cổ phiếu** trong VN30 ở vùng overbought (RSI ≥ 70) và **0/30 cổ phiếu** ở vùng oversold (RSI ≤ 30). Toàn bộ rổ đang giao dịch ở vùng RSI trung tính — và khi tất cả các mã đều báo HOLD, thị trường thực sự đang chờ một tín hiệu rõ ràng hơn từ dòng tiền hoặc từ tin tức vĩ mô.
+Một điểm đáng ghi nhận từ [Lotus AI](https://lotus.leo-inc.bid): **0/30 cổ phiếu** trong VN30 ở vùng overbought (RSI ≥ 70) và **0/30 cổ phiếu** ở vùng oversold (RSI ≤ 30). Toàn bộ rổ đang giao dịch ở vùng RSI trung tính — và khi tất cả các mã đều báo HOLD, thị trường thực sự đang chờ một tín hiệu rõ ràng hơn từ dòng tiền hoặc từ tin tức vĩ mô.
 
 Phân phối RSI như thế này không phải tín hiệu trung lập vô nghĩa — đây là dấu hiệu thị trường đang trong giai đoạn tích lũy sau một đợt điều chỉnh hoặc chuẩn bị cho một pha biến động mới.
 

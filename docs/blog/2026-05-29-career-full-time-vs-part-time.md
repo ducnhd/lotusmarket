@@ -98,7 +98,7 @@ result = fire_calc(current_assets=2_400_000_000, monthly_saving=55_000_000,
 print(result)  # years_to_target, projected_monthly_income
 ```
 
-Xem thêm tại [https://github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) hoặc chạy thử tại [https://lotusai.servehttp.com](https://lotusai.servehttp.com).
+Xem thêm tại [https://github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) hoặc chạy thử tại [https://lotus.leo-inc.bid](https://lotus.leo-inc.bid).
 
 ---
 

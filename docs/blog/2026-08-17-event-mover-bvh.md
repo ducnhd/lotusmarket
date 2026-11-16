@@ -64,7 +64,7 @@ Hiện tại, BVH đang ở trạng thái mà data mô tả chính xác nhất l
 
 ### Verify reproducible
 
-Mình chạy toàn bộ phân tích này qua [Lotus AI](https://lotusai.servehttp.com). Để tự kiểm tra:
+Mình chạy toàn bộ phân tích này qua [Lotus AI](https://lotus.leo-inc.bid). Để tự kiểm tra:
 
 ```bash
 pip install lotusmarket

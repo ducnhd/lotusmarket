@@ -1,7 +1,7 @@
 // lotusai-site — SEO-friendly marketing website for the lotusmarket open-source
 // toolkit. Single Go binary, server-side rendered HTML, no SPA, no client JS
 // for content. Designed to run on a Raspberry Pi behind nginx + Let's Encrypt
-// at https://lotusai.servehttp.com.
+// at https://lotus.leo-inc.bid.
 //
 // Pages:
 //
@@ -34,7 +34,7 @@ import (
 var (
 	addr       = flag.String("addr", ":8083", "listen address")
 	contentDir = flag.String("content", "./content", "directory containing blog markdown + static assets")
-	baseURL    = flag.String("base-url", "https://lotusai.servehttp.com", "canonical base URL for sitemap/OG tags")
+	baseURL    = flag.String("base-url", "https://lotus.leo-inc.bid", "canonical base URL for sitemap/OG tags")
 	cacheTTL   = flag.Duration("cache-ttl", 10*time.Minute, "TTL for live data cache")
 	dataDir    = flag.String("data", "./data", "directory for runtime data (view counts)")
 )

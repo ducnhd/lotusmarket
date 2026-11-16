@@ -70,7 +70,7 @@ Sự khác biệt giữa "cắt lỗ đúng" và "panic-sell" nằm ở lý do, 
 
 ## Verify Reproducible
 
-Toàn bộ backtest cohort và regime analysis có thể kiểm tra lại qua [Lotus AI](https://lotusai.servehttp.com) hoặc repo công khai tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Toàn bộ backtest cohort và regime analysis có thể kiểm tra lại qua [Lotus AI](https://lotus.leo-inc.bid) hoặc repo công khai tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ```bash
 pip install lotusmarket

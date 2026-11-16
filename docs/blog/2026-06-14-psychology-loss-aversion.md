@@ -109,7 +109,7 @@ Kỷ luật thực sự là: có rule rõ ràng, và follow rule đó nhất qu�
 
 ## Verify Reproducible
 
-Toàn bộ framework regime detection và backtest cohort có thể tái tạo qua [Lotus AI](https://lotusai.servehttp.com) hoặc clone repo tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Toàn bộ framework regime detection và backtest cohort có thể tái tạo qua [Lotus AI](https://lotus.leo-inc.bid) hoặc clone repo tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ```bash
 pip install lotusmarket pandas numpy
