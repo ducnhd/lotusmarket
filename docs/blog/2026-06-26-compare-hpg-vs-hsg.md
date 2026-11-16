@@ -58,7 +58,7 @@ Một trong những ứng dụng thực tế nhất của phân tích này là d
 
 Khi quặng sắt pullback mạnh → kiểm tra HPG về mặt fundamental trước khi price thực sự phản ánh. Khi HRC tăng đột biến → HSG có thể tạo ngắn hạn nhưng cần watch margin compression kỳ kế tiếp.
 
-Đây là cách tiếp cận mà [Lotus AI](https://lotusai.servehttp.com) đang theo đuổi: map commodity signal với equity VN để tìm leading edge, thay vì reactive analysis.
+Đây là cách tiếp cận mà [Lotus AI](https://lotus.leo-inc.bid) đang theo đuổi: map commodity signal với equity VN để tìm leading edge, thay vì reactive analysis.
 
 ---
 

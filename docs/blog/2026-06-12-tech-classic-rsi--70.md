@@ -106,7 +106,7 @@ results = rsi_bucket_analysis(df, forward_days=60, ma_filter=True)
 print(results.summary())
 ```
 
-Hoặc xem thêm công cụ phân tích tại [lotusai.servehttp.com](https://lotusai.servehttp.com).
+Hoặc xem thêm công cụ phân tích tại [lotus.leo-inc.bid](https://lotus.leo-inc.bid).
 
 ---
 

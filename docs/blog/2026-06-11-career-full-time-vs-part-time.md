@@ -88,7 +88,7 @@ Thay vì hỏi "khi nào quit job", câu hỏi đúng hơn là: *"Làm thế nà
 
 ## Verify Reproducible
 
-Muốn tự kiểm tra các con số lịch sử VN30 hoặc mô phỏng portfolio growth với các saving rate khác nhau, có thể dùng công cụ tại [Lotus AI](https://lotusai.servehttp.com) hoặc repo mở tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Muốn tự kiểm tra các con số lịch sử VN30 hoặc mô phỏng portfolio growth với các saving rate khác nhau, có thể dùng công cụ tại [Lotus AI](https://lotus.leo-inc.bid) hoặc repo mở tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ```bash
 pip install lotusmarket pandas numpy

@@ -118,7 +118,7 @@ print(f"Có side income:    {with_side/1e9:.2f} tỷ")
 print(f"Delta:             {(with_side-base)/1e9:.2f} tỷ")
 ```
 
-Lotus AI đang build thêm các tool phân tích tương tự tại [https://lotusai.servehttp.com](https://lotusai.servehttp.com) — source mở tại [https://github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket). 📊
+Lotus AI đang build thêm các tool phân tích tương tự tại [https://lotus.leo-inc.bid](https://lotus.leo-inc.bid) — source mở tại [https://github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket). 📊
 
 ---
 

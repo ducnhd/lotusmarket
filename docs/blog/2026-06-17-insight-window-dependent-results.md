@@ -114,7 +114,7 @@ result_B = backtest(strategy="low_vol_top5", start="2010-01", end="2026-04", reb
 print(result_A.cagr, result_B.cagr)  # Expect: ~0.262 vs ~0.030
 ```
 
-Hoặc chạy trực tiếp qua [lotusai.servehttp.com](https://lotusai.servehttp.com) với custom date range.
+Hoặc chạy trực tiếp qua [lotus.leo-inc.bid](https://lotus.leo-inc.bid) với custom date range.
 
 ---
 

@@ -85,7 +85,7 @@ Tổng hợp lại 5 finding:
 
 Pattern này không phải ngẫu nhiên. Thị trường VN vẫn còn đủ inefficient để tâm lý đám đông tạo ra edge có thể khai thác — nhưng chỉ khi có **pre-commit rules** rõ ràng dựa trên cohort data, thay vì trust vào gut feeling trong lúc thị trường biến động.
 
-Chi tiết methodology và toàn bộ backtest framework có tại [Lotus AI](https://lotusai.servehttp.com) và [repo GitHub](https://github.com/ducnhd/lotusmarket).
+Chi tiết methodology và toàn bộ backtest framework có tại [Lotus AI](https://lotus.leo-inc.bid) và [repo GitHub](https://github.com/ducnhd/lotusmarket).
 
 ---
 

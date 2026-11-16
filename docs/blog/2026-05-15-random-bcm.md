@@ -78,7 +78,7 @@ Data hạn chế ở chiều này — finding sơ bộ, cần thêm dữ liệu 
 
 ## Verify reproducible
 
-Toàn bộ phân tích này có thể reproduce qua [Lotus AI](https://lotusai.servehttp.com) hoặc cài package từ [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket):
+Toàn bộ phân tích này có thể reproduce qua [Lotus AI](https://lotus.leo-inc.bid) hoặc cài package từ [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket):
 
 ```bash
 pip install lotusmarket

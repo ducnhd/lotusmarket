@@ -82,7 +82,7 @@ Tất cả các con số vốn tối thiểu ở trên đã tính *real terms* �
 
 ## Verify Reproducible 🔬
 
-Toàn bộ simulation có thể reproduce tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) hoặc chạy trực tiếp qua [Lotus AI](https://lotusai.servehttp.com).
+Toàn bộ simulation có thể reproduce tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) hoặc chạy trực tiếp qua [Lotus AI](https://lotus.leo-inc.bid).
 
 ```bash
 pip install lotusmarket numpy pandas matplotlib

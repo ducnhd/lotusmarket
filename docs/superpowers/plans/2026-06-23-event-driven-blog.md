@@ -913,7 +913,7 @@ OUTPUT spec:
 - KHÔNG bịa số. CHỈ dùng số trong DATA. KHÔNG viết "có thể, có lẽ, dự đoán" kiểu mơ hồ — khẳng định từ data.
 - KHÔNG khuyến nghị mua/bán. Phrasing: "data cho thấy cohort thắng X%", "lịch sử cho thấy...".
 - Cuối bài: 1 đoạn "Verify reproducible" (pip install lotusmarket + 1-3 dòng code, hoặc 1 lệnh lmcli) + 1 dòng disclaimer không phải lời khuyên đầu tư.
-- Link 1 lần: https://lotusai.servehttp.com hoặc https://github.com/ducnhd/lotusmarket.
+- Link 1 lần: https://lotus.leo-inc.bid hoặc https://github.com/ducnhd/lotusmarket.
 - Tone: thẳng, không hype. Emoji tối đa 2. Ngôi đơn (mình/impersonal), KHÔNG "chúng ta".
 
 DATA:
@@ -1522,8 +1522,8 @@ ssh pi 'mkdir -p /home/pi/lotusai/data && sudo systemctl start lotusai-site && s
 - [ ] **Step 4: Verify**
 
 ```bash
-curl -s -o /dev/null -w "%{http_code}\n" https://lotusai.servehttp.com/blog/
-curl -s https://lotusai.servehttp.com/blog/stats | head
+curl -s -o /dev/null -w "%{http_code}\n" https://lotus.leo-inc.bid/blog/
+curl -s https://lotus.leo-inc.bid/blog/stats | head
 ```
 Expected: `200`; stats returns JSON (likely `{}` until reads accrue).
 

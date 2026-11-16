@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://lotusai.servehttp.com/"><b>🌸 lotusai.servehttp.com</b></a> ·
+  <a href="https://lotus.leo-inc.bid/"><b>🌸 lotus.leo-inc.bid</b></a> ·
   <a href="https://ducnhd.github.io/lotusmarket/"><b>📊 Daily Dashboard</b></a> ·
   <a href="https://t.me/vnlotusmarket"><b>💬 Telegram</b></a> ·
   <a href="https://pypi.org/project/lotusmarket/"><b>📦 PyPI</b></a> ·
@@ -39,7 +39,7 @@ A **deterministic, open-source toolkit** for analyzing Vietnamese stocks. Built 
 
 ### See it live
 
-- 🌸 **Main site**: <https://lotusai.servehttp.com/> — landing + live VN30 dashboard + blog (server-side rendered, SEO-friendly, hosted on Raspberry Pi)
+- 🌸 **Main site**: <https://lotus.leo-inc.bid/> — landing + live VN30 dashboard + blog (server-side rendered, SEO-friendly, hosted on Raspberry Pi)
 - 📊 **Daily reports archive**: <https://ducnhd.github.io/lotusmarket/> — auto-generated every weekday 15:30 VN by GitHub Actions, free GitHub Pages hosting
 - 💬 **Telegram channel**: <https://t.me/vnlotusmarket> — daily summaries posted by the bot
 

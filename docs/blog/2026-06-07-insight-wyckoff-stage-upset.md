@@ -128,7 +128,7 @@ result = backtest.run(df, forward_days=60, group_by=["wyckoff_stage", "rsi_zone"
 print(result.summary())
 ```
 
-Kết quả có thể sai lệch nhỏ tùy version data — nhưng direction của các finding đã stable qua nhiều lần re-run. Xem thêm methodology tại [https://lotusai.servehttp.com](https://lotusai.servehttp.com).
+Kết quả có thể sai lệch nhỏ tùy version data — nhưng direction của các finding đã stable qua nhiều lần re-run. Xem thêm methodology tại [https://lotus.leo-inc.bid](https://lotus.leo-inc.bid).
 
 ---
 

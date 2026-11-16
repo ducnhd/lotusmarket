@@ -106,7 +106,7 @@ cohort_edge = cohort.find_matches("VHM", result.profile)
 print(result.technical_score, cohort_edge.edge_pct)
 ```
 
-Hoặc xem thêm methodology tại [https://github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) và dashboard tại [https://lotusai.servehttp.com](https://lotusai.servehttp.com).
+Hoặc xem thêm methodology tại [https://github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket) và dashboard tại [https://lotus.leo-inc.bid](https://lotus.leo-inc.bid).
 
 ---
 

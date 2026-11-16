@@ -89,7 +89,7 @@ Cohort analysis là công cụ kết nối hai thứ đó — nó hỏi: "Nhữn
 
 ## Verify Reproducible
 
-Toàn bộ framework phân tích có thể tái tạo qua [Lotus AI](https://lotusai.servehttp.com) hoặc codebase tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Toàn bộ framework phân tích có thể tái tạo qua [Lotus AI](https://lotus.leo-inc.bid) hoặc codebase tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ```bash
 pip install lotusmarket

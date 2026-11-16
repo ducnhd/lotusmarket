@@ -105,7 +105,7 @@ bhp = yf.download("BHP", period="2y")["Close"].pct_change()
 # r = pearsonr(bhp[:-20], hpg_fwd20)[0]
 ```
 
-Để xem phân tích tự động hóa theo thời gian thực, có thể tham khảo thêm tại [Lotus AI](https://lotusai.servehttp.com) hoặc source code tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Để xem phân tích tự động hóa theo thời gian thực, có thể tham khảo thêm tại [Lotus AI](https://lotus.leo-inc.bid) hoặc source code tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ---
 

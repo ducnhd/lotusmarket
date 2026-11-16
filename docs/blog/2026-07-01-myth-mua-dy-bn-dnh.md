@@ -105,7 +105,7 @@ RSI là oscillator — công cụ đo momentum ngắn hạn. Nó không được
 
 ## Verify reproducible
 
-Toàn bộ backtest methodology có thể kiểm tra qua [Lotus AI](https://lotusai.servehttp.com) hoặc source tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
+Toàn bộ backtest methodology có thể kiểm tra qua [Lotus AI](https://lotus.leo-inc.bid) hoặc source tại [github.com/ducnhd/lotusmarket](https://github.com/ducnhd/lotusmarket).
 
 ```bash
 pip install lotusmarket pandas numpy

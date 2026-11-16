@@ -115,7 +115,7 @@ func renderOGImage(p ogParams) ([]byte, error) {
 	}
 
 	// Bottom-right CTA
-	cta := "lotusai.servehttp.com"
+	cta := "lotus.leo-inc.bid"
 	face, err := opentype.NewFace(ogFontRegular, &opentype.FaceOptions{Size: 24, DPI: 72, Hinting: font.HintingFull})
 	if err != nil {
 		return nil, err
