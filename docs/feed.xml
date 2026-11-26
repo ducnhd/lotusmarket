@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Wed, 25 Nov 2026 18:46:17 +0000</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 18:34:24 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-11-26</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-11-26.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-11-26.html</guid>
+  <pubDate>Thu, 26 Nov 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-11-25</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-11-25.html</link>
@@ -264,14 +272,6 @@ Cuối năm 2021, các group chứng khoán Facebook tràn ngập screenshot lã
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-27.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-27.html</guid>
   <pubDate>Tue, 27 Oct 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-10-26</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-26.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-26.html</guid>
-  <pubDate>Mon, 26 Oct 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
