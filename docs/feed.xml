@@ -5,8 +5,16 @@
 <link>https://ducnhd.github.io/lotusmarket/</link>
 <description>Auto-generated Vietnamese stock market reports + open-source toolkit updates. Free, deterministic, no hot picks.</description>
 <language>vi</language>
-<lastBuildDate>Thu, 26 Nov 2026 18:34:24 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 18:22:31 +0000</lastBuildDate>
 <atom:link href="https://ducnhd.github.io/lotusmarket/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>📊 Daily VN stock report — 2026-11-27</title>
+  <link>https://ducnhd.github.io/lotusmarket/reports/2026-11-27.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-11-27.html</guid>
+  <pubDate>Fri, 27 Nov 2026 08:30:00 +0000</pubDate>
+  <category>report</category>
+  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
 <item>
   <title>📊 Daily VN stock report — 2026-11-26</title>
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-11-26.html</link>
@@ -14,6 +22,16 @@
   <pubDate>Thu, 26 Nov 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
+</item>
+<item>
+  <title>📝 VIC giảm 6.3% hôm nay 26/11 — cohort lịch sử nói gì?</title>
+  <link>https://ducnhd.github.io/lotusmarket/blog/2026-11-26-event-mover-vic.html</link>
+  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/blog/2026-11-26-event-mover-vic.html</guid>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+  <category>blog</category>
+  <description>## VIC rơi 6.28% với thanh khoản chỉ bằng 1/10 trung bình — thị trường đang im lặng hay lảng tránh?
+
+Phiên hôm nay, Vingroup (VIC) đóng cửa ở mức 230,000 VND, mất 6.28% chỉ trong một phiên. Điều bất thường không nằm ở mức giảm — mà nằm ở chỗ cú rơi này xảy ra trong tình trạng gần như vắng lặng về khối lượng. Câu hỏi mà data đặt ra: đây là nhát chém của kẻ bán tháo, hay chỉ là khoảng tr�…</description>
 </item>
 <item>
   <title>📊 Daily VN stock report — 2026-11-25</title>
@@ -256,22 +274,6 @@ Cuối năm 2021, các group chứng khoán Facebook tràn ngập screenshot lã
   <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-29.html</link>
   <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-29.html</guid>
   <pubDate>Thu, 29 Oct 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-10-28</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-28.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-28.html</guid>
-  <pubDate>Wed, 28 Oct 2026 08:30:00 +0000</pubDate>
-  <category>report</category>
-  <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
-</item>
-<item>
-  <title>📊 Daily VN stock report — 2026-10-27</title>
-  <link>https://ducnhd.github.io/lotusmarket/reports/2026-10-27.html</link>
-  <guid isPermaLink="true">https://ducnhd.github.io/lotusmarket/reports/2026-10-27.html</guid>
-  <pubDate>Tue, 27 Oct 2026 08:30:00 +0000</pubDate>
   <category>report</category>
   <description>Auto-generated daily report for the VN stock market. View on the dashboard.</description>
 </item>
